@@ -12,20 +12,20 @@ Brain at its path. Onboard with `/momega-onboard <id>`.
 
 ## Investors
 
-| ID     | Name         | Affiliation        | Brain | Thesis captured | Path                          |
-|--------|--------------|--------------------|-------|-----------------|-------------------------------|
-| hooman | Hooman Fakki | loveyourliver.com  | v0.1  | ⛔ no            | `entities/Investors/hooman/`  |
-| nevin  | Nevin        | —                  | v0.1  | ⛔ no            | `entities/Investors/nevin/`   |
-| jordan | Jordan       | capital deployer / syndicator | v0.2 | partial — Sharp Investor Filter calibrator | `entities/Investors/jordan/` |
-| aj     | AJ           | capital deployer / syndicator | v0.1 | partial — Sharp Investor Filter calibrator | `entities/Investors/aj/` |
+| ID     | Name         | Affiliation        | Brain | Persona | Thesis captured | Path                          |
+|--------|--------------|--------------------|-------|---------|-----------------|-------------------------------|
+| hooman | Hooman Fakki | loveyourliver.com  | v0.1  | v1.0 (L1) | ⛔ no            | `entities/Investors/hooman/`  |
+| nevin  | Nevin        | —                  | v0.1  | v1.0 (L0) | ⛔ no            | `entities/Investors/nevin/`   |
+| jordan | Jordan       | capital deployer / syndicator | v0.2 | v1.0 (L0) | partial — Sharp Investor Filter calibrator | `entities/Investors/jordan/` |
+| aj     | AJ           | capital deployer / syndicator | v0.1 | v1.0 (L0) | partial — Sharp Investor Filter calibrator | `entities/Investors/aj/` |
 
 ## People
 
-| ID    | Name  | Role                              | Brain | Path                      |
-|-------|-------|-----------------------------------|-------|---------------------------|
-| will-ogorek | Will Ogorek | GTM/CRO @ Equilibrium Labs; network hub; wisdm evaluator | v0.5 | `entities/People/will-ogorek/` |
-| chris-coyne | Chris Coyne | Sales — ClaimArc + HealthCues | v0.3 | `entities/People/chris-coyne/` |
-| randy | Randy | Senior pitch-narrative advisor (Deck OS calibrator) | v0.1 | `entities/People/randy/` |
+| ID    | Name  | Role                              | Brain | Persona | Path                      |
+|-------|-------|-----------------------------------|-------|---------|---------------------------|
+| will-ogorek | Will Ogorek | GTM/CRO @ Equilibrium Labs; network hub; wisdm evaluator | v0.5 | v1.0 (L1) | `entities/People/will-ogorek/` |
+| chris-coyne | Chris Coyne | Sales — ClaimArc + HealthCues | v0.3 | v1.0 (L1) | `entities/People/chris-coyne/` |
+| randy | Randy | Senior pitch-narrative advisor (Deck OS calibrator) | v0.1 | v1.0 (L0) | `entities/People/randy/` |
 
 ## Clients
 
