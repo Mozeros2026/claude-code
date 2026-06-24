@@ -1,24 +1,38 @@
 # Momega OS — operating model
 
-How Momega runs, end to end. The principle: **run what we have, make it better,
+How Mo Mega runs, end to end. The principle: **run what we have, make it better,
 always.** Every entity gets a Brain; every Brain gets sharper with each pass;
-every pass teaches the system.
+every pass teaches the system. The vision and the two-loop model live in
+[`vision.md`](vision.md); the encoded skills in [`primitives.md`](primitives.md).
 
-## The loop
+## The two-loop flywheel
+
+Mo Mega = **Mo Commas** (LEFT loop, judgment) + **Mo Zeros** (RIGHT loop,
+execution), joined at human checkpoints, over a shared **Brain** (the Library).
 
 ```
-first contact ──▶ /momega-onboard <id>        (Brain Builder BUILD → Brain v1.0)
-                      │
-                      ├─▶ §14 founder email sent  (the asks)
-                      │
-answers/materials ──▶ /momega-brain ask|update   (Brain v1.5 → v2.0)
-                      │
-need a deliverable ─▶ /momega-brain export <id> <deliverable>
-                      │                          (Brain → Export Package)
-                      └─▶ Factory (/momega-evaluate, deck, outreach, …)
-                                                  (Package → deliverable)
-learnings ──────────▶ iteration log              (Builder + lenses get smarter)
+                       ┌──────────── THE BRAIN (Library) ────────────┐
+                       │   brain-builder.md → entities/<t>/<id>/brain.md
+                       └──────────────────────────────────────────────┘
+   conversation/email/deck                                   approved insight
+            │                                                       │
+            ▼   MO COMMAS (judgment)              MO ZEROS (execution)  ▼
+   /momega-onboard  →  /momega-commas  ──[human checkpoint]──▶  /momega-zeros
+   (BUILD the Brain)   c1 shape · c2 pain          z1 follow-up · z2 memo
+                       c3 adjacency · c5 bag       z3 deliverable · z4 ICP …
+                       eval (investment)                  │
+            ▲                                             ▼
+            └──────────── the Bridge: every new conversation ───────────┘
+                          feeds back into the Brain (the flywheel)
 ```
+
+- **Library:** `/momega-onboard`, `/momega-brain build|update|ask|export`.
+- **Mo Commas:** `/momega-commas <id> <c1|c2|c3|…|eval>` — produces insight.
+- **Human checkpoint:** client-facing artifacts are approved, never auto-sent.
+- **Mo Zeros:** `/momega-zeros <id> <z1|z2|…>` — operationalizes approved insight.
+- **Bridge:** new conversations re-enter the Brain → next round of insight.
+
+Learnings from every pass flow back into the Builder + primitives (iteration loop).
 
 ## What happens after the first conversation (the standard intake)
 
@@ -83,11 +97,33 @@ in any imported MD / custom instruction, run it through this filter:
 If a file is purely build-OS (no transferable logic), log it as *not imported*
 and say why — don't silently drop it.
 
-## IMPORT QUEUE — original-project material to fold in
+## IMPORT LOG
 
-Earlier Momega work (MD files + custom instructions in the original Projects)
-predates this repo and isn't here yet. Bring them over; each is run through the
-**Lift Filter** above. To finish integrating the OS, paste or drop these:
+### Build Spec v1 — imported 2026-06-24
+
+**Lifted (KEEP):** vision/mission/why + two-loop model → [`vision.md`](vision.md);
+the 7 Mo Commas primitives + 8 Mo Zeros pipelines → [`primitives.md`](primitives.md)
+(+ Phase-1 specs in `mo-commas/` & `mo-zeros/`); the primitive prompt design
+pattern; Mo's case studies → [`case-studies.md`](case-studies.md); frontmatter +
+tag standard → [`schemas.md`](schemas.md); falsifiers + logic landmines →
+[`falsifiers.md`](falsifiers.md); the "bag" → [`../bag/`](../bag/). New commands:
+`/momega-commas`, `/momega-zeros`.
+
+**Stripped (NOT imported — build-OS, per the Lift Filter):** n8n, OpenClaw,
+Hetzner VPS, Tailscale, Telegram bot, Plaud, AssemblyAI, the Apollo/Instantly/
+Gmail/Calendar *bindings* (logic kept, delivery left pluggable), GPT-4o-mini,
+the stack table, the 14-day sprint plan, "current state," and the tool-selection
+"open decisions." Z4/Z5/Z6 kept as **logic-only** until a runtime delivery step
+is chosen.
+
+**Translated:** Obsidian-vault-on-VPS → git repo + `entities/`; `/clients/{id}/`
+→ `entities/<Type>/<id>/`; `/system/prompts` → `frameworks/` + `.claude/commands`;
+`/bag/` → `bag/`; Telegram approval → runtime-agnostic human checkpoint;
+"OpenClaw+Opus brain / n8n nervous system" → Claude Code agents + skills over git.
+
+## IMPORT QUEUE — original-project material still to fold in
+
+Bring the rest over; each is run through the **Lift Filter** above:
 
 - [ ] **Other Factory prompts** — Deck OS, Outreach OS, Call Prep, ICP, PMF,
       Adversary/Red-Team (and any others). Each becomes `frameworks/<name>.md` +

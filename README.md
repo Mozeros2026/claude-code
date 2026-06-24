@@ -1,7 +1,21 @@
-# Momega
+# Mo Mega
 
-A git-backed **Library → Factory** system for understanding and acting on
-entities (prospects, companies, deals, investors).
+A modular agentic AI sales platform that **systematizes and scales high-judgment
+consultative selling** — encoding the skill of listening to founders/buyers,
+translating what they have vs what buyers pay for, and finding asymmetric
+synergies across a portfolio. Vision & the two-loop model:
+[`frameworks/vision.md`](frameworks/vision.md).
+
+It runs as an **infinity-loop flywheel** over a shared Brain:
+
+- **Mo Commas** (LEFT loop) — judgment: listening, translation, hypotheses.
+  `/momega-commas` · primitives C1–C7 in [`frameworks/primitives.md`](frameworks/primitives.md).
+- **Mo Zeros** (RIGHT loop) — execution: drafting, lists, collateral, pipeline.
+  `/momega-zeros` · pipelines Z1–Z8.
+- Joined at **human checkpoints** (machines execute, humans approve). The
+  **Bridge** feeds every new conversation back into the Brain.
+
+Underneath is a **Library → Factory** model for the knowledge itself.
 
 - **Library** = the **Brain Builder**. It ingests raw materials + public research
   and produces one **canonical Brain** per entity — zero-hallucination, fully
@@ -39,18 +53,23 @@ feed right now.
 | ASK    | `/momega-brain ask <id>` | affected sections + changelog (v.X.5) |
 | EXPORT | `/momega-brain export <id> <deliverable>` | package for a Factory |
 
-## Factories
+## Factories (Mo Commas + Mo Zeros skills)
 
-Each consumes a Brain Export Package. Live today:
+Each consumes a Brain Export Package and produces a deliverable — the LEFT-loop
+(judgment) and RIGHT-loop (execution) skills are the Factories. Full inventory +
+status: [`frameworks/primitives.md`](frameworks/primitives.md). Live today:
 
+- **Mo Commas Phase-1 core** — `/momega-commas <id> <c1|c2|c3>`: Shape Listener,
+  Pain Hypothesizer, Adjacent Market Mapper.
 - **Investment Evaluation** — `/momega-evaluate <id>` →
-  [`frameworks/business-evaluation.md`](frameworks/business-evaluation.md). Scores
-  the 13-slot deck order through three lenses (YC / first-principles / smart-money)
-  and names the gates that must clear. The Brain Builder deliberately doesn't
-  score deals — this Factory does.
+  [`frameworks/business-evaluation.md`](frameworks/business-evaluation.md): scores
+  the 13-slot deck order through three lenses (YC / first-principles / smart-money).
+- **Mo Zeros Phase-1 core** — `/momega-zeros <id> <z1|z2>`: Follow-Up Drafter,
+  Internal Strategy Memo.
 
-Planned (Brain structure already supports their Export Requests): Deck OS, Outreach
-OS, Call Prep, ICP Builder, PMF Assessment, Adversary/Red-Team.
+Planned: C4–C7, Z3–Z8 (Deck/Compressor, Cross-Bag Synergy, Sales-Maturity, ICP,
+Outbound, Pipeline, Collateral). The cross-entity synergy layer ("the bag") lives
+in [`bag/`](bag/).
 
 ## Layout
 
@@ -64,11 +83,19 @@ entities/
     materials/           # decks, plans, contracts
   Investors/<id>/        # investor nodes (thesis = the learning loop)
 frameworks/
+  vision.md              # vision/mission/why + the two-loop model
+  momega-os.md           # operating model, lift filter, import log
   brain-builder.md       # the Library (Master Client Brain Builder v2.1-momega)
-  business-evaluation.md # the Investment Evaluation Factory method
+  primitives.md          # C1–C7 + Z1–Z8 inventory + prompt design pattern
+  business-evaluation.md # Investment Evaluation Factory method
+  case-studies.md  schemas.md  falsifiers.md
+  mo-commas/             # LEFT-loop primitive specs (c1, c2, c3, …)
+  mo-zeros/              # RIGHT-loop pipeline specs (z1, z2, …)
+bag/synergy-graph.md     # cross-entity synergy ("the bag") — feeds C5
 registry/registry.md     # master index (per node: Brain version + readiness)
 .claude/commands/
   momega-onboard.md  momega-brain.md  momega-evaluate.md
+  momega-commas.md   momega-zeros.md
 ```
 
 ## The learning loop (Persona Forge / Business Forge)
