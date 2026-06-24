@@ -19,8 +19,13 @@ ClaimArc eats it. (3) Sales-led by **Chris Coyne**; Will involved.
 **SINGLE HIGHEST-LEVERAGE OPEN QUESTION:** where does the advance capital come
 from, and what's the loss/underwriting model? (this is a receivables-financing
 business — the cost of capital *is* the business).
-**DELTA:** v0.3→v1.0. **EXPORT READINESS:** Outreach — Ready (cold scripts exist);
-Deck — partial; rest INCOMPLETE.
+**DELTA:** v1.0→v1.1 — added first named hospital prospect, **Mission Community
+Hospital** (source: "Mission community hospital.docx", vault — a near-empty target
+doc holding only the hospital name; no economics/capital/team detail inside).
+Confirmed the ClaimArc vault folder holds no other un-folded docs (the Cold
+Call & Cold Email doc is already reflected). No new capital-source, pricing,
+Xtract, or team facts surfaced. **EXPORT READINESS:** Outreach — Ready (cold
+scripts exist); Deck — partial; rest INCOMPLETE.
 
 ## 1. IDENTITY
 **ONE-LINE:** next-day claims financing for hospitals — get paid tomorrow, not in
