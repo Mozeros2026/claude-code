@@ -41,18 +41,18 @@ MODE: Adversary · CLIENT: Equilibrium Labs | BRAIN v1.1 · FOCUS: Full red-team
 - **RISK: Will/Hooman are now our network AND EQL's C-suite** (§2). Failure mode: Will is CRO and Hooman is President at EQL (settled in Mar 2026, resolving the prior "role undefined" risk) — but that *deepens* the conflict-of-interest surface for our evaluation work, since our own people now run the company we'd assess. Mitigation: still requires explicit COI handling on our side (§13 #4) — `[[ INFERENCE: 3 ]]`.
 
 ## 6. CONTRADICTIONS THE MARKET WILL FIND
-- **SOURCE A:** "one liver-health company" / blended narrative (§1) — **SOURCE B:** two-entity restructure with separate comps and multiples (§8). Resolution: canonicalize whether the company pitches as one entity or two, and confirm execution status (§0).
-- **SOURCE A:** "clinically recommended … very-high antioxidant" (§4) — **SOURCE B:** evidence is preclinical mice + small geo studies (§3, §10). Resolution: canonicalize the evidence tier and align all collateral to it.
-- **SOURCE A:** two "CSO" titles — Dr. Federica Amati and Dr. Darshan Shah both listed as CSO (§2). Resolution: confirm the actual title split (e.g. CSO vs Chief Medical/Science roles) before it surfaces in diligence.
+- **SOURCE A:** $3.42M 2025 revenue + $50M pre-money (§6) — **SOURCE B:** UK entities file as micro-entities, turnover ≤£632K (§6, §10 DD). Resolution: the most material contradiction in the file — reconcile where revenue is recognized before any external diligence.
+- **SOURCE A:** "one liver-health platform" / single raise at $50M (§1, §6) — **SOURCE B:** two-CPG restructure with separate comps (Roots to Healing vs The Liver Clinic, §8) AND 3 live UK entities (§8). Resolution: canonicalize whether investors buy the group, the platform, or a specific CPG entity.
+- **SOURCE A:** "clinically engineered … we reverse liver disease and prove it" (Investment Preview) (§3) — **SOURCE B:** evidence is preclinical and EQL is only "entering formal clinical trials" (§3, §4, §10). Resolution: canonicalize the evidence tier; "reverse + prove" is a treatment claim outrunning the data.
 
 ## 7. UNASKED QUESTIONS (gaps in the Brain itself)
-- Current cash balance, monthly burn, and weeks-to-zero (§6 FOUNDER; §0 names this lowest-confidence — still unanswered).
-- Actual revenue in dollars (only the 189% CAGR and a forecast exist) (§6).
-- Patent vs trade-secret status of Rizasalutem and the AI staging algorithm (§3 FOUNDER).
-- Named clinic licensees, prestige partners, and retail doors (§5 FOUNDER).
-- The ABEL-RAC methodology document substantiating the 94.5M figure (§3, §10).
-- Human RCT status / protocol for de-liver-ance (§3, §10, §13 ⭐2).
-- Will Ogorek's exact role and equity at EQL (§2, §13 ⭐3).
+- Where the $3.42M is recognized vs the micro-entity UK filings (§6, §10) — the top unanswered question.
+- Current cash balance, monthly burn, and weeks-to-zero (§6 HITL — still unanswered).
+- Seanol exclusivity contract: formats covered, expiry, supply security (§3, §10, §13 ⭐3).
+- Whether the UCL/Mehta study is an RCT or an observational pilot; substantiation for the BAC-50% / fatty-liver-reversal claims (§3, §10, §13 ⭐2).
+- The two-CPG split execution status vs the 3 live UK entities, and which entity the $7.5M lands in (§8).
+- CAC (now the binding unknown since the round funds first-ever paid acquisition) (§4, §6).
+- COI handling for Will (CRO) and Hooman (President) being both EQL execs and our network (§2, §13 #4).
 
 ## 8. SECOND-ORDER RISKS
 - **RISK: regulatory action cascades to the consumer brand.** Severity: High. Trigger: an FDA/FTC challenge to the liver-"restore" or blood-alcohol claims lands *before* the restructure is executed, so loveyourliver.com / de-liver-ance® brand equity absorbs the hit (§8, §10). `[[ INFERENCE: 4 ]]`

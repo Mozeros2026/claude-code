@@ -1,8 +1,9 @@
 # CLIENT BRAIN — ClaimArc
 
-**Version:** 2026-06-24 (v1.0) · **Builder:** Master Client Brain Builder
+**Version:** 2026-06-24 (v1.1) · **Builder:** Master Client Brain Builder
 v2.1-momega · **Built from:** "ClaimArc Cold Call & Cold Email" (vault) + Deck OS
-memory. Promoted from v0.3 on real materials.
+memory. Promoted from v0.3 on real materials. v1.1 folds in "Mission community
+hospital.docx" (vault).
 
 ## 0. BRAIN CONFIDENCE MAP
 **PRIMARY ASSET CLASSES:** operating cash flows + a **data/underwriting** edge
