@@ -1,29 +1,30 @@
 ---
-description: Re-run a Momega node's business evaluation and gap report after new material (e.g. once the deck is ingested).
+description: Investment Evaluation Factory — score a node through the investor lenses, sourced from its canonical Brain.
 argument-hint: <node-id> [type]
 ---
 
 # /momega-evaluate
 
-Re-evaluate an existing Momega node. Usage: `/momega-evaluate <node-id> [type]`
-(`type` defaults to `Prospects`). Use after new material lands — a deck, public
-research, or a founder's answers to the previous gap report.
+Investment Evaluation Factory. Usage: `/momega-evaluate <node-id> [type]`
+(`type` defaults to `Prospects`). Consumes the entity's canonical Brain and emits
+`entities/<type>/<id>/evaluation.md`.
 
 Argument: `$ARGUMENTS`
 
 ## Steps
 
-1. **Load** the node: `entities/<type>/<id>/{profile,brain}.md`,
-   `materials/`, and the prior `evaluation.md` / `missing-questions.md`.
-2. **Ingest** any new material (deck, public presence, answered questions).
-3. **Re-score** all 13 deck slots + 3 lenses per
-   [`frameworks/business-evaluation.md`](../../frameworks/business-evaluation.md);
-   give a real overall + recommendation (pass / track / lean-in) once enough is
-   known.
-4. **Refresh gaps** — move newly answered items to "Already answered", keep what
-   remains open in `missing-questions.md`.
-5. **Update** `brain.md` (history + next actions) and the `registry/registry.md`
-   stage.
-6. **Learn** — fold any new decision-relevant question or investor preference
-   back into the frameworks / investor nodes.
-7. **Report** — new scores, what changed, and the remaining gaps.
+1. **Export from the Brain.** Per [`frameworks/brain-builder.md`](../../frameworks/brain-builder.md)
+   EXPORT mode, pull `brain.md` Sections 0, 2, 3, 4, 6, 10, 13, 14 plus all
+   `[[ ASYMMETRY ]]`, `[[ DEPENDENCY ]]`, `[[ RISK ]]` tags. **Deliverable
+   Sourcing Rule:** every claim in the evaluation must trace to the Brain. If a
+   needed fact is missing, file it as a Brain gap (§13/§14) and run
+   `/momega-brain ask` — do not fabricate.
+2. **Score** against [`frameworks/business-evaluation.md`](../../frameworks/business-evaluation.md):
+   the 13-slot deck order + the three lenses (YC / first-principles / smart-money)
+   + overall verdict (pass / track / lean-in) + the gates that must clear.
+3. **Write** `evaluation.md` citing Brain sections inline.
+4. **Learn** — push any new decision-relevant question or investor preference back
+   into the Brain (§13/§14) and the Persona/Business Forge loop.
+5. **Report** — the scorecard, verdict, and the gates.
+
+If `brain.md` doesn't exist yet, run `/momega-onboard <id>` first.

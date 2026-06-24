@@ -1,8 +1,10 @@
-# WISDM — Evaluation
+# WISDM — Evaluation (Factory output)
 
-> Scored against [`frameworks/business-evaluation.md`](../../../frameworks/business-evaluation.md).
-> Materials ingested: Business Plan + Investor Deck (both real). External claim
-> (RTB) independently checked. Date: 2026-06-24.
+> **Investment Evaluation OS** output. Consumes the canonical
+> [`brain.md`](brain.md) (v1.0) per the Deliverable Sourcing Rule — every claim
+> here traces to the Brain. Method:
+> [`frameworks/business-evaluation.md`](../../../frameworks/business-evaluation.md).
+> Date: 2026-06-24. Re-run after `/momega-brain update wisdm`.
 
 ## Scorecard (the 13 deck slots)
 

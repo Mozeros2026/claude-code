@@ -1,54 +1,23 @@
-# WISDM — Profile
+# wisdm — node index
 
-| Field            | Value                                                   |
-|------------------|---------------------------------------------------------|
-| **ID**           | `wisdm`                                                  |
-| **Name**         | wisdm™ Wellness, PBC                                     |
-| **Type**         | Prospect (seed-stage investment)                         |
-| **Sector**       | Holistic / natural health — practitioner directory + media platform |
-| **HQ**           | Austin, Texas                                            |
-| **Stage**        | Pre-launch (directory launches Jun/Jul 2026); raising seed |
-| **Raise**        | $4,000,000 seed, equity in the PBC, terms TBD            |
-| **Pipeline**     | Feedback owed to Shad; then loop in Hooman (loveyourliver.com) |
-| **Source**       | Inbound via Will Ogorek (loveyourliver.com)             |
-| **Created**      | 2026-06-24                                               |
-| **Owner**        | Will Ogorek / loveyourliver.com (mozeros2026@gmail.com) |
-| **Node path**    | `entities/Prospects/wisdm/`                             |
+Quick reference. **Canonical source of truth is [`brain.md`](brain.md)** (Brain
+v1.0) — this file is just the index.
 
-## Corporate structure (two entities)
+| Field | Value |
+|-------|-------|
+| ID / Name | `wisdm` / wisdm™ Wellness, PBC |
+| Type | Prospect (seed-stage investment) |
+| Sector | Holistic health — practitioner directory + media platform |
+| HQ | Austin, TX |
+| Raise | $4M seed, equity, terms TBD |
+| Primary contact | Shad Groverland — shad@wisdm.io, 702-630-8928 |
+| Our side | Will Ogorek / loveyourliver.com (Hooman Fakki looped in after feedback) |
+| Brain version | v1.0 (2026-06-24) |
+| Evaluation | 2.8/5 — TRACK → conditional lean-in (see `evaluation.md`) |
 
-- **wisdm™ Wellness, PBC** — Delaware Public Benefit Corp; commercial operating
-  entity. Authorized 1M common + 500k preferred; 600k common issued to founders.
-  All revenue (memberships, RTB, sponsorships) flows here.
-- **wisdm™ Rising Inc.** — 501(c)3 nonprofit (Texas). Funded by a ~$1.3M, 1-year
-  grant; ~7 contractors. Built the practitioner portal. PBC plans to **acquire
-  the portal at ~$1M** ("fair market value") — a **related-party transaction**.
+## Node files
 
-## People
-
-| Name             | Role      | Notes                                                        |
-|------------------|-----------|-------------------------------------------------------------|
-| Del Bigtree      | CEO       | Emmy-winning producer; *The HighWire*; ICAN/MAHA founder. Prominent medical-freedom figure. Also building MAHA.io. |
-| Shad Groverland  | President | **Primary contact.** Ex-MGM Resorts live production; ex-CEO Unity Worldwide Ministries. |
-| Tracy Diaz (Tracy Beanz) | COO | Investigative journalist / independent-media founder. |
-| Jayla Harding    | Dir. Operations | Signed.                                               |
-
-**Contacts:** Shad Groverland — shad@wisdm.io, 702-630-8928 · Tracy Beanz —
-tracy@wisdm.io
-
-## Partnership
-
-- **RTB Digital Inc (Nasdaq: RTB)** — media/distribution infrastructure for the
-  hub. Signed Strategic Network Partner Agreement. Guaranteed floor $20k/mo
-  (advance received) → up to $45k/mo; 50% ad+membership rev-share, ⅓ of
-  sub-partner revenue. RTB began trading on Nasdaq **2026-05-13 via merger with
-  RYVYL Inc (RVYL)** — newly public; verify counterparty stability.
-
-## Materials
-
-- Business Plan — `materials/2026-06-11-wisdm-Wellness-Business-Plan_07-11-26.pdf` ✅ ingested
-- Investor Deck — `materials/2026-06-11-wisdm-Investor-Deck_07-11-26.pdf` ✅ ingested
-
-## Artifacts
-
-- [`brain.md`](brain.md) · [`evaluation.md`](evaluation.md) · [`missing-questions.md`](missing-questions.md)
+- [`brain.md`](brain.md) — **canonical Brain** (Library; 16 sections; the source of truth)
+- [`evaluation.md`](evaluation.md) — Investment Evaluation Factory output
+- [`missing-questions.md`](missing-questions.md) — pointer → Brain §13/§14
+- [`materials/`](materials/) — Business Plan + Investor Deck (ingested)

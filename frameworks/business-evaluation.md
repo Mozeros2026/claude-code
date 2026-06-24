@@ -1,9 +1,21 @@
-# Business Evaluation Framework
+# Investment Evaluation OS — a Momega Factory specialist
 
-How Momega evaluates a company. The goal is to look at a business the way
-**smart money** looks at it — Y Combinator, first-principles operators (Elon),
-and seasoned angels (our own investor panel: Nevin, Hooman, Jordan) — and to
-surface not just a score but **what we still don't know**.
+How Momega evaluates a company the way **smart money** does — Y Combinator,
+first-principles operators (Elon), and our own investor panel (Nevin, Hooman,
+Jordan) — and surfaces not just a score but **what we still don't know**.
+
+## Place in the architecture
+
+This is a **Factory**, not the Library. It **consumes a Brain Export Package**
+from [`brain-builder.md`](brain-builder.md) — it does not gather facts itself. The
+Brain Builder deliberately does *not* score deals or red-team; this specialist
+does. Per the **Deliverable Sourcing Rule**, every claim in an evaluation traces
+to the Brain. If you need a fact the Brain lacks, file it as a Brain gap
+(Section 13/14) — do not fabricate.
+
+**Export request (what to ask the Brain for):** Sections 0, 2, 3, 4, 6, 10, 13,
+14, plus all `[[ ASYMMETRY ]]`, `[[ DEPENDENCY ]]`, `[[ RISK ]]` tags. Output:
+`evaluation.md` in the entity node. Cite Brain sections inline.
 
 This framework is a living document. Every evaluation should teach it something
 (see [Persona Forge / Business Forge](#persona-forge--business-forge)).

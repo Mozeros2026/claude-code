@@ -1,17 +1,18 @@
 # Momega Registry
 
-Master index of all nodes. One row per node. Onboard with `/momega-onboard <id>`.
+Master index of all entity nodes. One row per node. Each node has a canonical
+Brain at its path. Onboard with `/momega-onboard <id>`.
 
 ## Prospects
 
-| ID    | Name  | Type     | Stage / verdict                                  | Primary contact | Owner                  | Created    | Path                          |
-|-------|-------|----------|--------------------------------------------------|-----------------|------------------------|------------|-------------------------------|
-| wisdm | wisdm™ Wellness, PBC | Prospect | Evaluated 2.8/5 — TRACK → conditional lean-in ($4M seed) | Shad Groverland | Will / loveyourliver.com | 2026-06-24 | `entities/Prospects/wisdm/`   |
+| ID    | Name                 | Brain | Export-ready Factories | Evaluation | Primary contact | Owner | Path |
+|-------|----------------------|-------|------------------------|------------|-----------------|-------|------|
+| wisdm | wisdm™ Wellness, PBC | v1.0 (2026-06-24) | Deck, Call Prep, Evaluation | 2.8/5 — TRACK → conditional lean-in ($4M seed) | Shad Groverland | Will / loveyourliver.com | `entities/Prospects/wisdm/` |
 
 ## Investors
 
-| ID     | Name         | Type     | Affiliation        | Thesis captured | Created    | Path                          |
-|--------|--------------|----------|--------------------|-----------------|------------|-------------------------------|
-| hooman | Hooman Fakki | Investor | loveyourliver.com  | ⛔ no            | 2026-06-24 | `entities/Investors/hooman/`  |
-| nevin  | Nevin        | Investor | —                  | ⛔ no            | 2026-06-24 | `entities/Investors/nevin/`   |
-| jordan | Jordan       | Investor | —                  | ⛔ no            | 2026-06-24 | `entities/Investors/jordan/`  |
+| ID     | Name         | Affiliation        | Thesis captured | Created    | Path                          |
+|--------|--------------|--------------------|-----------------|------------|-------------------------------|
+| hooman | Hooman Fakki | loveyourliver.com  | ⛔ no            | 2026-06-24 | `entities/Investors/hooman/`  |
+| nevin  | Nevin        | —                  | ⛔ no            | 2026-06-24 | `entities/Investors/nevin/`   |
+| jordan | Jordan       | —                  | ⛔ no            | 2026-06-24 | `entities/Investors/jordan/`  |
