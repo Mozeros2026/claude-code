@@ -13,8 +13,9 @@ ClaimArc, HealthCues; TeraCrunch sales affiliate. **OPEN Q:** Will's exact
 relationship to Mo / Mo Mega (partner? the second operator?).
 
 ## 1. IDENTITY
-Will Ogorek — GTM / revenue operator. Hub of this network. `[[ HITL: title(s),
-which entities he holds equity in, relationship to Mo Mega ]]`
+Will Ogorek — **CRO (Chief Revenue Officer), Equilibrium Labs** (confirmed, EQL
+Shareholder Update Mar 2026); GTM/revenue operator and hub of this network.
+`[[ HITL: equity across the other entities; relationship to Mo Mega ]]`
 
 ## 3. EXPERTISE / TRACK RECORD
 Go-to-market / CRO work (CRO GTM proposals + role packages in the EQL vault);
