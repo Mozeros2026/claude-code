@@ -23,8 +23,12 @@ material or excluded as noise (per the Lift Filter).
 - **de-liver-ance® / The Liver Clinic** product collateral — feeds Equilibrium Labs (brochures, ingredient studies, product videos, science booklets, pro formas, "Master Global Deck" 124MB).
 - EAR Micro deck variants + StageEARS — feed EAR Micro.
 
-## Flagged for review (possible entities / unclear)
-- `[[ HITL: "The Zoo" / "The Legion Personnel Synthesis" / "Phoenix Data Synthesis" + animal-emblem images (Gorilla M&A, Orca, Wolfpack, Elephant statesman) — looks like a prior AI-agent-team concept of Will's. Is this a Mo Mega precursor to fold in, a separate project, or archive? ]]`
+## Resolved / archived
+- **"The Zoo" / "The Legion" / "Phoenix" + animal-emblem images** — confirmed by
+  Mo (2026-06-24): a **separate entity, no longer being built. Archived — do not
+  fold in.** Excluded from the OS.
+
+## Flagged for review (still open)
 - `[[ HITL: "TeraCrunch Sales Affiliate Agreement (William Ogorek)" — is TeraCrunch a client/partner to track? ]]`
 - `[[ HITL: "Pitch deck Order_Speaker Frame_BabyBear.pptx" + "EQ pitch deck feedback" — deck-framework artifacts; reconcile with Deck OS? ]]`
 
