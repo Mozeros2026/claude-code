@@ -18,8 +18,9 @@ mandate (sector / stage / check size / decision role)?
 **EXPORT READINESS:** all Factories INCOMPLETE — thesis not captured.
 
 ## 1. IDENTITY
-Hooman Fakki — investor/partner at **loveyourliver.com** (with Will Ogorek).
-`[[ HITL: title/role at loveyourliver.com? personal vs fund capital? ]]`
+Hooman Fakki — investor/partner at **loveyourliver.com / Equilibrium Labs** (with
+Will Ogorek; vault scrape confirms loveyourliver.com is EQL's consumer brand).
+`[[ HITL: title/role at EQL? personal vs fund capital? ]]`
 
 ## 2. PEOPLE / DECISION-MAKERS
 Works with Will Ogorek (loveyourliver.com). `[[ HITL: who else on the team;

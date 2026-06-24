@@ -61,9 +61,17 @@ exposure | flagged in Deck OS memory — confirm scope ]]`
 **SKUs:** T10 Bespoke (luxury hi-fi, Klipsch co-brand — credibility artifact +
 D2C) · Loewe Leo × Jacob & Co ($2K–$135K, licensee Germany) · roadmap: T10 Bionic
 (FDA 510(k) OTC hearing aid, late 2026), T10 Live (StageEARS IEM).
-**IP POSITION:** 12 granted utility patents across 5 jurisdictions
-(USPTO+EPO+DE/FR/UK); concealment patent family. **Patent expiration horizon:**
+**IP POSITION:** **14 granted utility patents** + pending (deck said 12; the
+EAR Micro Patents deck says 14 — `[[ CONTRADICTION: 12 vs 14 — confirm count ]]`)
+across US+EU+DE/FR/UK. Granted incl. US 9,084,054 / 9,888,309 / 9,942,645 /
+10,244,298 / 10,425,716 / 10,575,082 (ear-jewelry, wearable audio, UI, universal
+eartip) + EP/DE/FR/UK 2974359 + MIDI-IEM US20220021962A1; pending 16/100,776
+(control handoff) + 17/126,014 (custom sound/EQ). Concealment patent family
+covers the whole "hide it in any wearable" surface. **Patent expiration horizon:**
 `[[ FOUNDER: foundational family expiry year? ]]`
+**Named-infringement specifics (from the Patents deck):** **Apple** — micro-
+mechanical-deflection cap-sense multi-gestural UI. **Huawei** — integration of the
+hearable into watch/bracelet/earring/glasses/fitness-band casings.
 
 ### LITIGATION TRACK (enforceable IP — a primary asset, per Optionality Hygiene)
 - **Counsel:** Ellenoff Grossman & Schole LLP (EGS), retained **Nov 2, 2022**;

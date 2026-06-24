@@ -22,6 +22,8 @@ Brain at its path. Onboard with `/momega-onboard <id>`.
 
 | ID    | Name  | Role                              | Brain | Path                      |
 |-------|-------|-----------------------------------|-------|---------------------------|
+| will-ogorek | Will Ogorek | GTM/CRO @ Equilibrium Labs; network hub; wisdm evaluator | v0.5 | `entities/People/will-ogorek/` |
+| chris-coyne | Chris Coyne | Sales — ClaimArc + HealthCues | v0.3 | `entities/People/chris-coyne/` |
 | randy | Randy | Senior pitch-narrative advisor (Deck OS calibrator) | v0.1 | `entities/People/randy/` |
 
 ## Clients
@@ -31,6 +33,7 @@ import to promote past v0.x.
 
 | ID | Name | Domain | Brain | Path |
 |----|------|--------|-------|------|
+| equilibrium-labs | Equilibrium Labs | Liver health — de-liver-ance® + The Liver Clinic (loveyourliver.com) | v1.0 | `entities/Clients/equilibrium-labs/` |
 | ear-micro | EAR Micro (Piearcings LLC) | Hearables / ear-computing IP (enforceable IP) | v1.0 | `entities/Clients/ear-micro/` |
 | claimarc | ClaimArc (Retrieve Remit, LLC) | Next-day hospital claims financing | v1.0 | `entities/Clients/claimarc/` |
 | healthcues | HealthCues | Section 125 employer FICA-savings benefits | v1.0 | `entities/Clients/healthcues/` |
