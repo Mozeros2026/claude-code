@@ -15,6 +15,14 @@ and `frameworks/momega-os.md` (the operating model).
    has a canonical `entities/<Type>/<id>/brain.md` in the fixed 16-section
    structure. The Brain is the single source of truth. Build/maintain it with the
    **Master Client Brain Builder** → `frameworks/brain-builder.md`.
+   **Every human is a Persona.** We map people the way we map businesses: every
+   human we talk about or to gets a 7-layer `psyche-profile.md` (Persona Forge,
+   `frameworks/persona-forge-schema.md`) — standalone person nodes in-dir, deal
+   counterparties under `entities/<entity>/people/<slug>/`. Naming a human in a
+   Brain without a profile is an incomplete artifact. The canonical index is
+   `registry/persona-roster.md` (auto-generated); coverage **and staleness** (>90d)
+   are enforced by `/momega-audit` + the SessionStart hook. This is permanent — it
+   runs on everyone, forever, and the audit will not let it go dark.
 2. **Zero hallucination.** Every fact traces to a source (cite the Brain section,
    or the file). Unknowns become `[[ HITL ]]` / `[[ FOUNDER ]]` questions — never
    guesses. Judgments are tagged `[[ INFERENCE: 1-5 ]]`.
@@ -70,7 +78,8 @@ flywheel). **Definition of Done for a deal-stage company = Brain ≥v1 + evaluat
 - `frameworks/` — the methodology (vision, brain-builder, deck-os, primitives,
   mo-commas/, mo-zeros/, lenses, falsifiers, schemas, momega-os).
 - `registry/` — `registry.md` (entity index), `artifact-library.md` (module
-  index), `coverage.md` (live audit), `vault-manifest.md` (Drive scrape record).
+  index), `coverage.md` (live audit), `persona-roster.md` (every human + profile +
+  staleness — auto-generated), `vault-manifest.md` (Drive scrape record).
 - `bag/` — cross-entity synergy graph. `tools/momega-audit.sh` — the audit.
 
 ## Working norms

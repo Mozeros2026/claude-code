@@ -142,6 +142,18 @@ operator + `/momega-audit` enforce** — no daemon, just discipline:
 - **Cadence rule.** Any profile whose source material is newer than its
   `updated:` date is **due a sync** — that's the loop's work queue. The engine's
   full deep pass is **quarterly or on-demand**, not routine.
+- **Staleness rule (enforced).** Every profile carries `updated:` and every
+  somatic/relationship/state read carries `as_of:`. `/momega-audit` flags any
+  profile not refreshed in **>90 days** as STALE in `registry/persona-roster.md`
+  and the SessionStart gap line — so a read can never silently rot into false truth.
+- **Roster.** `registry/persona-roster.md` is the canonical index of every mapped
+  human (auto-generated from the profile files — no manifest to drift). The audit
+  regenerates it on `--write`.
+- **Creation seam (the forever guarantee).** The forcing function lives at BOTH
+  ends: `/momega-brain build|update` and `/momega-onboard` must create a profile for
+  every human they name (a named human without a profile is an incomplete Brain),
+  and the audit continuously verifies coverage + staleness. Nothing slips through
+  either gate.
 
 ---
 

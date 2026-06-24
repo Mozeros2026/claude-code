@@ -22,6 +22,11 @@ The canonical Brain lives at `entities/<type>/<id>/brain.md`. `type` defaults to
   re-run public delta + per-partner press cross-check; re-classify asset classes
   if material change; re-assess Export Readiness; bump version (v1.0→v1.1 partial,
   →v2.0 major or post-Founder-Q&A); **re-output the full Brain.** Never a diff.
+  **Persona seam (the forever guarantee):** if the update introduces ANY new named
+  human (§2 People / §5 Network / cast), you MUST run `/momega-persona <id> <slug>`
+  for each before finishing — a human named in a Brain without a `psyche-profile.md`
+  is an incomplete update. Then `bash tools/momega-audit.sh --write` to refresh the
+  roster. The audit will flag the gap if you skip it.
 - **ask** — accept partial answers (any format); map each to its §13/§14 question;
   update affected sections in place with attribution; add only cascading questions
   that pass Necessity/Specificity/Routing; bump to v.X.5; **output affected
