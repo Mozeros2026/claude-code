@@ -24,13 +24,13 @@ Brain at its path. Onboard with `/momega-onboard <id>`.
 |-------|-------|-----------------------------------|-------|---------------------------|
 | randy | Randy | Senior pitch-narrative advisor (Deck OS calibrator) | v0.1 | `entities/People/randy/` |
 
-## Clients (Brain to import from original Projects)
+## Clients
 
-Named in Deck OS v2; materials not yet in this repo — bring them over to build
-Brains (see `frameworks/momega-os.md` import queue):
+Partial Brains built from in-context system memory; primary materials still to
+import to promote past v0.x.
 
-| ID | Name | Domain | Status |
-|----|------|--------|--------|
-| ear-micro | EAR Micro / Piearcings LLC | Hearables IP | ⛔ Brain not imported |
-| claimarc | ClaimARC (Retrieve Remit, LLC) | Healthcare revenue cycle | ⛔ Brain not imported |
-| mo-mega | Mo Mega | Mo's own GTM consultancy | ⛔ Brain not imported |
+| ID | Name | Domain | Brain | Path |
+|----|------|--------|-------|------|
+| mo-mega | Mo Mega | GTM consultancy (this platform) | v0.5 | `entities/Clients/mo-mega/` |
+| ear-micro | EAR Micro (Piearcings LLC) | Hearables / ear-computing IP | v0.3 | `entities/Clients/ear-micro/` |
+| claimarc | ClaimARC (Retrieve Remit, LLC) | Healthcare revenue cycle | v0.3 | `entities/Clients/claimarc/` |
