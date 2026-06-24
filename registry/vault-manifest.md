@@ -43,13 +43,27 @@ investors/people). What else is in the vault:
 - **TeraCrunch** — has an Introduction Deck + Will's affiliate agreement; an
   AI/ML **partner/vendor**, not a client. `[[ HITL: track TeraCrunch as a partner node? ]]`
 
-## Persona skills — NOT in the vault
-The "persona skills" (and any other old skill prompts) are **not in the Drive** —
-they live in the original Claude Projects, like the brain-builder / deck-os /
-adversary prompts were. **Action: paste them and they'll be lifted through the
-Lift Filter** (KEEP logic, STRIP build-OS, TRANSLATE to `/momega-*`). Candidates
-to add once provided: a Persona Forge (buyer/founder/investor persona builder)
-feeding the smart-money lens + outreach.
+## Persona Forge — found its OUTPUT in the vault; skill reconstructed
+Second pass found the persona skill's **output**, not a clean prompt file:
+- **HITL ACTOR DOSSIER v1.0** (inside the HITL transcript docs) — the dossier
+  format → reconstructed into [`../frameworks/persona-forge.md`](../frameworks/persona-forge.md)
+  + `/momega-persona`. Per Mo, the essence is **"map the wound beneath the
+  behavior; update surgically — root not surface, touch only what changed."** Both
+  principles are now encoded (the format alone was not the skill).
+- **New entity onboarded: HITL (Healthcare IT Leaders)** — M&A/advisory target;
+  Brain v0.5 + actor-dossier (Ben Hilmes, Bob Bailey). `entities/Prospects/hitl/`.
+- **Still possibly missing:** the *original* persona/"harvester" prompt (not a
+  titled file). `[[ HITL: paste it if it exists, to reconcile the reconstruction. ]]`
+  Other intriguing artifacts: **"Seraph Standard Output"**, **"Viv HITL Cheat
+  Sheet"** (Viv = an agent/persona?), **Powerhouse Investing Group** (Will's
+  holdco) — `[[ HITL: are Seraph/Viv persona agents to lift? ]]`
+
+## Transcripts not yet deep-read (Mo: "how much is missing?")
+The vault holds many unread transcripts/exports that likely contain more persona
+depth + decisions: the Jan-2026 conversation `.md` exports (Limitless/lifelog),
+the HITL raw/edited interview transcripts, the `data-export` zip. **Not yet
+mined.** `[[ HITL: want a transcript-mining pass to harvest personas + decisions
+from these into the relevant Brains/dossiers? ]]`
 
 ## Flagged for review (still open)
 - `[[ HITL: "Pitch deck Order_Speaker Frame_BabyBear.pptx" + "EQ pitch deck feedback" — deck-framework artifacts; reconcile with Deck OS? ]]`

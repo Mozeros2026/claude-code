@@ -29,6 +29,11 @@ and `frameworks/momega-os.md` (the operating model).
    runtime. Never silently drop something — log it (`frameworks/momega-os.md`).
 6. **Run on everything, always.** New entity → `/momega-onboard`. Maintain
    coverage with `/momega-audit`. Definition of Done is in `frameworks/momega-os.md`.
+7. **The lean way — root, not surface.** When something changes, fix it at the
+   source and propagate everywhere; **touch only what changed; spend only where
+   the signal lands.** Don't rebuild what didn't move. This is how every artifact
+   (Brains, dossiers, deliverables) is updated — surgically, cumulatively. Lives
+   most literally in [`frameworks/persona-forge.md`](frameworks/persona-forge.md).
 
 ## The skills (slash commands)
 - `/momega-onboard <id>` — new entity: build Brain v1.0 + register.

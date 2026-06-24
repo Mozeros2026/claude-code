@@ -8,6 +8,7 @@ Brain at its path. Onboard with `/momega-onboard <id>`.
 | ID    | Name                 | Brain | Export-ready Factories | Evaluation | Primary contact | Owner | Path |
 |-------|----------------------|-------|------------------------|------------|-----------------|-------|------|
 | wisdm | wisdm™ Wellness, PBC | v1.1 (§14 sent) | Deck, Call Prep, Evaluation | 2.8/5 — TRACK → conditional lean-in ($4M seed) | Shad Groverland | Will / loveyourliver.com | `entities/Prospects/wisdm/` |
+| hitl | HITL (Healthcare IT Leaders) | v0.5 | Actor Dossier (Persona Forge) | M&A/advisory target — eval/adversary/pmf pending | Ben Hilmes (CEO) · Bob Bailey (Founder) | Will / Mo | `entities/Prospects/hitl/` |
 
 ## Investors
 

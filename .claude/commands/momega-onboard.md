@@ -31,7 +31,9 @@ Brain.** Run the suite appropriate to the entity type, each grounded in the Brai
 - **Prospects / Clients / Companies (deal or GTM nodes):** the full set —
   `/momega-asymmetry` (C12) + `/momega-opportunities` (C13) → insights;
   `/momega-evaluate` + `/momega-adversary` (C8) + `/momega-pmf` (C9) →
-  `evaluation.md`, `adversary.md`, `pmf-assessment.md`. Then surface the Brain
+  `evaluation.md`, `adversary.md`, `pmf-assessment.md`. **If the deal has named
+  human counterparties (decision-makers/owners), also run `/momega-persona`** →
+  `actor-dossier.md` (map the wound beneath the behavior). Then surface the Brain
   **§14 founder email** as the first outbound.
 - **Investors:** capture the thesis/mandate (Investor Brain variant); no
   investment deliverables — the Brain *is* the artifact.
