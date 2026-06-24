@@ -1,54 +1,66 @@
-# CLIENT BRAIN — ClaimARC
+# CLIENT BRAIN — ClaimArc
 
-**Version:** 2026-06-24 (v0.3) · **Builder:** Master Client Brain Builder
-v2.1-momega · **Built from:** Deck OS v2 memory context + Artifact Library v3
-(no primary client materials in-session yet). Partial — real where sourced,
-HITL-tagged where not. Promote with `/momega-brain update claimarc Clients` once
-materials land.
+**Version:** 2026-06-24 (v1.0) · **Builder:** Master Client Brain Builder
+v2.1-momega · **Built from:** "ClaimArc Cold Call & Cold Email" (vault) + Deck OS
+memory. Promoted from v0.3 on real materials.
 
 ## 0. BRAIN CONFIDENCE MAP
-**PRIMARY ASSET CLASSES (provisional):** operating cash flows (Xtract is live) +
-product/tech. **SOURCING MIX:** ~100% internal-system memory. **HIGHEST-
-CONFIDENCE FACTS:** (1) Healthcare revenue-cycle (RCM) company; legal entity
-**Retrieve Remit, LLC**. (2) Two products: **Xtract** (live) + **Claim Payment
-Accelerator** (pre-revenue). (3) A two-product pitch deck was built under Deck OS.
-**LOWEST-CONFIDENCE:** financials, customers, team, stage. **SINGLE HIGHEST-
-LEVERAGE OPEN QUESTION:** what does each product actually do and who pays?
-**DELTA:** v0.3 — initial partial build from system memory.
-**EXPORT READINESS:** Deck — partial (a deck exists); all else INCOMPLETE.
+**PRIMARY ASSET CLASSES:** operating cash flows + a **data/underwriting** edge
+(predicting payor remittance) + balance-sheet/capital to advance claims.
+**SOURCING MIX:** ~100% internal (cold-call/email doc).
+**HIGHEST-CONFIDENCE FACTS:** (1) ClaimArc pays hospitals **next-day** on submitted
+claims (Medicare/Medicaid/commercial), then collects from the payor on the
+backend. (2) Charges a small per-claim fee — pitched as **cheaper than factoring**;
+if it pays higher than estimated the hospital keeps the difference, if lower
+ClaimArc eats it. (3) Sales-led by **Chris Coyne**; Will involved.
+**LOWEST-CONFIDENCE:** financials, capital source for advances, customers, the
+"Xtract" product, stage, team.
+**SINGLE HIGHEST-LEVERAGE OPEN QUESTION:** where does the advance capital come
+from, and what's the loss/underwriting model? (this is a receivables-financing
+business — the cost of capital *is* the business).
+**DELTA:** v0.3→v1.0. **EXPORT READINESS:** Outreach — Ready (cold scripts exist);
+Deck — partial; rest INCOMPLETE.
 
 ## 1. IDENTITY
-ClaimARC — healthcare **revenue-cycle management**. Legal: **Retrieve Remit,
-LLC**. `[[ FOUNDER: one-line + mission; HQ; stage; founding year ]]`
+**ONE-LINE:** next-day claims financing for hospitals — get paid tomorrow, not in
+60 days. **LEGAL:** Retrieve Remit, LLC. **STAGE:** `[[ FOUNDER ]]`. Buyer:
+hospital finance (e.g. CFO/revenue-cycle leaders; one-pager target lwooten@pvhc.org).
 
 ## 2. PEOPLE
-`[[ FOUNDER: founders/team, roles, credentials ]]`. Relationship: Will Ogorek /
-loveyourliver.com connected into Mo's world via ClaimARC (see wisdm brain §11
-contradiction note).
+**Chris Coyne** — sales/founder, ClaimArc (also HealthCues — see that node).
+Will Ogorek involved. `[[ FOUNDER: founders, roles, capital partners ]]`
 
 ## 3. PRODUCT & TECHNOLOGY
-- **Xtract** — live product. `[[ FOUNDER: what it extracts/does; buyers; pricing ]]`
-- **Claim Payment Accelerator** — pre-revenue. `[[ FOUNDER: mechanism; what it accelerates; status ]]`
-- WHAT'S HARD: `[[ FOUNDER: the single hardest technical problem solved? ]]`
-- Verified vs attested discipline matters here (live Xtract vs pre-revenue CPA) —
-  Deck OS keeps these strictly separate.
+- **Claim Payment Accelerator** — the next-day advance on submitted claims;
+  ClaimArc collects from the payor on the backend. Uses the hospital's **claims
+  history + remittance data** to predict the payout (the underwriting edge).
+- **Xtract** — (Deck OS memory: a live product) `[[ FOUNDER: what Xtract does;
+  data extraction? relationship to the Accelerator? ]]`
+- WHAT'S HARD: `[[ FOUNDER: remittance-prediction accuracy at scale is the moat — confirm the model/data advantage ]]`
 
 ## 4. CUSTOMERS & MARKET
-`[[ FOUNDER: who buys Xtract today; segment; RCM TAM; named customers ]]`
+Hospitals + health systems (Medicare/Medicaid/commercial mix). Pain: 60-day claim
+payment cycles strangle cash flow. Trigger noted: hospitals selecting new EHR
+(e.g. Neil Hilton, July 1 fiscal). `[[ FOUNDER: TAM, named pipeline, win rate ]]`
 
 ## 6. FINANCIAL TRUTH
-`[[ FOUNDER: Xtract revenue; CPA projections; raise (if any); unit economics ]]`
+`[[ FOUNDER: per-claim fee economics; cost of advance capital; loss rate;
+revenue; raise (if any). The spread between fee and cost-of-capital-plus-losses
+is the entire P&L. ]]`
 
 ## 10. KNOWN WEAKNESSES & DILIGENCE TRAPS
-- `[[ ASYMMETRY: confirm whether the company leads with the live product (Xtract) or the pre-revenue one (CPA) — verified-vs-attested placement drives thesis weight (Deck OS Principle / Trap). ]]`
+- `[[ RISK: this is receivables financing — capital-intensive and underwriting-dependent; "we eat it if it pays lower" is a real balance-sheet risk. Confirm the capital stack + loss reserves. | high ]]`
+- `[[ ASYMMETRY: sold as a SaaS-like convenience ("get paid tomorrow") but the business is a spread/credit business — diligence will probe cost of capital + defaults. ]]`
+- `[[ HITL: regulatory posture (factoring vs lending vs purchase-of-receivables; healthcare claim assignment rules). ]]`
 
 ## 11. EXISTING ASSETS
-Two-product pitch deck (Deck OS). `[[ HITL: locate the deck + source materials and import. ]]`
+Cold-call + cold-email scripts (vault); two-product pitch deck (Deck OS memory).
+`[[ HITL: pull the deck + financial model + any underwriting/capital docs. ]]`
 
 ## 13. OPEN ITEMS — ADVISOR (HITL)
-⭐ 1. Pull ClaimARC's source materials (deck, financials, transcripts) to promote v0.3 → v1.
-⭐ 2. What does each product do, and who pays for Xtract today?
-⭐ 3. Stage + raise status (is there a deal, or is this deck/GTM work?).
+⭐ 1. Capital source for advances + underwriting/loss model (the core of the business).
+⭐ 2. What is Xtract, and how do the two products relate?
+⭐ 3. Stage + what Mo's engagement is (deck/GTM vs raise) + named pipeline.
 
 ## 15. METADATA
-v0.3 partial. Real materials → `/momega-brain update claimarc Clients`.
+v1.0. `/momega-brain update claimarc Clients` once the deck + financial model land.

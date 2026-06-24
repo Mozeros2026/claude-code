@@ -31,6 +31,12 @@ import to promote past v0.x.
 
 | ID | Name | Domain | Brain | Path |
 |----|------|--------|-------|------|
+| ear-micro | EAR Micro (Piearcings LLC) | Hearables / ear-computing IP (enforceable IP) | v1.0 | `entities/Clients/ear-micro/` |
+| claimarc | ClaimArc (Retrieve Remit, LLC) | Next-day hospital claims financing | v1.0 | `entities/Clients/claimarc/` |
+| healthcues | HealthCues | Section 125 employer FICA-savings benefits | v1.0 | `entities/Clients/healthcues/` |
 | mo-mega | Mo Mega | GTM consultancy (this platform) | v0.5 | `entities/Clients/mo-mega/` |
-| ear-micro | EAR Micro (Piearcings LLC) | Hearables / ear-computing IP | v0.3 | `entities/Clients/ear-micro/` |
-| claimarc | ClaimARC (Retrieve Remit, LLC) | Healthcare revenue cycle | v0.3 | `entities/Clients/claimarc/` |
+
+> Vault scrape (2026-06-24) sourced these from Google Drive. Still to scrape:
+> Equilibrium Labs (Will's org), the EAR Micro deck variants, and deeper folders.
+> New people surfaced: Chris Coyne (ClaimArc + HealthCues), the EAR Micro team
+> (Patsy Nigh, Bear Clark, Troy Calderwood) + advisors — captured in node §2.
