@@ -32,9 +32,12 @@ Brain.** Run the suite appropriate to the entity type, each grounded in the Brai
   `/momega-asymmetry` (C12) + `/momega-opportunities` (C13) → insights;
   `/momega-evaluate` + `/momega-adversary` (C8) + `/momega-pmf` (C9) →
   `evaluation.md`, `adversary.md`, `pmf-assessment.md`. **If the deal has named
-  human counterparties (decision-makers/owners), also run `/momega-persona`** →
-  `actor-dossier.md` (map the wound beneath the behavior). Then surface the Brain
-  **§14 founder email** as the first outbound.
+  human counterparties (decision-makers/owners), also run the Persona Forge** —
+  `/momega-persona <id> <person>` for each, building a 7-layer `psyche-profile.md`
+  (map the wound beneath the behavior; THE SOMATIC LENS), then roll the deal-facing
+  CAST SUMMARY into `actor-dossier.md`. Thereafter `/momega-persona-sync` keeps each
+  profile current from new signal. Then surface the Brain **§14 founder email** as
+  the first outbound.
 - **Investors:** capture the thesis/mandate (Investor Brain variant); no
   investment deliverables — the Brain *is* the artifact.
 - **People:** capture expertise/track-record/network; the Brain is the artifact.

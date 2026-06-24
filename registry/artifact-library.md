@@ -38,7 +38,7 @@ version inflation resets to v1 Candidate.
 | C12 | Asymmetry Detector | v1 Candidate | [`../frameworks/asymmetry-detector.md`](../frameworks/asymmetry-detector.md) · `/momega-asymmetry` |
 | C13 | Opportunities Brainstormer | v1 Candidate | [`../frameworks/opportunities-brainstormer.md`](../frameworks/opportunities-brainstormer.md) · `/momega-opportunities` |
 | C14 | Proposal Generator *(client-facing)* | v1 Candidate | [`../frameworks/proposal-generator.md`](../frameworks/proposal-generator.md) · `/momega-proposal` |
-| — | **Persona Forge** *(horizontal — actor dossiers; "the wound beneath the behavior"; surgical updates)* | v1 Candidate (reconstructed) | [`../frameworks/persona-forge.md`](../frameworks/persona-forge.md) · `/momega-persona` |
+| — | **Persona Forge** *(horizontal — maps people like the Brain maps businesses; 7-layer `psyche-profile.md`; "the wound beneath the behavior"; THE SOMATIC LENS; surgical loop)* | v1 Candidate | schema [`../frameworks/persona-forge-schema.md`](../frameworks/persona-forge-schema.md) · overview [`../frameworks/persona-forge.md`](../frameworks/persona-forge.md) · engine `/momega-persona` · loop `/momega-persona-sync` |
 
 **Mo Zeros (RIGHT / execution)**
 

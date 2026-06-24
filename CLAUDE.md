@@ -45,6 +45,10 @@ and `frameworks/momega-os.md` (the operating model).
   `/momega-query` (C10 cited Q&A).
 - **Mo Zeros (execution):** `/momega-zeros` · `/momega-deck` (Deck OS v2, Z3) ·
   `/momega-proposal` (C14, client-facing → checkpoint).
+- **Persona Forge (map people like we map businesses):** `/momega-persona`
+  (engine — build a person's 7-layer `psyche-profile.md`) · `/momega-persona-sync`
+  (surgical loop — evolve it from one signal, ~10× cheaper). Schema:
+  `frameworks/persona-forge-schema.md`.
 
 Canonical numbered roster + status: `registry/artifact-library.md`
 ("the Library is truth").

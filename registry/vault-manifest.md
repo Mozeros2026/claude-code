@@ -43,20 +43,29 @@ investors/people). What else is in the vault:
 - **TeraCrunch** — has an Introduction Deck + Will's affiliate agreement; an
   AI/ML **partner/vendor**, not a client. `[[ HITL: track TeraCrunch as a partner node? ]]`
 
-## Persona Forge — found its OUTPUT in the vault; skill reconstructed
-Second pass found the persona skill's **output**, not a clean prompt file:
-- **HITL ACTOR DOSSIER v1.0** (inside the HITL transcript docs) — the dossier
-  format → reconstructed into [`../frameworks/persona-forge.md`](../frameworks/persona-forge.md)
-  + `/momega-persona`. Per Mo, the essence is **"map the wound beneath the
-  behavior; update surgically — root not surface, touch only what changed."** Both
-  principles are now encoded (the format alone was not the skill).
-- **New entity onboarded: HITL (Healthcare IT Leaders)** — M&A/advisory target;
-  Brain v0.5 + actor-dossier (Ben Hilmes, Bob Bailey). `entities/Prospects/hitl/`.
-- **Still possibly missing:** the *original* persona/"harvester" prompt (not a
-  titled file). `[[ HITL: paste it if it exists, to reconcile the reconstruction. ]]`
-  Other intriguing artifacts: **"Seraph Standard Output"**, **"Viv HITL Cheat
-  Sheet"** (Viv = an agent/persona?), **Powerhouse Investing Group** (Will's
-  holdco) — `[[ HITL: are Seraph/Viv persona agents to lift? ]]`
+## Persona Forge — the REAL system lifted in (2026-06-24)
+Mo pasted the whole original Persona Forge build chat. The real skill is far
+deeper than the dossier format I'd first reconstructed — it **maps people the way
+the Brain Builder maps businesses**. Lifted via the Lift Filter (logic kept;
+build-OS — `~/.claude` paths, `claude-shared` layout, ignition/harvest cron,
+Apollo/Plaud bindings — stripped, re-expressed as git skills + Ignition/Cadence
+rules):
+- **Schema v2.3** → [`../frameworks/persona-forge-schema.md`](../frameworks/persona-forge-schema.md):
+  7 layers (Essence/Architecture/OS/Capability/Crosswalk/Application/Longitudinal)
+  + 3 lenses (Evidence/Temporal/Congruence) + the learning loop + signal→section
+  routing table. **THE SOMATIC LENS** (source-agnostic; never "Jenn") in Layer 02.
+- **Engine** `/momega-persona` — first build / deep pass → `psyche-profile.md`.
+- **Loop** `/momega-persona-sync` — surgical, one-signal, ~10× cheaper (Edit not
+  Write; route → read only affected sections → append L07 ledger → bump version).
+- **Applied live on HITL:** promoted Ben Hilmes + Bob Bailey from dossier lines to
+  full 7-layer `psyche-profile.md` files + a nervous-system-compatibility crosswalk;
+  `actor-dossier.md` reduced to the deal-facing CAST SUMMARY that links to them.
+  `entities/Prospects/hitl/people/`.
+- **Naming discipline carried over:** fix names at the root (slug/source), keep the
+  wrong spelling only as a registered alias (the Neal/Neil rule).
+- Other intriguing artifacts: **"Seraph Standard Output"**, **"Viv HITL Cheat
+  Sheet"** (Viv = our HITL access point?), **Powerhouse Investing Group** (Will's
+  holdco) — `[[ HITL: are Seraph/Viv persona agents/people to lift? ]]`
 
 ## Transcripts not yet deep-read (Mo: "how much is missing?")
 The vault holds many unread transcripts/exports that likely contain more persona
