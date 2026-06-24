@@ -29,20 +29,20 @@ MODE: PMF Assessment · CLIENT: Equilibrium Labs | BRAIN v1.1 · SCOPE: Full PMF
 
 ## 5. STRATEGIC LEVERS  (impact × tractability)
 **Quick wins (<30d):**
-(1) **Substantiate or retire the 94.5M antioxidant claim** — produce the ABEL-RAC methodology + peer validation, or move it out of the headline (§3, §10). Why it works: removes the single biggest credibility tax. Risk: founders attached to the number.
-(2) **State the evidence tier honestly across all collateral** ("preclinical + early human signals," RCT in progress) (§3, §10). Why it works: pre-empts the kill-shot and aligns with the clinical bench's own credibility. Risk: feels like a downgrade until reframed.
+(1) **Reconcile the $3.42M against the micro-entity filings** — produce management accounts and name the booking entity (§6, §10). Why it works: removes the single biggest diligence kill-shot and protects the $50M valuation. Risk: may expose that UK-recognized revenue is genuinely thin.
+(2) **State the evidence tier honestly + reframe the science around Seanol** ("preclinical + early human signals, RCT entering"; lead with Seanol NDI/Novel Food status, not "reverse + prove") (§3, §10). Why it works: pre-empts the regulatory kill-shot and leans on the *real* IP credential. Risk: feels like a downgrade until reframed.
 
 **Medium (30–180d):**
-(3) **Close the two-entity restructure and pitch the raising entity standalone** (§8). Why it works: unlocks correct valuation comps *and* the regulatory-isolation defense in one move. Risk: tax/IP-assignment friction.
-(4) **Surface the financial truth** — current cash, burn, revenue-by-line — from the model + Dec 2025 DD doc (§6, §11). Why it works: makes the $50M+/2027 forecast underwritable and sizes the $3M correctly.
+(3) **Name the entity investors buy into** and align comps (CPG vs clinic/platform) (§8). Why it works: unlocks correct valuation comps and the regulatory-isolation defense. Risk: tax/IP-assignment friction in the two-CPG split.
+(4) **Lock the Seanol exclusivity diligence pack** — terms, formats, expiry, secondary supply (§3, §10). Why it works: converts the moat from a claim into a verifiable asset that justifies the multiple.
 
 **Long (6+ mo):**
-(5) **Productize the data flywheel as a licensable clinical-staging platform** (§0, §3). Why it works: turns The Liver Clinic from a services business into defensible, high-multiple infrastructure (Hims/Noom/Prenuvo comps, §8) — the genuinely ownable moat. Risk: requires the AI algorithm's IP and validation to be airtight (§3 FOUNDER).
+(5) **Ship the 2026 software platform and license the data flywheel** (Professional Platform, Digital Liver Score™, RWE dataset) (§0, §3, §6). Why it works: this is the actual thesis of the $7.5M raise — turns The Liver Clinic from services into defensible, high-multiple infrastructure (Hims/Noom/Prenuvo comps, §8). Risk: execution + clinical-validation dependency.
 
 ## 6. SCENARIO MODELING  (grounded in current Brain state)
-- **Base:** restructure closes, supplement keeps compounding (189% CAGR softening), clinics ramp toward 20; $3M funds inventory + R&D + working capital + S&M (§6); credible path toward the 2027 forecast but RCT and substantiation still pending.
-- **Upside (top lever lands):** the antioxidant claim is substantiated *and* the data flywheel is productized/licensed → The Liver Clinic re-rates to healthcare-services multiples (12–14x rev, §8) and the $50M+/2027 story becomes investable infrastructure, not a CPG forecast.
-- **Downside (biggest exposure hits):** an FDA/FTC challenge lands before the restructure executes → liability sits on loveyourliver.com / de-liver-ance® (§8, §10), the unsubstantiated 94.5M figure becomes a credibility contagion, and a real, revenue-generating business is left un-diligenceable.
+- **Base:** $7.5M @ $50M closes; supplement keeps compounding off $3.42M (growth softening toward +89%→lower) as paid marketing turns on for the first time; clinic partnerships convert from testing to signed; software platform begins shipping (§3, §6). Credible path toward scale, but RCT, claims substantiation, and the micro-entity reconciliation still pending.
+- **Upside (top levers land):** the financials reconcile cleanly, Seanol exclusivity is verified, *and* the software/data platform ships → EQL re-rates to health-tech-platform multiples (Hims/Noom/Prenuvo, §8) and the $50M pre-money looks conservative on a category-owning platform.
+- **Downside (biggest exposure hits):** a diligence team finds the micro-entity filings vs $3.42M/$50M (§6, §10), doubt spreads to every number; or an FDA/FTC challenge to BAC-50%/fatty-liver-reversal lands before the CPG/clinic split executes (§8, §10) — and a real, revenue-generating business is left un-diligenceable.
 
 ## 7. DECK / FUNDRAISING READINESS (if in scope)
 - **READINESS: Ready with caveats.** **Strong:** real revenue (189% CAGR), live clinics, owned IP, top-tier clinical/operator/finance bench, a deliberate value-and-risk-optimizing restructure (§2, §6, §8). **Missing for fundable:** restructure execution status + the raising entity (§0, §8); ABEL-RAC substantiation (§3, §10); human RCT status (§3, §10); current cash/burn/revenue $ (§6); named partners/licensees (§5). **Leads with:** the liver-disease epidemic + a two-product, revenue-generating franchise with a clinical bench and a data-flywheel moat.
