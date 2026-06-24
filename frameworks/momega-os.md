@@ -108,6 +108,39 @@ new transcript ─┬─▶ Master Client Brain Builder   "what they are"   → 
 `/momega-commas`/`/momega-zeros` until full prompts land) · `@deck` →
 `/momega-deck` · `@status` → read the registry · `@approve` → the human checkpoint.
 
+## Coverage guarantee — run on everything, always
+
+The point of Momega is that **nothing is left un-processed**. Coverage is enforced
+three ways — measure, surface, define-done — not by memory:
+
+### 1. Measure (backfill — "was it run on all that exists?")
+`tools/momega-audit.sh` scans every `entities/<Type>/<id>/` and reports, per node:
+Brain (+version), registry row, and which Factory outputs exist; it flags any node
+without a Brain and any registry client with no entity dir. Run it anytime via
+`/momega-audit`; snapshot lives at [`../registry/coverage.md`](../registry/coverage.md).
+Backfill with `/momega-audit --backfill`.
+
+### 2. Surface (forward — "is it run going forward?")
+A **SessionStart hook** (`.claude/settings.json`) runs the audit `--gaps-only` at
+the top of every session, so open gaps are in front of you before any new work.
+The standard intake (`/momega-onboard`) remains the front door for every new
+entity — the hook catches anything that skipped it.
+
+### 3. Define done (the bar each entity must clear)
+
+| Entity type | Definition of Done |
+|-------------|--------------------|
+| **Any node** | canonical `brain.md` exists (stub OK) **+** a registry row. No exceptions — this is the universal guarantee. |
+| **Prospect / Client at deal stage** | Brain ≥ v1 **+** `evaluation.md` **+** `adversary.md`. (Deck / PMF / asymmetry / opportunities on demand.) |
+| **Investor / Person** | Brain with thesis/expertise captured (promoted past v0.x stub via `/momega-brain ask`). |
+
+> **Honest boundary:** this is enforced-by-visibility, not a daemon. We
+> deliberately stripped the always-on orchestrator (n8n). The audit + hook +
+> Definition of Done make gaps *impossible to miss*; closing them is a deliberate
+> act (or a `--backfill` run). If true hands-off automation is ever wanted, that's
+> the resurrect condition for an orchestrator (X1) — and it would run *this same
+> audit* as its gate.
+
 ## Everything is a Brain
 
 Prospects, companies, investors, people — each is an entity node with a canonical

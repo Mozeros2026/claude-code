@@ -83,6 +83,15 @@ status: [`frameworks/primitives.md`](frameworks/primitives.md). Live today:
 The canonical, numbered index of every module + status is
 [`registry/artifact-library.md`](registry/artifact-library.md) ("the Library is truth").
 
+## Coverage — run on everything, always
+
+`/momega-audit` (or `bash tools/momega-audit.sh`) reports, per entity, whether the
+treatment has been run — Brain + which Factory outputs — and flags gaps. A
+**SessionStart hook** runs it at the top of every session so gaps surface
+automatically. The bar each entity must clear (Definition of Done) and the
+enforcement model live in [`frameworks/momega-os.md`](frameworks/momega-os.md);
+the live snapshot is [`registry/coverage.md`](registry/coverage.md).
+
 Planned: C5–C7, Z4–Z8 (Cross-Bag Synergy, Sales-Maturity, Trust Sequencer, ICP,
 Outbound, Pipeline, Collateral). The cross-entity synergy layer ("the bag") lives
 in [`bag/`](bag/).
@@ -117,6 +126,8 @@ registry/
   momega-commas.md   momega-zeros.md  momega-deck.md
   momega-adversary.md  momega-pmf.md  momega-query.md
   momega-asymmetry.md  momega-opportunities.md  momega-proposal.md
+  momega-audit.md
+tools/momega-audit.sh    # coverage audit (also wired to SessionStart hook)
 ```
 
 ## The learning loop (Persona Forge / Business Forge)
