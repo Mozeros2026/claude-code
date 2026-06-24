@@ -1,4 +1,4 @@
-# C2 — Pain Hypothesizer (Mo Commas)
+# C3 — Pain Hypothesizer (Mo Commas)
 
 **ROLE:** From a buyer conversation, produce ranked hypotheses about what the
 buyer *actually pays to solve* — in the buyer's own language — framed so each can

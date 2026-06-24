@@ -1,4 +1,4 @@
-# C1 — Shape Listener (Mo Commas)
+# C2 — Shape Listener (Mo Commas)
 
 **ROLE:** Extract the *shape* of what a speaker said — what they over-explain,
 omit, defend, and take pride in — and contrast it with what actually generates

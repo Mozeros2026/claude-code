@@ -1,4 +1,4 @@
-# C3 — Adjacent Market Mapper (Mo Commas)
+# C4 — Adjacent Market Mapper (Mo Commas)
 
 **ROLE:** From a product description + current use cases, generate 5–10 *lateral*
 market hypotheses — places the product becomes a different (often higher-value)

@@ -79,21 +79,26 @@ new transcript ─┬─▶ Master Client Brain Builder   "what they are"   → 
 | Specialist | Module | Role | Status here |
 |------------|--------|------|-------------|
 | Master Client Brain Builder | Library | canonical Brain | ✅ `brain-builder.md` |
-| Asymmetry Detector | C13 | what they're sitting on blind | ⚠️ stub `asymmetry-detector.md` |
-| Opportunities Brainstormer | C14 | what else could this be | ⚠️ stub `opportunities-brainstormer.md` |
-| Proposal Generator | — | opportunity → proposal | ⚠️ stub `proposal-generator.md` |
+| Asymmetry Detector | C12 | what they're sitting on blind | ✅ `asymmetry-detector.md` (`/momega-asymmetry`) |
+| Opportunities Brainstormer | C13 | what else could this be | ✅ `opportunities-brainstormer.md` (`/momega-opportunities`) |
+| Proposal Generator | C14 | opportunity → proposal (client-facing) | ✅ `proposal-generator.md` (`/momega-proposal`) |
 | Brain Query | C10 | cited Q&A | ✅ `brain-query.md` (`/momega-query`) |
 | Adversary | C8 | red-team | ✅ `adversary.md` (`/momega-adversary`) |
-| PMF Assessment | C9 | strategy/PMF | ✅ `pmf-assessment.md` (`/momega-pmf`) |
-| Deck OS | Z3 | pitch + reading deck | ✅ `deck-os.md` (`/momega-deck`) |
+| PMF Assessment | C9 (+C7 merged) | strategy/PMF | ✅ `pmf-assessment.md` (`/momega-pmf`) |
+| Deck OS | Z3 (=C5 Compressor) | pitch + reading deck | ✅ `deck-os.md` (`/momega-deck`) |
 | Investment Evaluation | (added) | score the deal | ✅ `business-evaluation.md` (`/momega-evaluate`) |
 
-> ⚠️ **Numbering reconciliation needed.** Two schemes collide: Build Spec v1 used
-> C1–C7 / Z1–Z8 (Shape Listener … Collateral Patcher); System Brain v1.2 uses
-> C8 Adversary, C9 PMF, C10 Brain Query, C13/C14 discovery. They're different
-> granularities (cognitive *primitives* vs deployable *specialists*) that overlap.
-> `[[ HITL: canonicalize the module numbers — one scheme, or an explicit two-layer
-> map (primitives vs specialists). ]]`
+> ✅ **Numbering reconciled (2026-06-24)** to **Artifact Library v3** — the
+> authoritative index ([`../registry/artifact-library.md`](../registry/artifact-library.md)).
+> Build Spec v1's C1–C7 was outdated; the canonical scheme is C1 Brain Builder, C2
+> Shape Listener, C3 Pain, C4 Adjacent, C5 Compressor, C6 Cross-Bag, C7
+> Sales-Maturity (→merged into C9 PMF), C8 Adversary, C9 PMF, C10 Brain Query, C11
+> Trust, C12 Asymmetry, C13 Opportunities, C14 Proposal; Z1–Z9; X1–X3. The three
+> Mo Commas primitive files were renamed to match.
+>
+> **X1 Orchestrator Router — Deferred/obviated.** Routing lives in the skills +
+> this OS doc; resurrect only at 8+ live specialists *and* documented dispatch
+> friction (the original assumed n8n + OpenClaw, which we don't run).
 
 ### Operator commands (canonical → ours)
 
@@ -210,15 +215,29 @@ roster + command map above (stripped OpenClaw/n8n/Telegram/VPS/Obsidian).
 **Stubs created** (named but prompts not yet provided): Asymmetry Detector (C13),
 Opportunities Brainstormer (C14), Proposal Generator.
 
+### Specialist prompts batch 2 — imported 2026-06-24
+
+**Lifted whole:** Asymmetry Detector v1 (C12), Opportunities Brainstormer v1
+(C13), Proposal Generator v1 (C14) → full frameworks + `/momega-asymmetry`,
+`/momega-opportunities`, `/momega-proposal` (replacing the stubs). **Lifted as
+governance:** Artifact Library v3 → [`../registry/artifact-library.md`](../registry/artifact-library.md)
+(canonical numbering + status taxonomy + testing protocol) — **resolved the
+numbering clash**. **Recorded as deferred:** Orchestrator Router (X1) — not built.
+**Stripped:** the Zapier Zap 0–5 workflow specs + task budgets + vendor bindings +
+deployment-target plumbing.
+
 ## IMPORT QUEUE — original-project material still to fold in
 
 Bring the rest over; each is run through the **Lift Filter** above:
 
-- [ ] **Asymmetry Detector / Opportunities Brainstormer / Proposal Generator** —
-      the full prompts (currently stubs from the System Brain description).
-- [ ] **Client Brains/materials** — EAR Micro, ClaimARC, Mo Mega (and others), so
-      the named clients become real Brains, not registry placeholders.
-- [ ] **Module-numbering decision** — canonicalize C1–C7/Z1–Z8 vs C8/C9/C10/C13/C14.
+- [ ] **Master Build Spec v3** — we have v1 only; v3 is canonical (architecture/
+      module inventory/falsifiers).
+- [ ] **Decision Log + Open Questions v2** — the running record of decisions.
+- [ ] **Action Sequence v1** — the 12 steps to "Patient Zero."
+- [ ] **Case-study content** — the 6 ground-truth slugs are summaries; need Mo's
+      real before/after artifacts (only Mo can write these).
+- [ ] **Client Brains/materials** — EAR Micro, ClaimARC, Mo Mega (and others).
+- [ ] **Remaining unwritten modules** — C6, C11, Z4–Z9 (planned).
 
 - [ ] **Other Factory prompts** — Deck OS, Outreach OS, Call Prep, ICP, PMF,
       Adversary/Red-Team (and any others). Each becomes `frameworks/<name>.md` +

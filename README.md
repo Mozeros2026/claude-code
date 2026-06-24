@@ -76,6 +76,12 @@ status: [`frameworks/primitives.md`](frameworks/primitives.md). Live today:
   [`frameworks/pmf-assessment.md`](frameworks/pmf-assessment.md): strategy + PMF.
 - **Brain Query** (C10) — `/momega-query <id> <question>` →
   [`frameworks/brain-query.md`](frameworks/brain-query.md): cited, read-only Q&A.
+- **Discovery trio** (parallel on a new conversation) — `/momega-asymmetry` (C12,
+  what's wrong), `/momega-opportunities` (C13, what else), then `/momega-proposal`
+  (C14, CEO-ready proposal after Mo locks an angle).
+
+The canonical, numbered index of every module + status is
+[`registry/artifact-library.md`](registry/artifact-library.md) ("the Library is truth").
 
 Planned: C5–C7, Z4–Z8 (Cross-Bag Synergy, Sales-Maturity, Trust Sequencer, ICP,
 Outbound, Pipeline, Collateral). The cross-entity synergy layer ("the bag") lives
@@ -103,11 +109,14 @@ frameworks/
   mo-commas/             # LEFT-loop primitive specs (c1, c2, c3, …)
   mo-zeros/              # RIGHT-loop pipeline specs (z1, z2, …)
 bag/synergy-graph.md     # cross-entity synergy ("the bag") — feeds C5
-registry/registry.md     # master index (per node: Brain version + readiness)
+registry/
+  registry.md            # master index of entity nodes
+  artifact-library.md    # canonical index of all modules + status (Library is truth)
 .claude/commands/
   momega-onboard.md  momega-brain.md  momega-evaluate.md
   momega-commas.md   momega-zeros.md  momega-deck.md
   momega-adversary.md  momega-pmf.md  momega-query.md
+  momega-asymmetry.md  momega-opportunities.md  momega-proposal.md
 ```
 
 ## The learning loop (Persona Forge / Business Forge)
