@@ -1,20 +1,9 @@
-# Nevin — Profile (investor)
+# Nevin — node index
 
-| Field         | Value                                  |
-|---------------|----------------------------------------|
-| **ID**        | `nevin`                                |
-| **Name**      | Nevin                                  |
-| **Type**      | Investor                               |
-| **Created**   | 2026-06-24                             |
-| **Node path** | `entities/Investors/nevin/`            |
+Canonical source: [`brain.md`](brain.md) (Investor Brain v0.1).
 
-## Thesis (what Nevin looks for)
-
-⛔ Not yet captured. Feed this from real evaluations — see
-[`frameworks/business-evaluation.md`](../../../frameworks/business-evaluation.md)
-(Persona Forge / Business Forge).
-
-## Gaps
-
-- [ ] Contact details (email/phone).
-- [ ] Investment thesis, check size, stage, sector focus.
+| Field | Value |
+|-------|-------|
+| ID / Name | `nevin` / Nevin |
+| Type | Investor |
+| Brain version | v0.1 (stub — identity & thesis not yet captured) |

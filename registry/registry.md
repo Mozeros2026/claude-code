@@ -7,12 +7,12 @@ Brain at its path. Onboard with `/momega-onboard <id>`.
 
 | ID    | Name                 | Brain | Export-ready Factories | Evaluation | Primary contact | Owner | Path |
 |-------|----------------------|-------|------------------------|------------|-----------------|-------|------|
-| wisdm | wisdm™ Wellness, PBC | v1.0 (2026-06-24) | Deck, Call Prep, Evaluation | 2.8/5 — TRACK → conditional lean-in ($4M seed) | Shad Groverland | Will / loveyourliver.com | `entities/Prospects/wisdm/` |
+| wisdm | wisdm™ Wellness, PBC | v1.1 (§14 sent) | Deck, Call Prep, Evaluation | 2.8/5 — TRACK → conditional lean-in ($4M seed) | Shad Groverland | Will / loveyourliver.com | `entities/Prospects/wisdm/` |
 
 ## Investors
 
-| ID     | Name         | Affiliation        | Thesis captured | Created    | Path                          |
-|--------|--------------|--------------------|-----------------|------------|-------------------------------|
-| hooman | Hooman Fakki | loveyourliver.com  | ⛔ no            | 2026-06-24 | `entities/Investors/hooman/`  |
-| nevin  | Nevin        | —                  | ⛔ no            | 2026-06-24 | `entities/Investors/nevin/`   |
-| jordan | Jordan       | —                  | ⛔ no            | 2026-06-24 | `entities/Investors/jordan/`  |
+| ID     | Name         | Affiliation        | Brain | Thesis captured | Path                          |
+|--------|--------------|--------------------|-------|-----------------|-------------------------------|
+| hooman | Hooman Fakki | loveyourliver.com  | v0.1  | ⛔ no            | `entities/Investors/hooman/`  |
+| nevin  | Nevin        | —                  | v0.1  | ⛔ no            | `entities/Investors/nevin/`   |
+| jordan | Jordan       | —                  | v0.1  | ⛔ no            | `entities/Investors/jordan/`  |

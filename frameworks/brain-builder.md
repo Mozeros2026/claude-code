@@ -110,6 +110,25 @@ CLIENT BRAIN — [NAME]   Version: [YYYY-MM-DD] (vN.N) | Built from: [...]
 15. METADATA
 ```
 
+## Entity-type variants (iteration v2.1-momega.1)
+
+The fixed structure was authored for **companies/prospects**. Other entity types
+reuse the same 16 sections and tag system, re-pointed — same headers, same
+discipline, so Factories still parse predictably:
+
+- **Investor** — §1 Identity = fund/angel identity; §2 People = partners +
+  decision-makers; §3 = thesis & strategy (what they back) instead of product;
+  §4 = sectors/stages/geographies + check size; §5 = portfolio & co-investors;
+  §6 = fund size / dry powder / pace; §10 = anti-thesis & deal-breakers; §12
+  Call Sheet = how to pitch them. The investor's **thesis** is the load-bearing
+  asset class (≈ "operating know-how"). This is what feeds the per-investor
+  smart-money lens in the Investment Evaluation Factory.
+- **Person** (operator, advisor, founder-as-individual) — §3 = expertise/track
+  record; §5 = network/relationships; §12 = how to engage.
+
+When a type needs a field the structure can't hold, add it under the nearest
+section and log it in the iteration loop — don't fork the structure.
+
 ## BUILD protocol (in order, no skipping)
 
 1. Read everything before responding. Note every fact's source.

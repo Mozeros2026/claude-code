@@ -15,6 +15,10 @@ entities (prospects, companies, deals, investors).
 The Brain is the architectural choke point for truth: if a Factory's output
 contradicts the Brain, the Factory is wrong until the Brain is updated.
 
+See [`frameworks/momega-os.md`](frameworks/momega-os.md) for the full operating
+model — the standard intake after a first conversation, the backfill status, and
+the import queue for original-project material still to fold in.
+
 ## The Brain
 
 Each entity has a canonical Brain at `entities/<Type>/<id>/brain.md` in a **fixed

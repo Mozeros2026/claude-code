@@ -12,7 +12,7 @@ v1.0) — this file is just the index.
 | Raise | $4M seed, equity, terms TBD |
 | Primary contact | Shad Groverland — shad@wisdm.io, 702-630-8928 |
 | Our side | Will Ogorek / loveyourliver.com (Hooman Fakki looped in after feedback) |
-| Brain version | v1.0 (2026-06-24) |
+| Brain version | v1.1 (2026-06-24) — §14 sent to Shad; awaiting answers |
 | Evaluation | 2.8/5 — TRACK → conditional lean-in (see `evaluation.md`) |
 
 ## Node files

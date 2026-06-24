@@ -1,6 +1,6 @@
 # CLIENT BRAIN — wisdm
 
-**Version:** 2026-06-24 (v1.0) · **Builder:** Master Client Brain Builder
+**Version:** 2026-06-24 (v1.1) · **Builder:** Master Client Brain Builder
 v2.1-momega · **Built from:** Investor Deck (07-11-26), Business Plan (05-2026),
 founder email correspondence (May 2026), public research (founders, RTB Digital,
 CAM market). This is the **canonical** wisdm Brain (the Library artifact).
@@ -10,22 +10,6 @@ Factories consume from it via Export Packages — see
 > **Node:** `entities/Prospects/wisdm/` · **Our side:** Will Ogorek /
 > loveyourliver.com (evaluating); Hooman Fakki (loveyourliver.com) looped in
 > after feedback. · **Factory outputs:** [`evaluation.md`](evaluation.md).
-
-## MOMEGA MERGE NOTES (verified additions to v1.0)
-
-- `[[ PUBLIC: web search, 2026-06-24 ]]` **Del Bigtree is also CEO of MAHA and
-  building MAHA.io**, a parallel decentralized health-community platform →
-  key-person **focus/conflict** risk on top of the SPOF risk in §2. Route to
-  Founder.
-- `[[ PUBLIC: globenewswire/nasdaq, 2026-05-13 ]]` RTB Digital (Nasdaq: RTB)
-  began trading **2026-05-13 via merger with RYVYL Inc (RVYL)** — confirms the
-  "newly public" read in §5/§10; the counterparty is a fresh reverse-merger
-  entity.
-- `[[ CONTRADICTION: §11 calls Will Ogorek a "ClaimARC contact" vs the email
-  domain will@loveyourliver.com + Hooman Fakki @loveyourliver.com ]]` — our side
-  is **loveyourliver.com**. Confirm whether ClaimARC is a separate hat. (HITL)
-
----
 
 ## 0. BRAIN CONFIDENCE MAP
 
@@ -58,7 +42,11 @@ Factories consume from it via Export Packages — see
 Even with the RTB floor ($240K Y1) against $3.8M Y1 costs, burn ≈ $2.6M. Is the
 $4M raise opportunistic or existential?
 
-**DELTA FROM PRIOR VERSION:** v1.0 — initial build.
+**DELTA FROM PRIOR VERSION:** v1.1 — reconciled two independent builds into one
+canonical Brain (took the best of both). Folded in verified public findings: Del
+Bigtree also building MAHA.io (§2, focus/conflict risk); RTB's Nasdaq listing
+via RYVYL reverse merger 2026-05-13 (§5/§10); and a contact-affiliation
+contradiction (loveyourliver.com vs "ClaimARC", §11/§13).
 
 **EXPORT READINESS:**
 - **Pitch Deck (Deck OS):** READY — [[ FOUNDER: confirm valuation/terms first ]]
@@ -388,8 +376,10 @@ revenue.
 ## 11. EXISTING ASSETS
 
 Built from: `wisdm_Investor_Deck_07-11-26.pdf` (17pp); `wisdm_Wellness_Business_
-Plan_05-2026.pdf` (14pp); May-2026 email thread (Shad → Will Ogorek `[[ see merge
-note: loveyourliver.com vs "ClaimARC" ]]`). Public assets: RTB/RYVYL press + SEC
+Plan_05-2026.pdf` (14pp); May-2026 email thread (Shad → Will Ogorek
+`[[ CONTRADICTION: an earlier build tagged Will as a "ClaimARC contact" vs the
+email domain will@loveyourliver.com + Hooman Fakki @loveyourliver.com | HITL:
+confirm whether ClaimARC is a separate hat ]]`). Public assets: RTB/RYVYL press + SEC
 filings; Del Bigtree (Wikipedia/HighWire/ICAN/Vaxxed/MAHA.io); Tracy Diaz (X/Truth
 Social/UncoverDC/Vice); Shad Groverland (Unity bios); CAM data (Grand View,
 NCCAOM, AMTA, Census).
@@ -463,8 +453,10 @@ before it's live for downstream work. ⭐ = highest-leverage.
 
 ## 15. METADATA
 
-**Brain version:** v1.0 (initial build). **Built:** 2026-06-24. **Builder:**
+**Brain version:** v1.1 (reconciled build). **Built:** 2026-06-24. **Builder:**
 Master Client Brain Builder v2.1-momega. **Inputs:** Deck (07-11-26), Plan
 (05-2026), email (May 2026), public research. **Confidence:** high on facts,
-medium on projections, low on practitioner validation. **Next:** Founder Q&A
-(§14) → `/momega-brain ask wisdm` → v1.5; then re-run Factories.
+medium on projections, low on practitioner validation. **Status:** §14 sent to
+Shad; founder answering the 16 questions. **Next:** on reply →
+`/momega-brain ask wisdm` (→ v1.5) → `/momega-brain update wisdm` (→ v2.0
+post-Founder-Q&A); then re-run Factories.
