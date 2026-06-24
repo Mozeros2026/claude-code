@@ -42,6 +42,14 @@ and `frameworks/momega-os.md` (the operating model).
    the signal lands.** Don't rebuild what didn't move. This is how every artifact
    (Brains, dossiers, deliverables) is updated — surgically, cumulatively. Lives
    most literally in [`frameworks/persona-forge.md`](frameworks/persona-forge.md).
+8. **Do the next right thing — autonomously.** The default mode is *bias to action,
+   loop engineering, agent swarming, constant improvement* — see
+   [`frameworks/operating-doctrine.md`](frameworks/operating-doctrine.md). When the
+   obvious, vision-aligned, internal next move presents itself, **do it; don't ask.**
+   Only client-facing output gets a checkpoint (#4). Build loops, not one-shots; fan
+   out subagents for breadth; run every skill through the four-beat (test → make
+   better → ship → train how we build the next one). Don't end a turn with a menu of
+   "want me to…?" when one option is clearly right — take it and chain to the next.
 
 ## The skills (slash commands)
 - `/momega-onboard <id>` — new entity: build Brain v1.0 + register.

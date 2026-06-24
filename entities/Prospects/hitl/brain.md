@@ -1,5 +1,9 @@
 # CLIENT BRAIN — HITL (Healthcare IT Leaders)
 
+**Status:** ARCHIVED / DORMANT — not an active relationship; no contact since before
+the current build. Surfaced only from old vault materials. Kept for reference; the
+audit will not nag deliverable/persona gaps on it. Revive with a real signal.
+
 **Version:** 2026-06-24 (v0.5) · **Builder:** Master Client Brain Builder
 v2.1-momega · **Built from:** "Who is Healthcare IT Leaders" (vault) + HITL
 Overview + raw/edited interview transcripts + HITL Actor Dossier v1.0 + Viv HITL

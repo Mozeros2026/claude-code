@@ -24,6 +24,9 @@ for d in entities/*/*/; do
   else
     brain="❌ NONE"; nobrain=$((nobrain+1)); gaps="${gaps}- ❌ **${type}/${id}**: no brain.md — run \`/momega-onboard ${id} ${type}\`\n"
   fi
+  # Archived / dormant nodes: kept for reference, but never nagged for gaps.
+  archived=0
+  [ -f "${d}brain.md" ] && grep -qiE '^\*\*Status:\*\* *(ARCHIVED|DORMANT|INACTIVE)|^status: *(archived|dormant|inactive)' "${d}brain.md" && archived=1
   reg=$([ -f "$REG" ] && grep -qiE "\b${id}\b" "$REG" && echo "✅" || echo "—")
   ev=$(has "${d}evaluation.md"); adv=$(has "${d}adversary.md"); pmf=$(has "${d}pmf-assessment.md")
   asy=$(glob_has "${d}insights/*asymmetr*"); opp=$(glob_has "${d}insights/*opportunit*")
@@ -34,22 +37,23 @@ for d in entities/*/*/; do
   # Deal node (Prospects / Clients) maps its human counterparties → people/<slug>/psyche-profile.md.
   if [ "$type" = "People" ] || [ "$type" = "Investors" ]; then
     psy=$([ -e "${d}psyche-profile.md" ] && echo "✅" || echo "—")
-    if [ -f "${d}brain.md" ] && [ ! -e "${d}psyche-profile.md" ]; then
+    if [ -f "${d}brain.md" ] && [ ! -e "${d}psyche-profile.md" ] && [ "$archived" = "0" ]; then
       persona_gaps=$((persona_gaps+1))
       gaps="${gaps}- 🧠 **${type}/${id}**: no psyche-profile — Persona Forge not run on this person → run \`/momega-persona ${type} ${id}\`\n"
     fi
   else
     psy=$(glob_has "${d}people/*/psyche-profile.md")
-    if [ -f "${d}brain.md" ] && { [ "$type" = "Prospects" ] || [ "$type" = "Clients" ]; } \
+    if [ -f "${d}brain.md" ] && { [ "$type" = "Prospects" ] || [ "$type" = "Clients" ]; } && [ "$archived" = "0" ] \
        && ! compgen -G "${d}people/*/psyche-profile.md" >/dev/null 2>&1; then
       persona_gaps=$((persona_gaps+1))
       gaps="${gaps}- 🧠 **${type}/${id}**: counterparties unmapped — no psyche-profiles → run \`/momega-persona ${id} <person> ${type}\` per named human\n"
     fi
   fi
+  [ "$archived" = "1" ] && brain="💤 $ver"
 
   rows="${rows}| ${type}/${id} | ${brain} | ${reg} | ${ev} | ${adv} | ${pmf} | ${asy} | ${opp} | ${deck} | ${prop} | ${psy} |\n"
   # Definition of Done: deal-stage nodes need the assessment suite, not just a Brain
-  if [ -f "${d}brain.md" ] && { [ "$type" = "Prospects" ] || [ "$type" = "Clients" ]; }; then
+  if [ -f "${d}brain.md" ] && [ "$archived" = "0" ] && { [ "$type" = "Prospects" ] || [ "$type" = "Clients" ]; }; then
     miss=""
     [ -e "${d}evaluation.md" ]     || miss="${miss} evaluation"
     [ -e "${d}adversary.md" ]      || miss="${miss} adversary"
