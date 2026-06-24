@@ -20,7 +20,7 @@ MODE: PMF Assessment · CLIENT: EAR Micro (Piearcings LLC) | BRAIN v1.1 · SCOPE
 - **ASYMMETRY:** "platform / Intel Inside of every ear" | the platform OS (Bragi) is single-source licensed-in (§1, §3 dependencies). **Severity: High.** Implication: the most valuable framing (own-the-platform) is undercut by a dependency the company doesn't control; it caps the moat narrative and adds external kill-switch risk. Resolution: **reposition + de-risk** — lead on the *patent* moat (which they do own and can enforce), and pursue a Bragi exclusivity/buyout or OS-abstraction path.
 - **ASYMMETRY:** litigation framed as emotional headline | disciplined buyers underwrite the base business (§3, §10 REFRAME). **Severity: Medium-High.** Implication: the more the Apple/Huawei wild card is foregrounded, the more serious capital discounts it and suspects a lawsuit-not-a-company. Resolution: **defer** — keep Apple/Huawei strictly as $0-cost, off-balance-sheet optionality; the discipline is already in the deck (§3) — hold it.
 - **ASYMMETRY:** Apple as named infringement target | Apple MFi as a relied-upon dependency (§3 dependencies + Litigation Track). **Severity: Medium-High.** Implication: the upside counterparty is also a downside counterparty; enforcing against Apple may cost MFi access. Resolution: **reposition** the Apple narrative once MFi scope is known — quantify what MFi actually gates before "hitting GO."
-- **ASYMMETRY:** "12 / 14 granted patents" inconsistency | the moat is the thesis (§0, §3). **Severity: Medium.** Implication: imprecision on the core asset corrodes trust everywhere. Resolution: **canonicalize** to one count from one source.
+- **ASYMMETRY (RESOLVED, v1.1):** the "12 / 14 granted patents" inconsistency is closed — count is **14** (the "12" was a stale slide title inside Platform Pitch 5.14.26, not a real disagreement) (§0, §3). **Severity: was Medium → now Low/cosmetic.** Residual: scrub the stale "12" from that one deck. No longer a trust-corroding asymmetry on substance.
 
 ## 4. VALUE LEAKS
 - **LEAK: the patent estate is enforced reactively, not productized** (§3 Litigation Track). Magnitude: the deck's own $5B–$7B "wild card" (§3). Capture path: a *systematic* licensing/enforcement program (a licensing desk) that converts the portfolio into recurring royalty across the named infringers and the broader category — beyond Apple/Huawei.
@@ -29,7 +29,7 @@ MODE: PMF Assessment · CLIENT: EAR Micro (Piearcings LLC) | BRAIN v1.1 · SCOPE
 - **LEAK: licensee attribution may not be publicly visible** — "powered by EAR Micro" unverified on launched products (§5 ASYMMETRY). Capture path: contract for and surface attribution; it compounds credibility for the next licensee.
 
 ## 5. STRATEGIC LEVERS (impact × tractability)
-**Quick wins (<30d):** (1) Canonicalize the patent count (12 vs 14) and pull claim charts into a clean IP one-pager — removes the cheapest diligence kill-shot (§0, §3, §11). (2) Write the "base case at lawsuit = $0" page so every meeting opens on the standalone business, with Apple/Huawei explicitly off to the side (§3, §10 REFRAME).
+**Quick wins (<30d):** (1) Patent count is already canonicalized to **14** (v1.1) — remaining task is to scrub the stale "12" from Platform Pitch 5.14.26 and pull claim charts + the 2035/2044 expiry record into a clean IP one-pager — closes the cheapest diligence kill-shot for good (§0, §3, §11). (2) Write the "base case at lawsuit = $0" page so every meeting opens on the standalone business, with Apple/Huawei explicitly off to the side (§3, §10 REFRAME).
 **Medium (30–180d):** (3) Disclose and, if possible, strengthen Bragi OS terms (exclusivity/buyout) and map MFi exposure — converts the platform's biggest structural risk into a known quantity (§3 dependencies, §13 ⭐2). (4) Convert the StageEARS × UE Pro MOU into a signed Definitive Agreement (§5) — turns a "for discussion only" headline into contractual revenue. (5) Confirm FDA 510(k) submission status to firm up the $15B T10 Bionic adjacency (§4, §10).
 **Long (6+ mo):** (6) Stand up a **licensing desk** that productizes enforcement across the category (not just Apple/Huawei), turning the patent estate from a one-time wild card into a recurring royalty annuity — the highest-leverage structural play, and the one that most de-risks the dependency on any single licensee (§3, §4). `[[ INFERENCE: 4 ]]`
 
@@ -52,7 +52,7 @@ MODE: PMF Assessment · CLIENT: EAR Micro (Piearcings LLC) | BRAIN v1.1 · SCOPE
 - Bragi OS terms + a single-source mitigation (§13 ⭐2) — could move "platform" from caveated to genuine.
 - Apple MFi scope (§3 DEPENDENCY) — decides whether enforcing against Apple is free upside or a costly trade.
 - GLS funding status + EGS arbitration timeline (§0, §13 ⭐1) — sizes and confirms the $0-cost optionality.
-- Canonical patent count + foundational expiry year (§0, §3) — sets the true perimeter and duration of the moat.
+- ~~Canonical patent count + foundational expiry year~~ RESOLVED (v1.1): 14 patents, foundational ~2035 / family ~2044 (§0, §3) — perimeter and duration of the moat now set; confirm dates vs filing records.
 - FDA 510(k) timeline (§10) — confirms or defers the $15B T10 Bionic adjacency.
 - Current cash/runway + revenue-by-year (§6) — turns the financial story from structural to underwritten.
 
