@@ -45,19 +45,20 @@ MODE: PMF Assessment · CLIENT: Equilibrium Labs | BRAIN v1.1 · SCOPE: Full PMF
 - **Downside (biggest exposure hits):** a diligence team finds the micro-entity filings vs $3.42M/$50M (§6, §10), doubt spreads to every number; or an FDA/FTC challenge to BAC-50%/fatty-liver-reversal lands before the CPG/clinic split executes (§8, §10) — and a real, revenue-generating business is left un-diligenceable.
 
 ## 7. DECK / FUNDRAISING READINESS (if in scope)
-- **READINESS: Ready with caveats.** **Strong:** real revenue (189% CAGR), live clinics, owned IP, top-tier clinical/operator/finance bench, a deliberate value-and-risk-optimizing restructure (§2, §6, §8). **Missing for fundable:** restructure execution status + the raising entity (§0, §8); ABEL-RAC substantiation (§3, §10); human RCT status (§3, §10); current cash/burn/revenue $ (§6); named partners/licensees (§5). **Leads with:** the liver-disease epidemic + a two-product, revenue-generating franchise with a clinical bench and a data-flywheel moat.
+- **READINESS: Ready with caveats (improved in v1.1).** **Strong:** $3.42M revenue with zero paid marketing, named blue-chip partners, a *real* Seanol® exclusivity moat (NDI/Novel Food), strengthened C-suite, a clear software-platform thesis for the raise (§2, §3, §5, §6). **Missing for fundable:** reconciliation of $3.42M/$50M vs micro-entity filings (§6, §10 — the top gate); claims substantiation for BAC-50%/fatty-liver-reversal (§3, §10); RCT-vs-pilot status (§3, §10); cash/burn/CAC (§6); Seanol contract terms (§3, §10); which entity is bought (§8). **Leads with:** category ownership ("no brand owns liver health"), a revenue-generating franchise with objective FibroScan proof and a data-flywheel→platform moat.
 
 ## 8. RECOMMENDED NEXT MOVES  (priority order)
-1. **Close the restructure and name the raising entity** — owner: founder (Siggi/Keeble) — now. Highest leverage; valuation, governance, and regulatory isolation all depend on it (§0, §8, §13 ⭐1).
-2. **Produce the ABEL-RAC substantiation + the human-evidence/RCT picture** — owner: founder + clinical team (Morris-Stiff/Amati/Ajaz) — 30–60d (§3, §10, §13 ⭐2).
-3. **Surface the financial truth and re-underwrite the forecast** — owner: advisor + CFO — before any term sheet (§6, §11).
-4. **Convert "clinic-in-box" into named, priced licensees** — owner: founder + Will (GTM/CRO) — 60–120d (§5, §2).
+1. **Reconcile the $3.42M / $50M pre-money against the micro-entity filings** — owner: founder + finance — now. Highest leverage; the headline revenue and valuation are both unverifiable until this clears (§0, §6, §10, §13 ⭐1).
+2. **Produce claims substantiation + the RCT-vs-pilot picture; reframe the science around Seanol** — owner: founder + clinical team (Morris-Stiff/Mehta/Amati) — 30–60d (§3, §10, §13 ⭐2).
+3. **Lock the Seanol exclusivity diligence pack** (terms/formats/expiry/supply) — owner: founder + Lee — 30–60d (§3, §10, §13 ⭐3).
+4. **Convert testing-stage clinic partnerships into named, priced licensees** — owner: Will (CRO) + Antonia Perez (Partnerships) — 60–120d (§5, §2).
 
 ## 9. WHAT WOULD CHANGE THIS ASSESSMENT
-- **Restructure execution status + which entity raises** (§0, §8, §13 ⭐1) — decides valuation comps and whether the regulatory risk is actually isolated; the single highest-leverage unknown.
-- **Human RCT status + ABEL-RAC substantiation** (§3, §10, §13 ⭐2) — moves the efficacy claim from "preclinical/over-claimed" to "evidenced," and the antioxidant figure from liability to differentiator.
-- **Current cash, burn, and revenue-by-line** (§6 FOUNDER) — turns the $50M+/2027 forecast from lowest-confidence to underwritable and sizes the $3M raise.
-- **Named partners, licensees, and IP/patent status** (§3, §5 FOUNDER) — determines whether the data flywheel and Rizasalutem are truly defensible, ownable moats.
+- **Reconciliation of $3.42M / $50M pre-money vs micro-entity filings** (§0, §6, §10, §13 ⭐1) — the single highest-leverage unknown; decides whether the headline numbers and valuation survive diligence at all.
+- **RCT-vs-pilot status + claims substantiation** (§3, §10, §13 ⭐2) — moves the efficacy claim from "over-claimed treatment" to "evidenced," de-risking the FDA/FTC exposure.
+- **Seanol exclusivity terms + supply security** (§3, §10, §13 ⭐3) — determines whether the moat the $50M rests on is durable and broad.
+- **Cash, burn, and CAC once paid acquisition turns on** (§6) — sizes the $7.5M and tests whether the organic-era economics survive paid scale.
+- **Software-platform execution** (§3, §6) — determines whether EQL actually re-rates from CPG to health-tech-platform multiples.
 
 ================================================================
 END OF PMF ASSESSMENT — gaps feed brain.md §13 via /momega-brain ask.
