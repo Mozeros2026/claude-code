@@ -379,7 +379,10 @@ Built from: `wisdm_Investor_Deck_07-11-26.pdf` (17pp); `wisdm_Wellness_Business_
 Plan_05-2026.pdf` (14pp); May-2026 email thread (Shad → Will Ogorek
 `[[ CONTRADICTION: an earlier build tagged Will as a "ClaimARC contact" vs the
 email domain will@loveyourliver.com + Hooman Fakki @loveyourliver.com | HITL:
-confirm whether ClaimARC is a separate hat ]]`). Public assets: RTB/RYVYL press + SEC
+confirm. NOTE 2026-06-24: ClaimARC (Retrieve Remit, LLC) is a real Mo client
+(healthcare RCM) per Deck OS v2 — so "ClaimARC contact" likely reflects how Will
+entered Mo's world, not a wisdm affiliation. Our side on wisdm is
+loveyourliver.com. ]]`). Public assets: RTB/RYVYL press + SEC
 filings; Del Bigtree (Wikipedia/HighWire/ICAN/Vaxxed/MAHA.io); Tracy Diaz (X/Truth
 Social/UncoverDC/Vice); Shad Groverland (Unity bios); CAM data (Grand View,
 NCCAOM, AMTA, Census).

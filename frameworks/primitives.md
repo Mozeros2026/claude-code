@@ -22,7 +22,7 @@
 | C1 | **Shape Listener** | Extract what the speaker over-explains, omits, defends, takes pride in — vs what actually generates revenue | ✅ built | [`mo-commas/c1-shape-listener.md`](mo-commas/c1-shape-listener.md) |
 | C2 | **Pain Hypothesizer** | From a buyer conversation, rank hypotheses about what they actually pay to solve, in their language | ✅ built | [`mo-commas/c2-pain-hypothesizer.md`](mo-commas/c2-pain-hypothesizer.md) |
 | C3 | **Adjacent Market Mapper** | From product + current uses, generate 5–10 lateral market hypotheses with reasoning | ✅ built | [`mo-commas/c3-adjacent-market-mapper.md`](mo-commas/c3-adjacent-market-mapper.md) |
-| C4 | **Compressor** | Founder's full materials → 8-slide investor-grade deck skeleton ("$1 → $15" thesis) | ⏳ planned | — |
+| C4 | **Compressor** | Founder's full materials → investor-grade deck (the "$1 → $15" thesis) | ✅ built | [`deck-os.md`](deck-os.md) (Deck OS v2) |
 | C5 | **Cross-Bag Synergy Detector** | Read the bag graph; propose asymmetric opportunities across the portfolio | ⏳ planned | [`../bag/`](../bag/) |
 | C6 | **Sales-Maturity Diagnoser** | Classify where a client sits on the sales-sophistication spectrum; recommend which Mo Zeros pipelines to activate | ⏳ planned | — |
 | C7 | **Trust-Building Sequencer** | Design a multi-touch trust sequence by buyer profile (the "become a local" mechanism) | ⏳ planned | — |
@@ -34,7 +34,7 @@
 |----|----------|---------|--------|------|
 | Z1 | **Follow-Up Drafter** | Client-facing follow-up email in Mo's voice from any transcript (checkpoint before send) | ✅ built | [`mo-zeros/z1-follow-up-drafter.md`](mo-zeros/z1-follow-up-drafter.md) |
 | Z2 | **Internal Strategy Memo** | Internal-only memo on what we think we can sell this client | ✅ built | [`mo-zeros/z2-strategy-memo.md`](mo-zeros/z2-strategy-memo.md) |
-| Z3 | **Deliverable Generator** | Approved one-pagers, talk tracks, narratives, proposals, demo scripts | ⏳ planned | — |
+| Z3 | **Deliverable Generator** | Approved one-pagers, talk tracks, narratives, proposals, demo scripts | ⏳ partial | decks ✅ via [`deck-os.md`](deck-os.md); other formats planned |
 | Z4 | **ICP List Builder** | Target lists from approved ICP (needs an enrichment integration — logic only for now) | ⏳ logic-only | — |
 | Z5 | **Outbound Sequencer** | Configure/run cold outbound (needs a delivery integration — logic only) | ⏳ logic-only | — |
 | Z6 | **Calendar + Meeting Prep** | Schedule next meeting; pre-meeting brief from prior context (calendar integration deferred; brief is buildable now) | ⏳ partial | — |

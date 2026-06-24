@@ -121,9 +121,33 @@ is chosen.
 `/bag/` → `bag/`; Telegram approval → runtime-agnostic human checkpoint;
 "OpenClaw+Opus brain / n8n nervous system" → Claude Code agents + skills over git.
 
+### Deck OS v2 (THE_FRAMEWORK_v2.md) — imported 2026-06-24
+
+**Lifted (KEEP — almost all of it):** the 11-beat spine + Cover/Bookend, the 11
+Core Principles, the 15-trap Sharp Investor Filter, Zero-Hallucination, the
+Two-Deck Principle, power-sentence craft, the Outline/Slide specs, beat-by-beat
+guidance, and the Brain Export Request → [`deck-os.md`](deck-os.md) + the
+`/momega-deck` command. Marks **C4 Compressor** built and **Z3** deck-type built
+in [`primitives.md`](primitives.md). Calibration people captured as nodes: Randy
+(People), Jordan (enriched v0.2), AJ (new). Client nodes registered for import:
+EAR Micro, ClaimARC, Mo Mega.
+
+**Stripped:** "paste into a Claude Project as custom instructions" deployment;
+the exact PptxGenJS `content.js/design.js/build.js` + `NODEPATH` invocation (kept
+as a *pluggable* rendering note); the `deck-os-factory` project naming; the
+"no JSON/XML because it leaks in Project environments" rationale.
+
+**Translated:** "this Project is a Factory / client Project is the Library" → our
+existing Library/Factory model (Deck OS = C4 + Z3 deck); Brain "Section 0–12"
+refs → our 16-section `brain.md`; the EXPORT REQUEST → `/momega-brain export <id>
+deck`.
+
 ## IMPORT QUEUE — original-project material still to fold in
 
 Bring the rest over; each is run through the **Lift Filter** above:
+
+- [ ] **Client Brains/materials** — EAR Micro, ClaimARC, Mo Mega (and others), so
+      the named clients become real Brains, not registry placeholders.
 
 - [ ] **Other Factory prompts** — Deck OS, Outreach OS, Call Prep, ICP, PMF,
       Adversary/Red-Team (and any others). Each becomes `frameworks/<name>.md` +

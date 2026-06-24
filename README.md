@@ -66,8 +66,12 @@ status: [`frameworks/primitives.md`](frameworks/primitives.md). Live today:
   the 13-slot deck order through three lenses (YC / first-principles / smart-money).
 - **Mo Zeros Phase-1 core** — `/momega-zeros <id> <z1|z2>`: Follow-Up Drafter,
   Internal Strategy Memo.
+- **Deck OS v2** — `/momega-deck <id> <outline|ship>` →
+  [`frameworks/deck-os.md`](frameworks/deck-os.md): pitch deck + reading deck from
+  the Brain (11 beats, 11 principles, 15-trap Sharp Investor Filter, two-deck).
+  This is the Compressor (C4) + deck Deliverable Generator (Z3).
 
-Planned: C4–C7, Z3–Z8 (Deck/Compressor, Cross-Bag Synergy, Sales-Maturity, ICP,
+Planned: C5–C7, Z4–Z8 (Cross-Bag Synergy, Sales-Maturity, Trust Sequencer, ICP,
 Outbound, Pipeline, Collateral). The cross-entity synergy layer ("the bag") lives
 in [`bag/`](bag/).
 
@@ -88,6 +92,7 @@ frameworks/
   brain-builder.md       # the Library (Master Client Brain Builder v2.1-momega)
   primitives.md          # C1–C7 + Z1–Z8 inventory + prompt design pattern
   business-evaluation.md # Investment Evaluation Factory method
+  deck-os.md             # Deck OS v2 — pitch + reading deck Factory
   case-studies.md  schemas.md  falsifiers.md
   mo-commas/             # LEFT-loop primitive specs (c1, c2, c3, …)
   mo-zeros/              # RIGHT-loop pipeline specs (z1, z2, …)
@@ -95,7 +100,7 @@ bag/synergy-graph.md     # cross-entity synergy ("the bag") — feeds C5
 registry/registry.md     # master index (per node: Brain version + readiness)
 .claude/commands/
   momega-onboard.md  momega-brain.md  momega-evaluate.md
-  momega-commas.md   momega-zeros.md
+  momega-commas.md   momega-zeros.md  momega-deck.md
 ```
 
 ## The learning loop (Persona Forge / Business Forge)
