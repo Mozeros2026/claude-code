@@ -28,8 +28,30 @@ material or excluded as noise (per the Lift Filter).
   Mo (2026-06-24): a **separate entity, no longer being built. Archived — do not
   fold in.** Excluded from the OS.
 
+## Whole-vault completeness pass (2026-06-24)
+Swept the entire Drive (all folders, all-files, persona/skill/company keyword
+searches). **Conclusion: the current-entity roster is complete** — no new active
+Mo Mega client surfaced beyond EQL, EAR Micro, ClaimArc, HealthCues (+ wisdm +
+investors/people). What else is in the vault:
+- **Will's career history (not current entities):** KULE Partners consulting
+  (MSAs/SOWs, producer agreements ~2021), TrackMy / TrackMySolutions, VeriVax
+  vaccination-verification, OnSite Waste, Lightning Fit, FROG client MSA — old
+  ventures/clients of Will's, archived as history (capture in `People/will-ogorek`
+  if ever needed, do not spin up entities).
+- **Conversation/voice-note `.md` exports** (Jan 2026, sales/strategy/personal) —
+  raw founder ramblings; potential Brain feed for *Mo Mega itself*, not new entities.
+- **TeraCrunch** — has an Introduction Deck + Will's affiliate agreement; an
+  AI/ML **partner/vendor**, not a client. `[[ HITL: track TeraCrunch as a partner node? ]]`
+
+## Persona skills — NOT in the vault
+The "persona skills" (and any other old skill prompts) are **not in the Drive** —
+they live in the original Claude Projects, like the brain-builder / deck-os /
+adversary prompts were. **Action: paste them and they'll be lifted through the
+Lift Filter** (KEEP logic, STRIP build-OS, TRANSLATE to `/momega-*`). Candidates
+to add once provided: a Persona Forge (buyer/founder/investor persona builder)
+feeding the smart-money lens + outreach.
+
 ## Flagged for review (still open)
-- `[[ HITL: "TeraCrunch Sales Affiliate Agreement (William Ogorek)" — is TeraCrunch a client/partner to track? ]]`
 - `[[ HITL: "Pitch deck Order_Speaker Frame_BabyBear.pptx" + "EQ pitch deck feedback" — deck-framework artifacts; reconcile with Deck OS? ]]`
 
 ## Excluded as build-OS / noise (per Lift Filter)

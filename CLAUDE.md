@@ -45,10 +45,14 @@ Canonical numbered roster + status: `registry/artifact-library.md`
 ("the Library is truth").
 
 ## Standard flow after a first conversation
-`/momega-onboard` → read Brain §0 + the ⭐ §13/§14 questions → send §14 (the asks)
-→ as answers/materials arrive, `/momega-brain ask`/`update` → when a deliverable
-is needed and Export Readiness says READY, run the relevant Factory. Every new
-conversation feeds back into the Brain (the flywheel).
+`/momega-onboard <id>` does the **full ingestion** in one shot: builds the Brain
+**and** auto-runs the standard deliverable suite for the entity type (companies:
+asymmetry + opportunities + evaluation + adversary + pmf, then surfaces the §14
+founder email). Every new entity gets the same depth — no entity stops at a bare
+Brain. Then as answers/materials arrive, `/momega-brain ask`/`update` and re-run
+the affected Factories. Every new conversation feeds back into the Brain (the
+flywheel). **Definition of Done for a deal-stage company = Brain ≥v1 + evaluation
++ adversary + pmf**, enforced by `/momega-audit`.
 
 ## Repo map
 - `entities/<Type>/<id>/` — `brain.md` (canonical) + `profile.md` (index) +

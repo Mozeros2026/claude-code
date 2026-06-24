@@ -131,7 +131,7 @@ entity — the hook catches anything that skipped it.
 | Entity type | Definition of Done |
 |-------------|--------------------|
 | **Any node** | canonical `brain.md` exists (stub OK) **+** a registry row. No exceptions — this is the universal guarantee. |
-| **Prospect / Client at deal stage** | Brain ≥ v1 **+** `evaluation.md` **+** `adversary.md`. (Deck / PMF / asymmetry / opportunities on demand.) |
+| **Prospect / Client at deal stage** | Brain ≥ v1 **+** `evaluation.md` **+** `adversary.md` **+** `pmf-assessment.md` (+ asymmetry/opportunities insights). This is the full-ingestion standard `/momega-onboard` runs automatically, and `/momega-audit` flags any deal-stage node missing a piece as "partial onboarding." Deck/proposal on demand. |
 | **Investor / Person** | Brain with thesis/expertise captured (promoted past v0.x stub via `/momega-brain ask`). |
 
 > **Honest boundary:** this is enforced-by-visibility, not a daemon. We

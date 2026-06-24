@@ -29,6 +29,14 @@ for d in entities/*/*/; do
   asy=$(glob_has "${d}insights/*asymmetr*"); opp=$(glob_has "${d}insights/*opportunit*")
   deck=$(glob_has "${d}collateral/*"); prop=$(glob_has "${d}drafts/*proposal*")
   rows="${rows}| ${type}/${id} | ${brain} | ${reg} | ${ev} | ${adv} | ${pmf} | ${asy} | ${opp} | ${deck} | ${prop} |\n"
+  # Definition of Done: deal-stage nodes need the assessment suite, not just a Brain
+  if [ -f "${d}brain.md" ] && { [ "$type" = "Prospects" ] || [ "$type" = "Clients" ]; }; then
+    miss=""
+    [ -e "${d}evaluation.md" ]     || miss="${miss} evaluation"
+    [ -e "${d}adversary.md" ]      || miss="${miss} adversary"
+    [ -e "${d}pmf-assessment.md" ] || miss="${miss} pmf"
+    [ -n "$miss" ] && gaps="${gaps}- ⚠️  **${type}/${id}**: partial onboarding — missing${miss} → run \`/momega-onboard ${id} ${type}\` (or the individual Factories)\n"
+  fi
 done
 
 # Registry-listed clients with no entity dir at all
