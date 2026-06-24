@@ -47,6 +47,62 @@ This is the canonical "after our first convo" path — run it on every new entit
 5. When a deliverable is needed and the Export Readiness manifest says READY,
    `export` to the relevant Factory.
 
+## Runtime brain & specialist roster (from System Brain v1.2)
+
+Mo Mega has a **runtime brain** — the agent that operators talk to, leads
+aggressively, defaults to critic mode when something's suboptimal, distinguishes
+**Built / Spec'd / Hypothesized / In-Production**, grounds every client
+conversation in the latest Brain version (forces a BUILD if none exists), and
+**never sends anything client-facing without explicit approval**. It delegates to
+specialists; it doesn't duplicate their work. (Build-OS stripped: the original ran
+on OpenClaw + n8n + Telegram + a Hetzner VPS with an Obsidian/Logseq vault — here
+it's Claude Code agents + skills over git.)
+
+### Parallel ingestion (the discovery pattern)
+
+On a new transcript/material, **three specialists run simultaneously** (not
+sequential, zero dependencies) — then a human checkpoint, then proposal:
+
+```
+new transcript ─┬─▶ Master Client Brain Builder   "what they are"   → brain.md
+                ├─▶ Asymmetry Detector             "what's wrong"    → asymmetry report
+                └─▶ Opportunities Brainstormer     "what else"       → GTM angles
+                          │
+                  [Mo picks an angle + locks terms]   ← human checkpoint
+                          │
+                          ▼
+                  Proposal Generator → CEO-ready proposal → [approve] → send
+```
+
+### Specialist roster (canonical names → our skills)
+
+| Specialist | Module | Role | Status here |
+|------------|--------|------|-------------|
+| Master Client Brain Builder | Library | canonical Brain | ✅ `brain-builder.md` |
+| Asymmetry Detector | C13 | what they're sitting on blind | ⚠️ stub `asymmetry-detector.md` |
+| Opportunities Brainstormer | C14 | what else could this be | ⚠️ stub `opportunities-brainstormer.md` |
+| Proposal Generator | — | opportunity → proposal | ⚠️ stub `proposal-generator.md` |
+| Brain Query | C10 | cited Q&A | ✅ `brain-query.md` (`/momega-query`) |
+| Adversary | C8 | red-team | ✅ `adversary.md` (`/momega-adversary`) |
+| PMF Assessment | C9 | strategy/PMF | ✅ `pmf-assessment.md` (`/momega-pmf`) |
+| Deck OS | Z3 | pitch + reading deck | ✅ `deck-os.md` (`/momega-deck`) |
+| Investment Evaluation | (added) | score the deal | ✅ `business-evaluation.md` (`/momega-evaluate`) |
+
+> ⚠️ **Numbering reconciliation needed.** Two schemes collide: Build Spec v1 used
+> C1–C7 / Z1–Z8 (Shape Listener … Collateral Patcher); System Brain v1.2 uses
+> C8 Adversary, C9 PMF, C10 Brain Query, C13/C14 discovery. They're different
+> granularities (cognitive *primitives* vs deployable *specialists*) that overlap.
+> `[[ HITL: canonicalize the module numbers — one scheme, or an explicit two-layer
+> map (primitives vs specialists). ]]`
+
+### Operator commands (canonical → ours)
+
+`@brain build` → `/momega-onboard` · `@brain query`/`@ask` → `/momega-query` ·
+`@brain adversary`/`@redteam` → `/momega-adversary` · `@brain assess`/`@strategy`
+→ `/momega-pmf` · `@asymmetry` / `@opportunities` / `@proposal` → (stubs;
+`/momega-commas`/`/momega-zeros` until full prompts land) · `@deck` →
+`/momega-deck` · `@status` → read the registry · `@approve` → the human checkpoint.
+
 ## Everything is a Brain
 
 Prospects, companies, investors, people — each is an entity node with a canonical
@@ -142,12 +198,27 @@ existing Library/Factory model (Deck OS = C4 + Z3 deck); Brain "Section 0–12"
 refs → our 16-section `brain.md`; the EXPORT REQUEST → `/momega-brain export <id>
 deck`.
 
+### Specialist prompts batch — imported 2026-06-24
+
+**Lifted whole:** Adversary v1 (C8) → [`adversary.md`](adversary.md) +
+`/momega-adversary`; PMF Assessment v1 (C9) → [`pmf-assessment.md`](pmf-assessment.md)
++ `/momega-pmf`; Brain Query v1 (C10) → [`brain-query.md`](brain-query.md) +
+`/momega-query`. **Reconciled:** Deck OS v1 (Z3) — superseded by v2; grafted its
+Brain-anchor field into [`deck-os.md`](deck-os.md). **Logic-lifted:** Mo Mega
+System Brain v1.2 → the runtime brain + parallel-ingestion pattern + specialist
+roster + command map above (stripped OpenClaw/n8n/Telegram/VPS/Obsidian).
+**Stubs created** (named but prompts not yet provided): Asymmetry Detector (C13),
+Opportunities Brainstormer (C14), Proposal Generator.
+
 ## IMPORT QUEUE — original-project material still to fold in
 
 Bring the rest over; each is run through the **Lift Filter** above:
 
+- [ ] **Asymmetry Detector / Opportunities Brainstormer / Proposal Generator** —
+      the full prompts (currently stubs from the System Brain description).
 - [ ] **Client Brains/materials** — EAR Micro, ClaimARC, Mo Mega (and others), so
       the named clients become real Brains, not registry placeholders.
+- [ ] **Module-numbering decision** — canonicalize C1–C7/Z1–Z8 vs C8/C9/C10/C13/C14.
 
 - [ ] **Other Factory prompts** — Deck OS, Outreach OS, Call Prep, ICP, PMF,
       Adversary/Red-Team (and any others). Each becomes `frameworks/<name>.md` +

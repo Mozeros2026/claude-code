@@ -19,5 +19,6 @@ v1.0) — this file is just the index.
 
 - [`brain.md`](brain.md) — **canonical Brain** (Library; 16 sections; the source of truth)
 - [`evaluation.md`](evaluation.md) — Investment Evaluation Factory output
+- [`adversary.md`](adversary.md) — Adversary (red-team) Factory output
 - [`missing-questions.md`](missing-questions.md) — pointer → Brain §13/§14
 - [`materials/`](materials/) — Business Plan + Investor Deck (ingested)

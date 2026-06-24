@@ -28,6 +28,26 @@
 | C7 | **Trust-Building Sequencer** | Design a multi-touch trust sequence by buyer profile (the "become a local" mechanism) | ⏳ planned | — |
 | — | **Investment Evaluation** | Score a deal through YC / first-principles / smart-money lenses (addition) | ✅ built | [`business-evaluation.md`](business-evaluation.md) |
 
+## Deployable specialists (canonical, from System Brain v1.2)
+
+Beyond the cognitive primitives below, Mo's live system defines deployable
+specialist prompts that consume a Brain. Built here:
+
+| Specialist | Module | Skill | Spec |
+|------------|--------|-------|------|
+| Adversary (red-team) | C8 | `/momega-adversary` | [`adversary.md`](adversary.md) |
+| PMF Assessment | C9 | `/momega-pmf` | [`pmf-assessment.md`](pmf-assessment.md) |
+| Brain Query (cited Q&A) | C10 | `/momega-query` | [`brain-query.md`](brain-query.md) |
+| Deck OS | Z3 | `/momega-deck` | [`deck-os.md`](deck-os.md) |
+| Asymmetry Detector | C13 | (stub) | [`asymmetry-detector.md`](asymmetry-detector.md) |
+| Opportunities Brainstormer | C14 | (stub) | [`opportunities-brainstormer.md`](opportunities-brainstormer.md) |
+| Proposal Generator | — | (stub) | [`proposal-generator.md`](proposal-generator.md) |
+
+> ⚠️ The C8/C9/C10/C13/C14 numbers (System Brain v1.2) overlap the C1–C7 scheme
+> below (Build Spec v1). Different granularities — *specialists* vs *cognitive
+> primitives*. `[[ HITL: canonicalize into one scheme or an explicit two-layer
+> map ]]`. See [`momega-os.md`](momega-os.md) roster.
+
 ## Mo Zeros — RIGHT loop (8 pipelines)
 
 | ID | Pipeline | Purpose | Status | Spec |

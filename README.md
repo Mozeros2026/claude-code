@@ -70,6 +70,12 @@ status: [`frameworks/primitives.md`](frameworks/primitives.md). Live today:
   [`frameworks/deck-os.md`](frameworks/deck-os.md): pitch deck + reading deck from
   the Brain (11 beats, 11 principles, 15-trap Sharp Investor Filter, two-deck).
   This is the Compressor (C4) + deck Deliverable Generator (Z3).
+- **Adversary** (C8) — `/momega-adversary <id>` →
+  [`frameworks/adversary.md`](frameworks/adversary.md): red-team / kill-shots.
+- **PMF Assessment** (C9) — `/momega-pmf <id>` →
+  [`frameworks/pmf-assessment.md`](frameworks/pmf-assessment.md): strategy + PMF.
+- **Brain Query** (C10) — `/momega-query <id> <question>` →
+  [`frameworks/brain-query.md`](frameworks/brain-query.md): cited, read-only Q&A.
 
 Planned: C5–C7, Z4–Z8 (Cross-Bag Synergy, Sales-Maturity, Trust Sequencer, ICP,
 Outbound, Pipeline, Collateral). The cross-entity synergy layer ("the bag") lives
@@ -101,6 +107,7 @@ registry/registry.md     # master index (per node: Brain version + readiness)
 .claude/commands/
   momega-onboard.md  momega-brain.md  momega-evaluate.md
   momega-commas.md   momega-zeros.md  momega-deck.md
+  momega-adversary.md  momega-pmf.md  momega-query.md
 ```
 
 ## The learning loop (Persona Forge / Business Forge)

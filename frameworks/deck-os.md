@@ -1,4 +1,9 @@
-# Deck OS v2 — pitch-deck Factory
+# Deck OS v2 — pitch-deck Factory (Z3)
+
+> **Module Z3 (Mo Zeros).** v2 supersedes Deck OS v1 (which had 11 traps, no Core
+> Principles, no bookending); v1's **Brain-anchor field** is grafted in below — in
+> OUTLINE and SLIDE output, add `Brain anchor: [Brain §(s) this pulls from]` to
+> every beat/slide so each claim is traceable.
 
 > Lifted from THE FRAMEWORK v2. This is a **Factory** specialist: it consumes a
 > Brain Export Package from [`brain-builder.md`](brain-builder.md) and produces a
