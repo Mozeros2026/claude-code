@@ -29,10 +29,14 @@ maturity: L0
 > to be conflated with any similarly-named person (e.g. HITL's **Ben Hilmes** — a
 > different surname, different entity; **do not merge**). Any spelling variant goes
 > in `aka:` only, never replacing the canonical name.
-> `[[ HITL: confirm whether ClaimArc's Neil Hilton and any "Neil Hilton" surfacing
-> in a HealthCues leads list are the SAME person — do not assume; both Chris Coyne
-> (ClaimArc) and HealthCues overlap, so a shared contact is plausible but
-> unverified. ]]`
+> **HEALTHCUES SAME-PERSON CHECK — RESOLVED (as_of: 2026-06-24):** there is **no
+> person "Neil Hilton" in HealthCues.** The HealthCues "Hilton" is **Hilton the
+> hotel chain** — a generic ICP *example* in the legacy cold doc ("McDonald's /
+> Hilton / FedEx," HealthCues brain.md L29/L85, adversary.md L22/L35), not a human
+> and not a lead. The earlier cross-reference was a substring false alarm. Neil
+> Hilton exists **only** in ClaimArc (Brain §4). Confirmed **distinct from Ben
+> Hilmes** (different surname, different entity — no Neil/Neal naming drift). No
+> merge.
 
 ## L01 Essence
 - **Who he is:** `[[ HITL: insufficient signal — name + a single contextual
@@ -97,8 +101,9 @@ maturity: L0
 - ClaimArc Client Brain — `entities/Clients/claimarc/brain.md` (v1.1, 2026-06-24),
   §4 ("Trigger noted: hospitals selecting new EHR (e.g. Neil Hilton, July 1
   fiscal)").
-- **Cross-reference flagged, NOT confirmed:** a "Neil Hilton" reportedly in a
-  HealthCues leads list — same-person status unverified `[[ HITL ]]`.
+- **Cross-reference RESOLVED (2026-06-24):** the HealthCues "Hilton" is the **hotel
+  chain** (generic ICP example "McDonald's/Hilton/FedEx"), not a person. No
+  HealthCues human named Neil Hilton exists. (HealthCues brain.md/adversary.md.)
 
 ## § Evolution Log
 - v1.0 (2026-06-24) — initial L0 name-only stub.
@@ -111,7 +116,8 @@ maturity: L0
 1. **Title + employer** (which hospital/health system).
 2. **Role in the EHR-selection decision** — decision-maker, finance contact, or
    trigger-flagger?
-3. **Same person as the HealthCues "Neil Hilton"?** — confirm; do not assume.
+3. ~~Same person as the HealthCues "Neil Hilton"?~~ **RESOLVED 2026-06-24 — no such
+   HealthCues person; "Hilton" there = the hotel chain (ICP example).**
 4. **Relationship to Chris Coyne / ClaimArc pipeline** — source + warmth.
 5. **All psychology** — pending real signal.
 

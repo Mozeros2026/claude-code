@@ -6,11 +6,12 @@ L05 Crosswalk · L06 Application · L07 Longitudinal ·
 ---
 node_id: randy-foliente
 display_name: Randy Foliente
-aka: ["Randy Foliente", "R. Foliente"]
+aka: ["Randy Foliente", "R. Foliente", "The Technical Builder (Legion synthesis)"]
 entity: equilibrium-labs
-profile_version: v1.0
+profile_version: v1.1
 updated: 2026-06-24
-source_count: 3
+as_of: 2026-06-24
+source_count: 5
 somatic_fingerprint: "unknown — insufficient signal; no observed behavior under pressure [[ INFERENCE: 1 ]]"
 maturity: L1
 ---
@@ -25,11 +26,21 @@ maturity: L1
 > Fakki. That document is the one real behavioral trace. Facts cited; psychology
 > `[[ INFERENCE ]]`; wound left as insufficient signal, not guessed.
 >
-> **⚠️ IDENTITY — DO NOT MERGE.** A separate node, [`../../../../People/randy/`](../../../../People/randy/),
-> is the Deck OS pitch-narrative advisor ("burn the boats"). This node is the EQL DD
-> analyst. **Same first name; different specialty (deal diligence vs. pitch
-> narrative).** Whether they are the same person is **unconfirmed** — see § Unknowns.
-> Built as its own node per instruction.
+> **⚠️ IDENTITY — DO NOT MERGE. (Evidence now leans STRONGLY toward two different
+> people; as_of 2026-06-24.)** A separate node, [`../../../../People/randy/`](../../../../People/randy/),
+> is the Deck OS pitch-narrative advisor ("burn the boats") who works with Mo on
+> pitch decks. This node is **Randy Foliente**, embedded in the **Equilibrium Labs /
+> Liver** orbit: the vault confirms (a) he authored the *Strategic Due Diligence
+> Report: Equilibrium Labs Group* "Prepared For: Hooman Fakki, Prepared By: Randy
+> Foliente, December 2025" (vault docx), and (b) the vault **"Legion Personnel
+> Synthesis"** profiles him as a core EQL team member — *"Randy Foliente (The
+> Technical Builder)… ENTP… driven by ROI of effort… thrives [on] removing human
+> reliance through AI-embedded workflows."* That is a **technical/diligence operator
+> inside EQL**, a different person and orbit from Mo Mega's external **pitch-narrative**
+> advisor. They share only a first name. **Still not 100% provable they are
+> distinct** (no document explicitly says "these are two people"), but the role,
+> network, and behavioral evidence diverge — keep separate, treat as different
+> people unless a single source ties them. See § Unknowns.
 
 ## L01 Essence
 - **Role in the deal (cited):** **diligence analyst** — authored the **Liver Company
@@ -154,8 +165,10 @@ maturity: L1
 - [`../../brain.md`](../../brain.md) §2 — "DD report was prepared FOR Hooman by Randy Foliente, Dec 2025."
 - [`../../brain.md`](../../brain.md) §11 — "Liver Company DD Analysis (Dec 2025, by Randy Foliente for Hooman Fakki)."
 - [`../../brain.md`](../../brain.md) §0, §3, §4, §6, §10 — the DD's findings (Seanol moat, micro-entity flag, comp set, claims risk) are the spine of the brain's risk map.
-- [`../../../../People/randy/psyche-profile.md`](../../../../People/randy/psyche-profile.md) — separate Deck OS "Randy" node; possible-but-unconfirmed identity match (its §Unknowns ⭐, H3).
-- **No 1:1 transcript, email thread, voice-log, or enrichment record exists** beyond the authored DD.
+- [`../../../../People/randy/psyche-profile.md`](../../../../People/randy/psyche-profile.md) — separate Deck OS "Randy" node; **now assessed as a DIFFERENT person** (see header; evidence diverges on role/orbit).
+- **Vault (as_of 2026-06-24):** "Liver Company Due Diligence Analysis (December 2025).docx" — "Prepared For: Hooman Fakki / Prepared By: Randy Foliente." Confirms the authored DD.
+- **Vault (as_of 2026-06-24):** "THE LEGION PERSONNEL SYNTHESIS.docx" — profiles "Randy Foliente (The Technical Builder)… ENTP… DISC: DI… removes human reliance through AI-embedded workflows" as a core EQL/Liver team member. **The decisive new behavioral source** placing him firmly in the EQL orbit, not Mo's pitch-narrative orbit. (Psychology in that doc is a third-party "HUMINT" read — note its provenance before trusting the typing.)
+- **No 1:1 transcript, email thread, or voice-log with Foliente directly exists** beyond the authored DD + the Legion synthesis note.
 
 ## § Evolution Log
 - v1.0 (2026-06-24) — engine first build. THIN L1: one authored artifact yields a
@@ -170,10 +183,14 @@ insufficient signal. Confirming identity (the People/randy question) + one real
 conversation would jump it toward L2.
 
 ## § Unknowns `[[ HITL ]]`
-- ⭐ **[[ HITL: is randy-foliente the same person as People/randy? identity
-  unconfirmed — resolve before treating as one ]]** Same first name, both senior-
-  advisory roles in the same network, but a deal-diligence analyst and a pitch-
-  narrative advisor are different specialties. Do **not** merge until confirmed.
+- ⭐ **identity vs People/randy — LARGELY RESOLVED (as_of 2026-06-24): assessed as
+  DIFFERENT people.** Vault evidence puts Randy Foliente squarely in the EQL/Liver
+  orbit (authored Hooman's DD; "The Technical Builder" in the Legion synthesis),
+  whereas People/randy is Mo Mega's external pitch-narrative advisor ("burn the
+  boats"). Different role, network, and behavioral signature. Residual `[[ HITL ]]`:
+  no single source explicitly states "these are two distinct individuals," so keep
+  the nodes separate and flip to fully-confirmed only if a direct source ties or
+  splits them by full name.
 - His firm, full credentials, other engagements.
 - His relationship to Hooman Fakki (employee / contractor / advisor / friend?).
 - Whether he calibrates risk against upside or over-indexes on the negative.

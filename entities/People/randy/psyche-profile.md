@@ -7,9 +7,11 @@ L05 Crosswalk · L06 Application · L07 Longitudinal ·
 node_id: randy
 display_name: Randy
 aka: [Randy, "Randy (Deck OS calibrator)", "the narrative advisor"]
+not_to_be_confused_with: "randy-foliente (EQL DD analyst / 'The Technical Builder') — assessed as a DIFFERENT person as_of 2026-06-24"
 entity: mo-mega
-profile_version: v1.0
+profile_version: v1.1
 updated: 2026-06-24
+as_of: 2026-06-24
 source_count: 4
 somatic_fingerprint: warrior / decisive-reset — "burn the boats" suggests escalation-to-clarity rather than freeze/fawn — [[ INFERENCE: LOW-MED ]]
 maturity: L0
@@ -119,15 +121,19 @@ maturity: L0
 - **Weakness / bluff line:** `[[ HITL ]]` — no observed weakness. The *structural*
   caution (see L02 Shadow) is that a "burn the boats" reflex can over-trigger, but
   that is a hypothesis about his strength's failure mode, not an observed gap.
-- **Identity / mastery-vs-bluff line — UNCONFIRMED.** `[[ HITL ]]` His full name,
-  firm, and credentials are **blank** in his own Brain. There is a **separate named
-  individual in the repo — "Randy Foliente"** — who authored a Liver Company DD
-  Analysis for Hooman Fakki at Equilibrium Labs (Dec 2025).
-  ([`../../Clients/equilibrium-labs/brain.md`](../../Clients/equilibrium-labs/brain.md) §2, §11).
-  **Whether the Deck OS "Randy" and "Randy Foliente" are the same person is
-  UNCONFIRMED** — same first name, both senior-advisory/analytical roles in the same
-  network, but a DD analyst and a pitch-narrative advisor are different specialties.
-  **Do not assume identity.** This is the single most important open fact on the node.
+- **Identity — full name still UNKNOWN; vs "Randy Foliente" LARGELY RESOLVED as a
+  DIFFERENT person (as_of 2026-06-24).** `[[ HITL ]]` This Randy's full name, firm,
+  and credentials are still **blank** in his own Brain. On the prior open question —
+  is he the same as **Randy Foliente** (the EQL DD analyst)? — vault evidence now
+  separates them: Foliente authored Hooman Fakki's *Equilibrium Labs Strategic DD*
+  (Dec 2025) and is profiled in the vault "Legion Personnel Synthesis" as EQL's
+  **"Technical Builder"** (AI-workflow / technical operator inside the Liver team).
+  That is a different role and a different network from *this* node — Mo Mega's
+  external **pitch-narrative** advisor ("burn the boats"). They share only a first
+  name. **Assessed as two different people; keep separate.** Residual `[[ HITL ]]`:
+  no single source explicitly states they are distinct individuals, and this Randy's
+  own full name is unconfirmed — so confirm the surname before treating as fully
+  closed. (cf. [`../../Clients/equilibrium-labs/people/randy-foliente/psyche-profile.md`](../../Clients/equilibrium-labs/people/randy-foliente/psyche-profile.md))
 
 ## L05 Crosswalk
 - **Mo (mo-mega)** — Randy "works with Mo on deck narrative" and is named in the
@@ -197,7 +203,9 @@ maturity: L0
   principle; drove Deck OS v2; calibration peer of Jordan + AJ; works with Mo):
   MED, cited to the Randy Brain + Deck OS + Mo Mega Brain — but all *internal/abstracted*,
   none independently verified.
-- **Identity** (full name, firm, contact, the Foliente question): UNKNOWN — `[[ HITL ]]`.
+- **Identity** (full name, firm, contact): UNKNOWN — `[[ HITL ]]`. The Foliente
+  question is now LARGELY RESOLVED (assessed a different person, as_of 2026-06-24 —
+  see L04).
 - **All psychology** (wound, somatic, Enneagram, Big Five, SCARF, drivers): LOW /
   hypothesis — built on a single attributed principle, zero 1:1 corpus.
 - **Current state / availability:** unknown.
@@ -209,8 +217,9 @@ maturity: L0
 - [`../../Clients/mo-mega/brain.md`](../../Clients/mo-mega/brain.md) §2 — Randy in the
   power/calibration network; "works with Mo on deck narrative."
 - [`../../Clients/equilibrium-labs/brain.md`](../../Clients/equilibrium-labs/brain.md)
-  §2, §11 — "Randy Foliente" (DD analyst for Hooman Fakki, Dec 2025) — **possible**
-  identity match, unconfirmed.
+  §2, §11 + vault ("Liver Company DD Analysis" Dec 2025; "Legion Personnel Synthesis")
+  — "Randy Foliente," EQL DD analyst / "The Technical Builder." **Now assessed as a
+  DIFFERENT person** (as_of 2026-06-24), not an identity match.
 - **No 1:1 transcript, email thread, voice-log, or enrichment record on Randy exists.**
   Everything above is abstracted-feedback + single-principle inference.
 
@@ -229,9 +238,11 @@ conversations) — it holds the cast slot and routes future signal; it must **no
 trusted as a read. Confirming identity + one real conversation would jump it toward L2.
 
 ## § Unknowns `[[ HITL ]]`
-- ⭐ **Identity:** Randy's full name, firm, contact, and engagement terms — and
-  specifically **is he "Randy Foliente"** (Equilibrium Labs DD analyst)? This is the
-  highest-leverage open fact. (randy brain §1, §13 ⭐1; equilibrium-labs §2)
+- ⭐ **Identity:** Randy's full name, firm, contact, and engagement terms. The
+  sub-question "is he Randy Foliente?" is now LARGELY RESOLVED — **no, assessed a
+  different person** (as_of 2026-06-24; vault evidence puts Foliente in the EQL/Liver
+  orbit as "The Technical Builder," not Mo's pitch-narrative advisor). The remaining
+  gap is this Randy's own **surname/full name**, still blank. (randy brain §1, §13 ⭐1)
 - ⭐ **Engagement model:** when in the deck lifecycle does Randy review (pre-ship gate
   cadence, preferred format)? (randy brain §12, §13 ⭐2)
 - His somatic signature under *interpersonal* pressure (a client who resists the

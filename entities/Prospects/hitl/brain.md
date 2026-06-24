@@ -43,7 +43,10 @@ Park, KS** (Aspiria). Founded 2011. Private. **Stage:** mature, growing
   SVP Client Relationships (~$3B US portfolio); then SVP/Chief Integration Officer,
   Adventist Health; joined HITL President 2023 → CEO 2024. Univ. of Missouri.
 - Full behavioral/incentive profiles + how-to-engage: [`actor-dossier.md`](actor-dossier.md).
-- `[[ HITL: who is "Viv" (Viv HITL Cheat Sheet)? our point person / advisor here? ]]`
+- **"Viv" — RESOLVED (not a person):** "Viv"/Vivanté is an **AI deal-advisory
+  assistant** (a custom GPT) Will uses to prep HITL conversations; the "Viv HITL
+  Cheat Sheet" is its usage guide. Not human → no persona profile.
+  `[[ SOURCE: vault "Viv HITL Cheat Sheet" ]]`
 
 ## 3. PRODUCT & SERVICES
 Implementation (EHR/ERP), advisory, integration, **Continuous / Application
@@ -77,7 +80,7 @@ lead-list CSVs.
 ## 13. OPEN ITEMS — ADVISOR (HITL)
 ⭐ 1. What is our engagement / the deal thesis (acquire / advise / sell-into)?
 ⭐ 2. Financials: revenue, EBITDA, recurring-AMS %, ownership/cap structure.
-⭐ 3. Who is "Viv" + our access path to Bob/Ben.
+⭐ 3. Our access path to Bob/Ben. ("Viv" resolved — an AI tool, not a person.)
 
 ## 15. METADATA
 v0.5. New M&A/advisory target. Run `/momega-onboard hitl` to add eval/adversary/

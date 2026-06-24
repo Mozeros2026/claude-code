@@ -29,8 +29,14 @@ maturity: L2
 across Beats, Bose, Sony, Denon, Klipsch; 30+ career patents (Brain §2). The
 "EAR Micro Patents.pptx" / Short Pitch deck lists him as "Chief Innovation, Audio
 Engineer, 30+ patents" (Short Pitch KAITC 2026 team slide) — note the deck says
-"30 years," the Brain says "35 yrs" → `[[ CONTRADICTION: 30 vs 35 yrs experience
-— deck vs Brain; immaterial to the read, flag for cleanup ]]`.
+"30 years," the Brain says "35 yrs" → **RESOLVED (as_of: 2026-06-24):** the Short
+Pitch KAITC 2026 deck team slide reads verbatim "Bear Clark, Chief Innovation,
+Audio Engineer, 30+ patents, **30 years experience**" (vault, Ear Micro Short
+Pitch Deck KAITC 2026, "Key EAR Micro Team members"). The Brain's "35 yrs" is not
+echoed by the deck — the only sourced figure is **30 years**. Treat 30 as the
+cited number; the Brain's 35 is an unsourced drift to clean up. Immaterial to the
+read. (`[[ HITL: confirm 30 vs 35 directly with Bear if it ever becomes
+material — both decks audited say 30 ]]`.)
 
 **Core wound — HYPOTHESIS `[[ INFERENCE: 3 ]]`.** The defining behavior is a
 lifetime of inventing "solutions to problems the rest of the industry has yet to

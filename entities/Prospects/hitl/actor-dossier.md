@@ -23,8 +23,8 @@ Crosswalk: [`people/crosswalks/ben-hilmes__bob-bailey.md`](people/crosswalks/ben
   re-rate thesis** (his mandate). Pitching one without the other stalls. Their
   nervous systems complement (both people-first, non-escalating) — the risk is a
   buyer who splits them; keep them aligned on one culture-preserving story.
-- `[[ HITL: "Viv" appears to be our access point/advisor on HITL — confirm and
-  add to the cast (own profile if 1:1 depth exists). ]]`
+- **"Viv" is not a cast member** — resolved as Vivanté, an AI deal-advisory tool
+  Will uses to prep HITL conversations, not a human. Removed from the cast.
 
 ## Status
 Both profiles are **L2 maturity** — public + Mo's relationship memory; the wounds

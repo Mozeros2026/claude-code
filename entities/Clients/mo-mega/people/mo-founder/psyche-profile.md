@@ -134,6 +134,13 @@ person's own encoded doctrine.*
 - Mo Mega Client Brain — `entities/Clients/mo-mega/brain.md` (v0.5, 2026-06-24).
 - Repo operating instructions — `CLAUDE.md` (project) + `/root/.claude/CLAUDE.md`
   (global). Used ONLY for evidenced doctrine/voice, never for personal inference.
+- **Vault identity check (as_of: 2026-06-24):** account **mozeros2026@gmail.com**
+  (Google ouid 116100573312522874072) is the **owner of the Mo Mega vault** — owns
+  the master entity folders (HealthCues, ClaimArc, EAR Micro materials) and authored
+  the ClaimArc cold-call/email + HealthCues-leads docs. Confirms Mo = the operating
+  owner/principal of the vault and the outbound author. **No personal name, bio, or
+  history is exposed anywhere in the vault** — the account presents only as "Mo Zeros
+  2026." Personal depth stays `[[ FOUNDER ]]`; no inference drawn.
 
 ## § Evolution Log
 - v1.0 (2026-06-24) — initial honest L0 stub.

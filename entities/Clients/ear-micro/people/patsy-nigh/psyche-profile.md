@@ -8,7 +8,7 @@ L05 Crosswalk · L06 Application · L07 Longitudinal ·
 ---
 node_id: patsy-nigh
 display_name: Patsy Nigh
-aka: ["Patsy", "Managing Member"]
+aka: ["Patsy", "Managing Member", "COO (deck-facing title)"]
 entity: ear-micro
 profile_version: v1.0
 updated: 2026-06-24
@@ -29,9 +29,18 @@ maturity: L2
 Sprint operations; **signed the EGS litigation retainer (Nov 2, 2022)** and is the
 named client on the enforcement matter (Brain §2, §3 LITIGATION TRACK). The
 Short Pitch team slide lists "Patsy Nigh, COO, BA, 35 years experience in Product
-Development" → `[[ CONTRADICTION: deck says COO / 35 yrs / Product Development;
-Brain says Managing Member / 25 yrs / Sprint ops. Reconcile — likely role-title
-drift across decks; Brain is canonical ]]`.
+Development" → **RESOLVED (as_of: 2026-06-24):** the Short Pitch KAITC 2026 deck
+team slide reads verbatim "Patsy Nigh, **COO**, BA, **35 years experience in
+Product Development**" (vault). Brain §2 calls her **Managing Member / Co-Founder /
+IP holder — 25 yrs Sprint ops**. Not a true contradiction — two framings of one
+person: her **legal / cap-table title is Managing Member / Co-Founder / IP holder**
+(canonical — she signs the EGS retainer and holds the IP, Brain §2/§3); her
+**investor-facing operating title on the deck is COO**. The experience figures
+differ by frame ("35 yrs in Product Development" deck vs "~25 yrs Sprint ops"
+Brain) and may both be true (a longer product career that includes the Sprint
+stint). Canonical title = Managing Member / Co-Founder; COO = deck-facing operating
+label. (`[[ HITL: confirm whether "35 yrs Product Development" and "25 yrs Sprint
+ops" are the same career counted two ways ]]`.)
 
 **Core wound — HYPOTHESIS `[[ INFERENCE: 2 ]]`.** The behavior that defines Patsy
 is *custody* — holding the single most valuable, most fragile asset (the patents)
