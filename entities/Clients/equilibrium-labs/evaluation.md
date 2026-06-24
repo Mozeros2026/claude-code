@@ -1,10 +1,12 @@
 # EQUILIBRIUM LABS — Evaluation (Factory output)
 
 > **Investment Evaluation OS** output. Consumes the canonical
-> [`brain.md`](brain.md) (v1.0) per the Deliverable Sourcing Rule — every claim
+> [`brain.md`](brain.md) (v1.1) per the Deliverable Sourcing Rule — every claim
 > here traces to the Brain. Method:
 > [`frameworks/business-evaluation.md`](../../../frameworks/business-evaluation.md).
-> Date: 2026-06-24. Re-run after `/momega-brain update equilibrium-labs`.
+> Date: 2026-06-24. Refreshed for Brain v1.1 (DD Dec 2025, Shareholder Update Mar
+> 2026, Investment Preview 2026): hard 2025 financials ($3.42M), new $7.5M @ $50M
+> raise, Seanol moat, named partners, micro-entity flag.
 
 ## Scorecard (the 13 deck slots)
 
@@ -12,27 +14,27 @@
 |---|------|-------|------|
 | 1 | One-liner / purpose | ✅ | "Restore liver function — a proprietary supplement + a clinic platform, riding the liver-disease epidemic" (§1). Clear, two-product, well-framed. |
 | 2 | Problem | ✅ | Liver disease is a rapidly growing cause of death (British Liver Trust); prescription drugs $1,200+/mo (§4). Real, large, well-evidenced pain. |
-| 3 | Solution & 10x | 🟡 | de-liver-ance® (active Rizasalutem) + The Liver Clinic "clinic in a box" (§3). Differentiated and natural; but the "10x" rests on the **94.5M ABEL-RAC antioxidant** claim and the AI staging algorithm, neither yet substantiated for a buyer (§3, §10). |
-| 4 | Why now | 🟡 | Implied by the liver-disease epidemic + GLP-1 cost backdrop (§4). Present but not isolated as its own crisp "what changed today" slot. `[[ INFERENCE: 3 ]]` |
-| 5 | Market size | 🟡 | Large category established qualitatively (epidemic, $1,200+/mo Rx alternative) and via comps — Athletic Greens/Liquid I.V., Hims/Noom/Prenuvo (§4, §8). **No bottom-up TAM/SAM/SOM in the Brain.** |
-| 6 | Product | ✅/⚠️ | Both products exist and are live — supplement shipping, clinics 1→5→12→20 (§3, §6). **But** evidence is largely preclinical: n=51 mice (Mehta 2022) + a 3-geo blood-alcohol study (Rajalingam 2017); human RCT status open (§3, §10). |
-| 7 | Business model | ✅ | Two-sided: B2C supplement + B2B2C clinic (subscription + licensing); LTV ~$2,250; returns ¼ of industry (§4, §6). Strong stated unit economics; CAC not in Brain. |
-| 8 | Moat / why you win | 🟡 | Three asset classes: brand (de-liver-ance®/loveyourliver.com), licensable IP (Rizasalutem, owned), and the clinic data flywheel (§0). Real, but IP/patent vs trade-secret status unconfirmed and the flywheel is early (§3, §5). |
-| 9 | Go-to-market | 🟡 | Two-sided: consumer brand + clinic-in-box licensing + prestige partnerships (§4, §5). Plausible, but named partners/licensees/retail are blank in the Brain (§5). |
-| 10 | Traction | ✅ | 189% revenue CAGR; clinics 1→5→12→20; YTD 2025 US 98% / UK 181% growth; LTV ~$2,250 (§6). Genuine revenue + clinic footprint — rare at this stage. Absolute revenue $ not disclosed. |
-| 11 | Team | ✅ | Deep bench: Siggi Clavien (2 prior multi-$M exits), Mimi Somerman (ex-Pepsi), Chris Keeble (ex-EBANX/PayrNet CFO); clinical heavyweights — Morris-Stiff (Cleveland Clinic), Amati (Imperial/ZOE), Ajaz, Shah (Next Health) (§2). Strong founder-market fit. |
-| 12 | Financials | 🟡 | Forecast to ~$50M+ by 2027 (§6). Trajectory grounded in real CAGR, but **current cash, burn, and actual revenue $ are missing** (§6 FOUNDER tag); forecast realism flagged lowest-confidence (§0). |
-| 13 | The ask | ✅/⚠️ | $3M Pre-Series A, 20% bonus warrants (§6). Clear instrument and sweetener. **But** which entity raises (Roots to Healing vs The Liver Clinic) is the single highest-leverage open question (§0, §8, §13). |
+| 3 | Solution & 10x | 🟡→✅ | de-liver-ance® (17-ingredient Rizasalutem®) + The Liver Clinic "Verify+Fix" loop (§3). The "10x" now rests on **Seanol® (Ecklonia cava)** — patented marine extract with FDA NDI (2008) + EFSA Novel Food (2018) status and claimed EU/NA exclusivity (§3), a *real* IP moat that reframes the old "94.5M" claim as the "115x" ABEL-RAC metric. Still wants methodology disclosure. |
+| 4 | Why now | ✅ | Metabolic-disease epidemic + GLP-1 adjunct opportunity + liver-death rates 4x vs 1970 (§4). Investment Preview isolates it as a crisp inflection. |
+| 5 | Market size | 🟡 | MASLD ~25-30% of global adults; comps Athletic Greens/Liquid I.V., Hims/Noom/Prenuvo (§4, §8). **Still no bottom-up TAM/SAM/SOM in the Brain.** |
+| 6 | Product | ✅/⚠️ | Both products live; 500K+ bottles sold, 2,800+ scans (§6). **But** evidence still preclinical (n=51 mice; 3-geo BAC study) and EQL is only "entering formal clinical trials" (§3, §4, §10); human RCT not yet done. |
+| 7 | Business model | ✅ | Two-sided: B2C supplement + B2B2C clinic (subscription + licensing); 70-80% gross margin (§6). Adding software/programs layer in 2026 (§3). CAC still not in Brain. |
+| 8 | Moat / why you win | ✅ | Strengthened: **Seanol® exclusivity (EU/NA) + NDI/Novel Food status** is now the single most important IP asset (§3); plus brand, Rizasalutem® trademark, and the data flywheel (§0). Risk: single-source supply; contract terms/expiry unconfirmed (§10). |
+| 9 | Go-to-market | ✅ | Now **named** enterprise partners: Wynn Hotels, Sprouts, Next Health, Selfridges, Reborn Longevity, A4M, Lanserhof; 11 clinic partnerships in testing; 45 organic media mentions (§5). The prior "blank partners" gap is closed. |
+| 10 | Traction | ✅ | **$3.42M 2025 revenue, +89% YoY, ~155% 3-yr CAGR — with zero paid marketing/sales/PR** (§6). 4-yr history $209K→$700K→$1.81M→$3.42M; US ~25× in 2 yrs. Genuine, now quantified in dollars. |
+| 11 | Team | ✅ | Restructured Mar 2026: Siggi (CEO), Cassandra (CXO), **Hooman Fakki (President)**, **Will Ogorek (CRO)**, Michael Murphy (COO), Antonia Perez (Dir Partnerships); advisors Andy Clarke (ex-ASDA CEO), Mehta (UCL), Lee (Seanol inventor), Morris-Stiff (Cleveland Clinic) (§2). Strong founder-market fit. |
+| 12 | Financials | 🟡 | Now anchored on real $3.42M (§6). **But** new high-severity flag: UK entities file as **micro-entities** (turnover ≤£632K) — where is the $3.42M booked? (§6, §10). Cash/burn still missing; 2027 forecast still untestable until accounts surface. |
+| 13 | The ask | ✅/⚠️ | **$7.5M target at $50M pre-money; $40M (20% discount) for existing shareholders** (§6) — supersedes the old $3M Pre-A. Clear and sized for acceleration ("not proof-of-concept capital"). **But** the $50M pre-money vs micro-entity filings is the gate (§0, §10). |
 
 ## Lens scores
 
 | Lens | Score | Rationale |
 |------|-------|-----------|
-| **YC** ("make something people want") | **3.5/5** | Real revenue, 189% CAGR, live clinics, strong founder-market fit (§2, §6). Loses points on evidence base (preclinical) and an unsubstantiated headline claim, not on traction. |
-| **First-principles** (do the numbers close?) | **3/5** | Stated unit economics close (LTV ~$2,250, returns ¼ industry) (§6). But the core "why it works" — the 94.5M antioxidant figure and clinical efficacy — rests on mice + small geo studies, and current cash/burn is unknown, so the path-to-$50M can't be checked (§3, §6, §10). |
-| **Smart-money** (will it return?) | **3.5/5 conditional** | A genuinely de-risked, revenue-generating health franchise with owned IP and a credible restructure — but gated by regulatory substantiation, the restructure status, and financial transparency (§6, §8, §10). |
+| **YC** ("make something people want") | **4/5** | $3.42M revenue with *zero paid marketing*, 500K+ bottles, +89% YoY, named blue-chip partners (§5, §6). Strong organic pull. Loses points only on the preclinical evidence base. |
+| **First-principles** (do the numbers close?) | **3/5** | Real revenue + 70-80% margin now anchor the model (§6), and Seanol's NDI/exclusivity gives a defensible "why it works" (§3). But the **micro-entity discrepancy** means the $3.42M location is unverified, cash/burn is unknown, and the $50M pre-money can't be checked against filings (§6, §10). |
+| **Smart-money** (will it return?) | **3.5/5 conditional** | A revenue-generating health franchise with a *real* IP moat (Seanol exclusivity) and named partners — but now gated by regulatory claims, financial transparency (micro-entity vs $50M), and clinical-trial readout rather than restructure status (§3, §6, §10). |
 
-**Overall: 3.4/5 — TRACK → lean-in (conditional on the gates below).**
+**Overall: 3.5/5 — TRACK → lean-in (conditional on the gates below).**
 Unlike a pre-revenue concept, Equilibrium Labs brings real revenue (189% CAGR),
 live clinics, owned IP, and a top-tier clinical/operator bench (§2, §6) — this is
 a scale-up, not a bet on a slide. The thesis-alignment is also unusually strong:
