@@ -47,7 +47,12 @@ Will Ogorek involved. `[[ FOUNDER: founders, roles, capital partners ]]`
 ## 4. CUSTOMERS & MARKET
 Hospitals + health systems (Medicare/Medicaid/commercial mix). Pain: 60-day claim
 payment cycles strangle cash flow. Trigger noted: hospitals selecting new EHR
-(e.g. Neil Hilton, July 1 fiscal). `[[ FOUNDER: TAM, named pipeline, win rate ]]`
+(e.g. Neil Hilton, July 1 fiscal).
+**NAMED PROSPECT:** **Mission Community Hospital** — first named hospital target
+(source: "Mission community hospital.docx", vault). The doc is essentially a
+placeholder holding only the hospital name; status/contact/stage of the prospect
+not specified. `[[ FOUNDER: confirm Mission Community Hospital contact + stage in
+pipeline; TAM, full named pipeline, win rate ]]`
 
 ## 6. FINANCIAL TRUTH
 `[[ FOUNDER: per-claim fee economics; cost of advance capital; loss rate;
@@ -69,4 +74,8 @@ Cold-call + cold-email scripts (vault); two-product pitch deck (Deck OS memory).
 ⭐ 3. Stage + what Mo's engagement is (deck/GTM vs raise) + named pipeline.
 
 ## 15. METADATA
-v1.0. `/momega-brain update claimarc Clients` once the deck + financial model land.
+v1.1 (2026-06-24). v1.0→v1.1: added named prospect **Mission Community Hospital**
+(§4) from "Mission community hospital.docx" (vault); confirmed no other un-folded
+ClaimArc vault docs. No change to capital/pricing/Xtract/team — those remain the
+open core. `/momega-brain update claimarc Clients` once the deck + financial model
+land.
