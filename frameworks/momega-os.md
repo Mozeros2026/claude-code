@@ -55,11 +55,39 @@ When this OS is adopted, re-run the Brain Builder against everything already in
 | Investors/nevin | v0.1 | stub; identity + thesis HITL |
 | Investors/jordan | v0.1 | stub; identity + thesis HITL |
 
+## The LIFT FILTER (apply to every imported file)
+
+We are lifting **skills and logic into agents** — not porting the old build OS.
+The original Projects assumed an infrastructure we are not building. When folding
+in any imported MD / custom instruction, run it through this filter:
+
+**KEEP — the thinking** (this is the whole point):
+- Methodology, structure, fixed section layouts, rubrics, checklists
+- Tag systems, asset-class frameworks, question discipline, caps
+- Evaluation lenses, asymmetry detection, charitable-reading / reframe discipline
+- The Library/Factory pattern and the per-deliverable Export Requests
+
+**STRIP — the build-OS scaffolding** (do NOT integrate):
+- Named infra we thought we'd need: **n8n, OpenClaw, Zapier, Make, Airtable**,
+  webhooks, queues, external DBs, automation routers
+- Deployment assumptions: "load as system prompt in a Project", "sub-session",
+  JSON-export-for-automation framing, agent-orchestration plumbing
+- Anything describing *plumbing* rather than *thinking*
+
+**TRANSLATE — re-point to our runtime** (Claude Code agents + skills + git):
+- `@brain build|update|ask|export` → `/momega-onboard`, `/momega-brain …`
+- "Project" / "specialist Project" → a skill (`.claude/commands/`) or subagent
+- "Export Package for n8n routing" → Export Package consumed by a Factory skill
+- system-prompt deployment → a Momega skill or agent definition
+
+If a file is purely build-OS (no transferable logic), log it as *not imported*
+and say why — don't silently drop it.
+
 ## IMPORT QUEUE — original-project material to fold in
 
 Earlier Momega work (MD files + custom instructions in the original Projects)
-predates this repo and isn't here yet. To finish integrating the OS, paste or
-drop these so they become first-class:
+predates this repo and isn't here yet. Bring them over; each is run through the
+**Lift Filter** above. To finish integrating the OS, paste or drop these:
 
 - [ ] **Other Factory prompts** — Deck OS, Outreach OS, Call Prep, ICP, PMF,
       Adversary/Red-Team (and any others). Each becomes `frameworks/<name>.md` +
