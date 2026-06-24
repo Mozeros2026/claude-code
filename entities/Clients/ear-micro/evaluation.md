@@ -1,7 +1,7 @@
 # EAR Micro — Evaluation (Factory output)
 
 > **Investment Evaluation OS** output. Consumes the canonical
-> [`brain.md`](brain.md) (v1.0) per the Deliverable Sourcing Rule — every claim
+> [`brain.md`](brain.md) (v1.1) per the Deliverable Sourcing Rule — every claim
 > here traces to the Brain. Method:
 > [`frameworks/business-evaluation.md`](../../../frameworks/business-evaluation.md).
 > Date: 2026-06-24. Re-run after `/momega-brain update ear-micro Clients`.
@@ -17,7 +17,7 @@
 | 5 | Market size | ✅ | Bottom-up by adjacent attack: $15B PSA/OTC-hearing (T10 Bionic), $4B IEM (T10 Live), $82B defense/mission-comms. Licensing into 4 categories, not "1% of a big number" (§4). |
 | 6 | Product | ✅ | It ships. T10 Bespoke (Klipsch co-brand), Loewe Leo × Jacob & Co ($2K–$135K), CES + MWC 2026 awards, 0.67% return rate vs ~17% industry (§3, §6). Real, in-market, award-validated. |
 | 7 | Business model | ✅ | The "one-two punch": D2C POC seeds demand (20% rev / 50% margin); license to incumbents who can't risk infringement (80% rev / 80% margin) — "their brand, our IP." Clean, high-margin, capital-light (§4). |
-| 8 | Moat / why you win | ✅ | The thesis. 12 (deck) / 14 (Patents deck) granted utility patents across US+EU+DE/FR/UK; concealment family covers the whole "hide it in any wearable" surface; enforceable, with counsel retained and a funder engaged (§0, §3). The moat is the asset. |
+| 8 | Moat / why you win | ✅ | The thesis. **14** granted utility patents across US+EU+DE/FR/UK (count canonicalized in Brain v1.1; "12" was a stale slide title only), foundational claims to **~2035 / family to ~2044**; concealment family covers the whole "hide it in any wearable" surface; enforceable, with counsel retained and a funder engaged (§0, §3). The moat is the asset, and now with a stated runway. |
 | 9 | Go-to-market | ✅ | POC-as-proof → license to incumbents; signed/contemplated licensees (Breggz 5% perpetual, Loewe, Klipsch, StageEARS × UE Pro MOU). Retail credibility (Harrods, Dr. Head) (§4, §5). |
 | 10 | Traction | ✅ | $4.1M cumulative revenue + $2.12M NRE/licensing collected (Breggz + Loewe), built for <$8M — extreme capital efficiency. Shipping, low returns (§0, §6). Rare at seed. |
 | 11 | Team | ✅ | Deep founder-market fit: Bear Clark (35 yrs audio, 30+ patents), Patsy Nigh (IP holder, 25 yrs Sprint ops), Troy Calderwood (RF/SW, sold X-Com to Bird RF). Advisors: Dan Hesse, Susan Paley (Beats #1), John Ferrie (Anthropic GC), Ken Pilot (§2). **SPOF: Patsy holds the IP and is the named litigation client.** |
@@ -65,11 +65,13 @@ mispriced; a term sheet that *ignores* the lawsuit leaves the upside free.
    given Apple is simultaneously a named infringement target. A licensor you are
    suing controlling your accessory rights is a live tension. [[ HITL: confirm
    Bragi terms + MFi scope ]]
-2. **Patent count + portfolio integrity.** The deck says **12** granted; the
-   Patents deck says **14** (§0, §3) — a contradiction that surfaces in the first
-   diligence pass. Confirm the true count, the foundational-family expiration
-   horizon (not in Brain), and pull the privileged claim charts / damages
-   analysis (§11). The moat *is* the thesis; its exact perimeter must be exact.
+2. **Patent count + portfolio integrity — largely cleared (v1.1).** Count is
+   canonically **14** (US 11,368,775 B1 is the 14th); the "12" was a stale slide
+   title inside Platform Pitch 5.14.26, not a real disagreement (§0, §3). Expiry
+   horizon now stated: **~2035 foundational / ~2044 family** (§3). Residual gate:
+   scrub the stale "12" from that one deck, confirm the 2035/2044 dates against
+   filing records, and pull the privileged claim charts / damages analysis (§11).
+   The moat is no longer ambiguous; finish the hygiene.
 3. **Litigation / enforcement clock.** GLS Capital funding status + EGS
    arbitration timeline is the Brain's single highest-leverage open question
    (§0, §13 ⭐1). This doesn't gate the base case, but it sizes the optionality
@@ -94,7 +96,12 @@ mispriced; a term sheet that *ignores* the lawsuit leaves the upside free.
 
 ## Re-evaluate when
 
-Patent count is canonicalized (12 vs 14) · Bragi OS + MFi terms confirmed · GLS
-funding status + arbitration timeline land · FDA 510(k) timeline confirms or
-slips · StageEARS × UE Pro Definitive Agreement is signed (§5) · current
-cash/runway and revenue-by-year detail are added to the Brain (§6).
+~~Patent count is canonicalized (12 vs 14)~~ DONE in v1.1 (→14; expiry ~2035/~2044)
+· Bragi OS + MFi terms confirmed (MFi tension now confirmed live — deck says the
+litigation pause protects MFi, §3) · GLS funding status + arbitration timeline land
+· FDA 510(k) timeline confirms or slips · StageEARS × UE Pro Definitive Agreement
+is signed (§5) · current cash/runway and revenue-by-year detail added to the Brain
+(§6). **Note: overall 4/5 LEAN-IN and the three lens scores are UNCHANGED in v1.1**
+— the new facts (14 patents, expiry runway, quantified Apple damages, explicit MFi
+pause) sharpen the moat and the litigation framing but don't cross a 4→5 threshold;
+the gating items (Bragi/MFi, FDA, cash) remain open.

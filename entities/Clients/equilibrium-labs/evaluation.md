@@ -48,42 +48,46 @@ substantiation files and restructure close.
 
 ## The gates (must clear before any term sheet)
 
-1. **Restructure status — which entity is raising.** The two-entity split
-   (Roots to Healing CPG LLC + The Liver Clinic healthcare-services co) is a
-   Locked Decision (§8) and the Brain's single highest-leverage open question
-   (§0, §13 ⭐1). It drives valuation (CPG 2–4x rev / 8–15x EBITDA vs clinic
-   12–14x rev / 18–24x EBITDA) **and** the regulatory isolation thesis. Confirm
-   it is executed and identify the raising entity before pricing anything.
-2. **Health-claims substantiation (FDA/FTC).** Liver "restore" and blood-alcohol
-   metabolism claims draw FDA/FTC scrutiny; the two-entity split is the
-   mitigation, the substantiation files are the asset (§10 RISK, high). Verify
-   the split contains the exposure to the CPG entity and that substantiation
-   files exist and hold.
-3. **The 94.5M antioxidant claim.** 94.5M ABEL-RAC units vs rosemary 819k (§3) is
-   an eye-popping number sophisticated buyers will discount unless the ABEL-RAC
-   methodology + peer validation are airtight (§10 ASYMMETRY). Demand the basis
-   for the figure before it appears in any diligence pack.
-4. **Clinical evidence depth.** Current proof is preclinical: n=51 mice (Mehta
-   2022) + a 3-geo blood-alcohol study (Rajalingam 2017) (§3). Establish human
-   RCT status (§10 HITL, §13 ⭐2) — the gap between "clinically recommended" and
-   "preclinically supported" is a diligence trap.
-5. **Financial transparency.** Current cash, burn, and actual revenue $ are
-   absent (§6 FOUNDER); forecast realism is lowest-confidence (§0). Pull the
-   financial model + the Dec 2025 DD doc (§11) and re-underwrite the $50M+/2027
-   forecast against real numbers before committing.
+1. **Financial transparency — micro-entity vs $50M pre-money.** UK entities (EQL
+   Group Ltd, The Liver Clinic Ltd) file as **micro-entities** (turnover ≤£632K),
+   yet 2025 revenue is reported at $3.42M and the round is priced at $50M pre-money
+   (§6, §10). This is now the single highest-leverage gate (§0): pull the
+   management accounts and confirm where the $3.42M is recognized, plus cash/burn,
+   before pricing anything.
+2. **Health-claims substantiation (FDA/FTC).** Specific quantified claims —
+   "reduces peak BAC by 50%," "blood toxins -42%," fatty-liver REVERSAL
+   testimonials — are read as unapproved-drug claims; Choline's EFSA claim is the
+   only compliant shield (§10 RISK, high). Verify a claims architecture +
+   substantiation files exist and that the CPG/clinic split (if executed) isolates
+   the liability.
+3. **Clinical evidence depth.** Proof is preclinical (n=51 mice; 3-geo BAC study)
+   and EQL is only "entering formal clinical trials" (§3, §4). Establish whether
+   the UCL/Mehta study is an RCT or an observational pilot (§13 ⭐2) — the premium
+   and platform narrative rest on it.
+4. **Seanol exclusivity terms.** The moat is Seanol® EU/NA exclusivity + NDI/Novel
+   Food status (§3) — but single-source marine-algae supply and unconfirmed
+   contract terms/expiry are the risk (§10, §13 ⭐3). Confirm formats covered and
+   expiry before underwriting the moat.
+5. **Restructure / entity clarity.** The two-CPG split (Roots to Healing + The
+   Liver Clinic; CPG 2–4x rev vs clinic 12–14x rev) is Locked (§8), but the live
+   structure is still 3 UK entities and the Mar 2026 raise appears to be at the
+   group/platform level (§8). Confirm which entity investors buy into.
 
 ## What's strong (don't lose sight of)
 
-- Real, growing revenue — 189% CAGR, clinics 1→5→12→20, US 98% / UK 181% YTD
-  growth (§6). A scale-up, not a concept.
-- Owned, licensable IP (Rizasalutem) and a defensible data flywheel (§0, §3).
-- A top-tier clinical + operator + finance bench with prior exits (§2).
-- A deliberate restructure that, if executed, optimizes valuation *and* isolates
-  the regulatory risk into the CPG entity (§8).
+- Real, quantified revenue — **$3.42M (2025), +89% YoY, ~155% 3-yr CAGR, with
+  zero paid marketing/sales/PR** (§6). A scale-up, not a concept.
+- A *real* IP moat — **Seanol® EU/NA exclusivity + FDA NDI / EFSA Novel Food
+  status** — not just a trademark (§3).
+- Named blue-chip partners (Wynn, Next Health, Lanserhof, Selfridges, A4M) + 45
+  organic media mentions and 11 clinic partnerships in testing (§5).
+- A strengthened, named C-suite — including our own Will (CRO) and Hooman
+  (President) (§2).
 - Strong network/thesis alignment — EQL is the loveyourliver.com hub (§0 header).
 
 ## Re-evaluate when
 
-Restructure closes and the raising entity is named · substantiation files for
-the antioxidant + health claims are produced · human RCT status is established ·
-the financial model + Dec 2025 DD doc surface current cash, burn, and revenue $.
+Management accounts reconcile the $3.42M / $50M pre-money against the micro-entity
+filings · claims substantiation (BAC/fatty-liver) is produced · UCL/Mehta RCT-vs-
+pilot status is established · Seanol contract terms surface · the entity investors
+buy into is named.
