@@ -10,6 +10,10 @@ when it has three things:
 3. **registry row** — a single line in [`registry/registry.md`](registry/registry.md)
    so the node is discoverable from the index.
 
+For a company, "provisioned" also means it has been **evaluated** through an
+investor lens and that we've **presented back what's still missing** — the
+questions the brain needs answered before a real decision.
+
 ## Layout
 
 ```
@@ -18,13 +22,21 @@ entities/
     <id>/
       profile.md          # structured facts
       brain.md            # running memory + intel + next actions
+      evaluation.md       # scorecard vs the investor lenses
+      missing-questions.md# the "present back what's missing" gap report
       materials/          # attachments (decks, plans, contracts)
         README.md
+  Investors/
+    <id>/profile.md       # investor + their thesis (what they look for)
+frameworks/
+  business-evaluation.md  # deck order + YC/first-principles/smart-money lenses
+  brain-ator.md           # entity creation + gap detection method
 registry/
   registry.md             # master index, one row per node
 .claude/
   commands/
-    momega-onboard.md     # /momega-onboard <id> — provision a node
+    momega-onboard.md     # /momega-onboard <id> — scrape, build, evaluate, gap
+    momega-evaluate.md    # /momega-evaluate <id> — re-score after new material
 ```
 
 ## Onboarding a node
@@ -33,6 +45,16 @@ registry/
 /momega-onboard <id>
 ```
 
-This files the node as a prospect (or other type), generates `profile.md` and
-`brain.md` from whatever intel has been gathered, adds the registry row, and
-links any materials. See [`.claude/commands/momega-onboard.md`](.claude/commands/momega-onboard.md).
+Scrapes the early-phase conversation, builds `profile.md` + `brain.md`, scores
+the business in `evaluation.md`, and produces the `missing-questions.md` gap
+report — then adds the registry row. Re-run scoring later with
+`/momega-evaluate <id>` once the deck/public data is in.
+
+## The thinking behind evaluation
+
+We evaluate companies the way smart money does — Y Combinator, first-principles
+operators, and our own investor panel (Nevin, Hooman, Jordan) — in a deliberate
+pitch-deck order. The frameworks are living documents: every business we run
+through them should make them smarter (Persona Forge / Business Forge). See
+[`frameworks/business-evaluation.md`](frameworks/business-evaluation.md) and
+[`frameworks/brain-ator.md`](frameworks/brain-ator.md).

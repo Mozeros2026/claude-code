@@ -20,6 +20,14 @@ is **Shad Groverland**; **Tracy Beanz** is a secondary contact.
 - Feedback owed to Shad on the Business Plan + Investor Deck.
 - Gate: Hooman is only looped in *after* feedback lands.
 
+## Evaluation & gaps
+
+- Provisional scorecard: [`evaluation.md`](evaluation.md) — not yet scorable
+  until the deck is read.
+- The feedback Shad is waiting on = [`missing-questions.md`](missing-questions.md)
+  (generated via the [brain-ator](../../../frameworks/brain-ator.md) against the
+  investor lens). That file *is* the deliverable for the feedback request.
+
 ## Next actions
 
 - [ ] Obtain the two PDF binaries and drop them in `materials/` (see gap below).
