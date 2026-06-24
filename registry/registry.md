@@ -44,3 +44,17 @@ import to promote past v0.x.
 > Equilibrium Labs (Will's org), the EAR Micro deck variants, and deeper folders.
 > New people surfaced: Chris Coyne (ClaimArc + HealthCues), the EAR Micro team
 > (Patsy Nigh, Bear Clark, Troy Calderwood) + advisors — captured in node §2.
+
+## Persona Forge coverage (2026-06-24)
+
+**Every human we talk about or to is mapped.** 48 `psyche-profile.md` files exist —
+7 standalone People/Investor nodes + 39 deal counterparties under
+`entities/<entity>/people/<slug>/` + the 2 HITL principals. Maturity is honest to
+signal: **10 at L2** (real wound reads where the corpus supports it — Siggi, Bear,
+Patsy, Troy, Dan Hesse, Susan Paley, John Ferrie, Shad, Ben, Bob), **21 at L1**,
+**17 at L0** (honest stubs that hold the slot + inventory `[[ HITL ]]` gaps; no
+confabulated wounds). The audit enforces this every session; deepen any profile
+with `/momega-persona-sync <slug> --signal <path>` as transcripts/emails arrive.
+Open identity flags: `randy-foliente` vs `People/randy` (same person?), `viv-unknown`
+(HITL access point), `mo-founder` (the founder — personal depth is a `[[ FOUNDER ]]`
+gap), `neil-hilton` (ClaimArc vs HealthCues same person?).
