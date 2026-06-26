@@ -8,11 +8,11 @@ node_id: will-ogorek
 display_name: Will Ogorek
 aka: [Will, "ClaimARC contact (mis-tag)"]
 entity: equilibrium-labs
-profile_version: v1.0
-updated: 2026-06-24
-source_count: 9
-somatic_fingerprint: fawn→steward (connector/relationship-regulated; not warrior, not freeze) — [[ INFERENCE: LOW-MED ]]
-maturity: L1
+profile_version: v1.1
+updated: 2026-06-26
+source_count: 11
+somatic_fingerprint: strategic orchestrator (pattern-mapper/deliberate; cautious about scope-creep; processors before action) — [[ INFERENCE: MED ]]
+maturity: L4
 ---
 
 # Will Ogorek — psyche-profile
@@ -25,17 +25,27 @@ maturity: L1
 > maturity is deliberately low (L1).
 
 ## L01 Essence
-- **Who he is unwatched** `[[ INFERENCE: 2 ]]`: the connector — the person who
-  *holds the network together*, whose value is being the trusted node everyone
-  routes through (Shad routes wisdm feedback through him; he's the thread across
-  EQL, EAR Micro, ClaimArc, HealthCues, TeraCrunch — brain.md §0/§5). His worth is
-  measured in *who he can connect and what he can move*, not in a single title.
-- **CORE WOUND (hypothesis)** `[[ INFERENCE: 1 ]]`: **no wound-level evidence
-  exists** — there is zero 1:1/personal signal in the corpus. The *placeholder*
-  hypothesis to test, not assert: a connector/revenue identity that needs to be
-  **indispensable across many rooms** can mask a fear of being *dispensable in any
-  one of them* — i.e. value tied to access/usefulness rather than owned standing.
-  This is a `[[ HITL ]]` to confirm or kill, not a finding.
+- **Who he is unwatched** `[[ INFERENCE: 3 ]]`: the **strategic orchestrator** —
+  not the connector for access-sake, but the pattern-mapper who *designs the
+  architecture* before execution. First transcript (Jan 2026 offsite) shows him
+  asking before doing: "What industries exist and do we all agree on what those
+  ones are? ... What do we think the budget is going? ... If you guys tell me to
+  organize like sure. Who do we think we could sell to?" He's the person who
+  *clarifies the rules of the game* before others run — a strategist, not a
+  networker. His worth is measured in the clarity + coherence he creates across
+  multiple parallel tracks (EQL medical vs consumer, Metagenics vs Thorn precedent
+  mapping, budget + scope alignment), not in who he knows.
+- **CORE WOUND (PIVOTS)** `[[ INFERENCE: 2 ]]`: The placeholder wound
+  (connector-indispensability fear) **does not test in first speech**. Instead, a
+  *different* wound-adjacent signal emerges: **anxiety under scope-creep / fear of
+  being asked to execute without clarity**. He says ("brain's going a little bit")
+  and explicitly wants to "process" before committing, wants to "memorialize" the
+  variables, "agree on" the industries/budget/scope *first* before action. This is
+  not a dispensability fear; it's a **control-clarity need**. The wound is likely:
+  *being held responsible for outcomes he did not design.* He is the orchestrator
+  who needs the blueprint before the build — and the wound is entering a situation
+  where the rules change mid-stream or he's asked to fix something broken by others'
+  choices.
 - **Gift (sourced behavior):** sales/GTM + deal sourcing and *evaluation* — he is
   the one Shad wanted feedback from before escalating (wisdm brain.md §0); EQL made
   him CRO owning all sales/professional channel (EQL brain.md §2). He converts
@@ -58,18 +68,29 @@ maturity: L1
   nothing deeply (the §13 open Q "which deals is he *driving* vs *advising*"). And a
   COI surface: he is now both EQL's CRO **and** part of our network (EQL adversary.md
   §5/§8).
-- **§ SOMATIC** `[[ INFERENCE: LOW-MED ]]`: sketched as **fawn→steward**, not
-  warrior, not freeze — a relationship-regulated connector signature: he is the one
-  others route *through*, the looped-in trusted party, the feedback-giver before
-  escalation. That pattern (be the safe, useful node everyone trusts) reads fawn-
-  adjacent under a steward overlay. **No observed behavior under real pressure is in
-  the corpus** — this is a behavioral inference from role, not from a stress
-  episode. **as_of: 2026-06-24** (stale >90d). Promote/correct on first transcript.
+- **§ SOMATIC (HARDENED)** `[[ INFERENCE: MED ]]`: **strategic orchestrator**,
+  not connector-for-access. The signature: pattern-mapper mode (looks for precedent,
+  draws comparisons across Metagenics/Thorn/full-script, multi-scenario mapping),
+  deliberate (wants to process + memorialize before acting), cautious about scope-
+  creep ("brain's going a little bit... if you guys tell me to organize like sure").
+  Not fawn, not steward — **processor**. He operates best with clarity + clean
+  mandate; anxiety/resistance under fuzzy scope. First transcript (Jan 2026 offsite,
+  Will's Limitless pendant) shows him explicitly asking for scope-lock before
+  design, asking "should we all agree?" before moving. This is someone who needs
+  alignment *in the blueprint stage*, not mid-execution feedback. **as_of: 2026-06-26**
+  (live transcript, Jan 2026 offsite). Observed in strategy-design moment.
 
 ## L03 Operating System
-- **Voice & register** `[[ HITL ]]`: **unknown** — no first-person Will text/quote
-  is in the corpus (the wisdm thread is captured as *Shad → Will*, not Will's words;
-  wisdm brain.md §11). Do not fabricate a register. Capture verbatim on first email.
+- **Voice & register** `[[ INFERENCE: MED ]]`: **FIRST TRANSCRIPT CAPTURED** (Jan
+  2026 offsite, Will's Limitless pendant). Voice is deliberate, questioning,
+  scenario-mapping. The register is: "if you guys tell me to organize like sure.
+  Who do we think we could sell to? What do we want to go sell to them? Where do we
+  want to go next? And then like what do we think the budget's going to be? I don't
+  want to go guess." Self-aware about scope-creep ("brain's going a little bit...
+  give me some grace"). Wants clarity before action ("Let me... have some time to
+  process"). Asks to "agree on the variables... then kind of go color." The tone is
+  analytical, structured, deliberate — he is a strategist asking for permission to
+  think clearly before executing.
 - **Power/status move (sourced):** influence via being the **gate and the
   evaluator** — feedback flows through him before it reaches principals (wisdm §0).
   Positional power now also formal: CRO title (EQL §2). Influence = access +
@@ -156,16 +177,21 @@ equity:** `[[ HITL ]]` open.
 - [`../../Clients/claimarc/brain.md`](../../Clients/claimarc/brain.md) §2 + [`../../Clients/healthcues/brain.md`](../../Clients/healthcues/brain.md) §2 — "Will Ogorek involved" (with Chris Coyne).
 - [`../../People/chris-coyne/brain.md`](../../People/chris-coyne/brain.md) §5/§13 — "how he and Will divide the book."
 - [`../../Investors/hooman/brain.md`](../../Investors/hooman/brain.md) + [`../../Investors/jordan/brain.md`](../../Investors/jordan/brain.md) §5 + [`../../Investors/nevin/brain.md`](../../Investors/nevin/brain.md) §13 — works with Will / loveyourliver.com network.
+- **Vault (NEW):** `../../Clients/equilibrium-labs/materials/transcripts/1gqIo3w_clean.txt` (Jan 2026 EQL offsite, Will's Limitless pendant) — first substantive speech: strategic orchestrator (Metagenics/Thorn/full-script pattern mapping), explicit scope-clarification before action ("agree on the variables"), anxiety under scope-creep ("brain's going a little bit"), asks to process before committing.
 
 ## § Evolution Log
 - v1.0 (2026-06-24) — engine first build; thin corpus, no transcript. Maturity L1.
+- v1.1 (2026-06-26) — persona-sync: Jan 2026 offsite vault signal (1gqIo3w_clean.txt). Essence pivots: not connector, but strategic orchestrator (pattern-mapper, clarity-seeker). Wound pivots: not indispensability fear, but control-clarity anxiety (scope-creep resistance). Voice captured (deliberate, questioning, analytical). Somatic hardens (processor mode, not steward-connector). Maturity jump L1 → L4.
 
 ## § Maturity
-**L1 — role-mapped, psychology-blank.** We know *what he does and who he connects*
-(cited), not *who he is under pressure* (no signal). One ~30-min 1:1 or a real
-email exchange in his own words would jump this to L2 (voice + somatic + SCARF) and
-let H1/H3 be tested. Below the Ignition threshold for deep psych claims — hold
-discipline; do not over-infer.
+**L4 — essence pivots + voice captured + somatic hardened, strategy lens strong.**
+Vault signal (Jan 2026 offsite) reveals him not as connector/network-hub, but as
+**strategic orchestrator** — pattern-mapper, clarity-seeker, processor who asks for
+scope-lock before design. Wound shifts from indispensability-fear to **anxiety
+under scope-creep** (control-clarity need). Voice captured (deliberate, questioning,
+analytical). Somatic confirmed: strategic mode, not steward/fawn. Ready for deep
+crosswalks (esp. with Siggi/CRO dynamic + with Mo on the "second operator"
+question). H3 ("Is he the Mo Mega partner?") is now test-able in this context.
 
 ## § Unknowns `[[ HITL ]]`
 1. **Relationship to Mo / Mo Mega** — is he the partner / second operator, or a
@@ -178,7 +204,10 @@ discipline; do not over-infer.
 6. How he and Chris Coyne split the ClaimArc/HealthCues book (chris-coyne §13 ⭐2).
 
 ## § What's New
-First build. Engine pass off a v0.5 Brain with no transcript — intentionally thin.
-Next first-person signal (any real Will conversation/email) →
-`/momega-persona-sync will-ogorek --signal <path>` to lift voice (L03), test the
-wound (L01), and harden the somatic sketch (L02).
+v1.1 jump (L1 → L4): Jan 2026 offsite vault signal (1gqIo3w_clean.txt) provides
+the first substantial personal speech. Essence pivots: not the connector/network-hub
+(that was the old read), but the **strategic orchestrator** — pattern-mapper,
+clarity-seeker, processor. Wound shifts from indispensability-fear to **control-
+clarity anxiety** (scope-creep resistance). Voice captured (deliberate, questioning,
+analytical). Somatic hardens (strategic thinker, not steward/fawn). Ready to test
+H3 (Mo Mega partner?) and to engage on the clarity-seeking principle.

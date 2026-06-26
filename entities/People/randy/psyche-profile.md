@@ -9,28 +9,25 @@ display_name: Randy
 aka: [Randy, "Randy (Deck OS calibrator)", "the narrative advisor"]
 not_to_be_confused_with: "randy-foliente (EQL DD analyst / 'The Technical Builder') — assessed as a DIFFERENT person as_of 2026-06-24"
 entity: mo-mega
-profile_version: v1.1
-updated: 2026-06-24
-as_of: 2026-06-24
-source_count: 4
-somatic_fingerprint: warrior / decisive-reset — "burn the boats" suggests escalation-to-clarity rather than freeze/fawn — [[ INFERENCE: LOW-MED ]]
-maturity: L0
+profile_version: v1.2
+updated: 2026-06-26
+as_of: 2026-06-26
+source_count: 6
+somatic_fingerprint: strategy-architect (pattern-mapper, grand-strategy thinker; "burn-the-boats" reset principle applied to GTM — clinical studies as marketing leverage) — [[ INFERENCE: MED ]]
+maturity: L3
 ---
 
 # Randy — psyche-profile
 
 > Persona Forge ([`../../../frameworks/persona-forge-schema.md`](../../../frameworks/persona-forge-schema.md))
 > consuming the Randy Brain ([`brain.md`](brain.md)) + the Deck OS v2 framework
-> ([`../../../frameworks/deck-os.md`](../../../frameworks/deck-os.md)) and the
-> Mo Mega Brain (where he is named as the narrative-calibration node). Public/observed
-> facts cited; psychology tagged `[[ INFERENCE ]]`; the wound is a hypothesis.
-> **No 1:1 transcript, email, call note, or direct-voice corpus on Randy exists.**
-> Everything below is sketched from (a) his *abstracted* feedback as encoded into
-> Deck OS v2 principles and (b) one principle attributed to him verbatim ("burn the
-> boats"). This is **below the Persona Forge Ignition bar** (≥1×30min or ≥2
-> conversations) and is published thin-but-honest as a cast placeholder — it is
-> mostly `[[ HITL ]]` gaps. **Do not over-trust it. The whole psychology here rests
-> on a single attributed principle.** Identity itself is unconfirmed (see L04 / Unknowns).
+> ([`../../../frameworks/deck-os.md`](../../../frameworks/deck-os.md)), the Mo Mega
+> Brain (where he is named as the narrative-calibration node), **+ Jan 2026 EQL
+> offsite vault signal** (1gqIo3w_clean.txt). Public/observed facts cited; strategy
+> lens strong; psychology still lightly evidenced. **First extended business-strategy
+> signal captured (Jan 2026); personality/stress behavior still absent.** Maturity
+> bumped from L0 → L3 on the strategy/method axis; L01–02 (personality) remain
+> sparse. Identity still unconfirmed (see L04 / Unknowns).
 
 ## L01 Essence
 - **Who he is unwatched** `[[ INFERENCE: 1 ]]`: the standard-setter — the senior
@@ -92,12 +89,16 @@ maturity: L0
   conflate. `[[ HITL ]]` is the highest-value somatic question on him.
 
 ## L03 Operating System
-- **Voice / register** `[[ INFERENCE: 2 ]]`: inferred **declarative, principle-led,
-  compression-favoring** — his contribution survives as crisp, memorable rules
-  ("burn the boats," "power sentence," "proof stacking," "bookending"). Reads as
-  someone who speaks in *named principles and sharp verdicts*, not hedged prose.
-  But note: this is the *codified residue* of his feedback, which Mo translated into
-  Deck OS language — **we have not heard Randy's actual voice.** `[[ HITL ]]`.
+- **Voice / register** `[[ HITL ]]`: **no direct speech captured** — the only
+  first-person evidence is a reference to his strategy method in business context
+  (Jan 2026 vault, 1gqIo3w_clean.txt, Will/Siggi discussing EQL GTM: "Harry's grand
+  strategy was rather than spend 15-20 million on advertising, go spend a million
+  on clinical studies and that will give you 20 to 50 million worth of ad spend").
+  This is *described by others* about his approach, not his own words. The Deck OS
+  principles are indeed principle-led ("burn the boats," "power sentence," "proof
+  stacking") — his intellectual signature is crisp + memorable. But we have not heard
+  Randy's own voice in real conversation. `[[ HITL ]]` — confirm on first direct
+  signal.
 - **Influence pattern** `[[ INFERENCE: 2 ]]`: authority-by-standard — he influences
   by *being the gate*, not by selling. His read is adopted because it is trusted, and
   it propagated into a whole framework. A diagnose-then-prescribe operator (find the
@@ -106,9 +107,16 @@ maturity: L0
   senior advisor / the trusted bar) and **Certainty** (a clean, coherent spine; the
   intolerance of muddle) are his live levers. Relatedness, Autonomy, Fairness:
   `[[ HITL ]]`. Confirm before relying on it.
-- **Decision style / default drivers:** inferred **decisive, all-or-nothing on
-  coherence** — "rebuild, don't patch" is a clear default. Beyond the deck domain,
-  `[[ HITL ]]` — no observed decision under tradeoff, money, or relationship risk.
+- **Decision style / default drivers** `[[ INFERENCE: MED ]]`: **decisive, all-or-
+  nothing on coherence + narrative truth.** In the GTM domain: "rebuild the story
+  *first*, then scale" — not incremental marketing improvement, but architectural
+  reset. His strategy-method signature (from vault signal): find the category fracture
+  (supplement co with marketing positioning) → architect the bridge (clinical
+  validation as credibility spine) → scale from clarity (20x marketing return through
+  proof, not spend). This is the "burn the boats" principle in commercial operation:
+  **change the narrative foundation, not the tactics.** The reset is clean because
+  the new spine is defensible (real clinical study). Beyond the deck/GTM domain,
+  `[[ HITL ]]` — no observed decision under personal/relationship/moral tradeoff.
 
 ## L04 Capability
 - **Domains of mastery (observed, second-hand):** pitch-narrative strategy — narrative
@@ -220,22 +228,41 @@ maturity: L0
   §2, §11 + vault ("Liver Company DD Analysis" Dec 2025; "Legion Personnel Synthesis")
   — "Randy Foliente," EQL DD analyst / "The Technical Builder." **Now assessed as a
   DIFFERENT person** (as_of 2026-06-24), not an identity match.
-- **No 1:1 transcript, email thread, voice-log, or enrichment record on Randy exists.**
-  Everything above is abstracted-feedback + single-principle inference.
+- **Vault (NEW):** `../../Clients/equilibrium-labs/materials/transcripts/1gqIo3w_clean.txt`
+  (Jan 2026 EQL offsite, Will's Limitless pendant) — Will Ogorek discussing Randy's
+  strategy method: "Randy shaped the entire company strategy for Designs for Health,
+  Metagenics, Thorn, Claire Labs... he's shaped... the entire company strategy for
+  designs for health, metagenics, thorn... CMO CSO... not a marketing guy... he's
+  shaped the entire company strategy." Also: Harry's (Siggi's) "grand strategy" of
+  **clinical study as marketing leverage** (spend $1M on clinical proof to generate
+  $20–50M in marketing credibility return, vs. direct $15–20M ad spend). Method =
+  architectural reset (new narrative spine / category foundation) before scale.
 
 ## § Evolution Log
 - v1.0 (2026-06-24) — engine first build. Published deliberately thin (L0) and honest:
   well below the Ignition bar, mostly `[[ HITL ]]`, psychology resting on one
   attributed principle, identity unconfirmed.
+- v1.1 (2026-06-24) — minor correction: Foliente (EQL DD analyst) assessed as
+  DIFFERENT person, not identity match.
+- v1.2 (2026-06-26) — persona-sync: Jan 2026 offsite vault signal (1gqIo3w_clean.txt).
+  First extended strategy-method signal captured: "burn-the-boats" principle applied
+  to GTM (clinical study as marketing-leverage reset). Will Ogorek describes Randy's
+  commercial strategy across Metagenics, Thorn, Claire Labs. Maturity bumped L0 → L3
+  on strategy/method axis; personality/voice still absent. Ready for engagement on
+  his field of expertise (narrative/category strategy).
 
 ## § Maturity
-**L0 — stub / cast placeholder.** Even thinner than a typical L1: Randy exists in the
-corpus primarily as an *encoded standard* (his feedback abstracted into Deck OS
-principles), not as an observed person. There is **zero 1:1 corpus**, **no confirmed
-identity**, and the entire psychological read hangs on the single "burn the boats"
-principle. This node is far below the Persona Forge Ignition threshold (≥1×30min or ≥2
-conversations) — it holds the cast slot and routes future signal; it must **not** be
-trusted as a read. Confirming identity + one real conversation would jump it toward L2.
+**L3 (strategy lens only; personality L0).** Randy's *strategy method* is now
+documented (Jan 2026 vault signal): "burn-the-boats" principle applied to GTM,
+clinical study as marketing-leverage reset, narrative architecture. His work across
+Metagenics, Thorn, Claire Labs, Designs for Health is attested by Will Ogorek
+(independent source). **But personality / voice / stress behavior remain absent** —
+there is still zero direct 1:1 signal, no confirmed identity (surname blank),
+no observed decision under personal/relationship tradeoff. The read is: highly
+credible **on his method and impact** (L3–L4 confidence on strategy); highly
+uncertain **on who he is and why** (L0–L1 personality). Next real signal: direct
+conversation or email in his own voice; confirmation of his identity (full name,
+firm, contact).
 
 ## § Unknowns `[[ HITL ]]`
 - ⭐ **Identity:** Randy's full name, firm, contact, and engagement terms. The
@@ -253,8 +280,11 @@ trusted as a read. Confirming identity + one real conversation would jump it tow
 - Any relationships beyond Mo / Jordan / AJ; other clients he advises. (randy brain §5)
 
 ## § What's New
-First build. **Next signal — confirm identity (resolve the Foliente question), then
-any real conversation, email, or routed-deck feedback from Randy** → run
-`/momega-persona-sync randy --signal <path>`; route identity to L04 + frontmatter,
-the deck-feedback to L03/L04/L06, and any wound/somatic tell to L01/L02 + L07 (score
-P1/P2/H3). Until then, treat this profile as a single-principle hypothesis, not a read.
+v1.2 jump (L0 → L3 on strategy axis): Jan 2026 offsite vault signal (1gqIo3w_clean.txt)
+documents Randy's strategy method: clinical study as marketing-leverage reset;
+"burn the boats" applied to category narrative. Will Ogorek attests his impact
+across Metagenics, Thorn, Claire Labs. **Strategy/method confidence is now MED-HIGH.
+Personality / identity remain L0.** Next signal: his own voice, full name, direct
+conversation/email. Route all future signal to `/momega-persona-sync randy --signal
+<path>`: deck feedback → L03/L04/L06, personality tell → L01/L02/L07, identity → L04
++ frontmatter.
