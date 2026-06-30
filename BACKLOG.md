@@ -37,10 +37,13 @@ existing "enforced-by-visibility, not a daemon" boundary (`momega-os.md` §137).
 
 ### 🔜 NEXT (this keystone, not yet shipped)
 - **Live Drive-aware detection.** Today the watcher sees local files + whatever
-  `vault-manifest.md` records. A richer pass would query the Drive MCP directly to
-  catch materials that landed in the vault but were never logged to the manifest.
-  Costs a connector call per run → gate behind an explicit `--vault` flag or a
-  cadence, not the per-session hook.
+  `vault-manifest.md` records. A richer pass queries the Drive MCP directly to catch
+  materials that landed in the vault but were never logged to the manifest.
+  **Boundary reality:** the watcher is pure bash and *cannot* call the Drive MCP —
+  so live Drive reconciliation is a **model/session step**, not a hook step. It was
+  run 2026-06-30 (`modifiedTime > 2026-06-24` → empty; manifest current). The clean
+  future form is a tiny `/momega-vault-sync` skill that runs the Drive query, updates
+  the manifest, and lets the bash watcher pick it up — on a cadence, not per-session.
 - **Content-hash / true staleness.** mtimes are unreliable in this clone-fresh
   environment, so v1 uses the README Status column. A durable freshness marker
   (hash of ingested materials stored in the Brain's §Source Log, compared to

@@ -28,6 +28,14 @@ material or excluded as noise (per the Lift Filter).
   Mo (2026-06-24): a **separate entity, no longer being built. Archived — do not
   fold in.** Excluded from the OS.
 
+## Reconciliation check (2026-06-30)
+Live Drive query for anything modified since the last sweep
+(`modifiedTime > 2026-06-24`) → **empty**. No new vault material has landed; the
+roster + this manifest are current, and the Brain-builder watcher's manifest-based
+view (`tools/brain-watch.sh`) needs no reconciliation. (Live Drive scanning is a
+model-driven step — the bash watcher can't call the Drive MCP — so this check is run
+from a session, not the hook; see `BACKLOG.md`.)
+
 ## Whole-vault completeness pass (2026-06-24)
 Swept the entire Drive (all folders, all-files, persona/skill/company keyword
 searches). **Conclusion: the current-entity roster is complete** — no new active
