@@ -126,6 +126,17 @@ the top of every session, so open gaps are in front of you before any new work.
 The standard intake (`/momega-onboard`) remains the front door for every new
 entity — the hook catches anything that skipped it.
 
+The same hook runs the **Brain-builder watcher** (`tools/brain-watch.sh
+--gaps-only`) — THE KEYSTONE. The audit checks Brain *presence*; the watcher
+checks Brain *readiness vs materials*: it flags nodes that have **materials
+waiting but no fresh Brain** (🟢 ready-to-build) or a **Brain stale vs new
+materials** (🟡), writing the durable queue to
+[`../registry/brain-queue.md`](../registry/brain-queue.md). Critically the watcher
+**surfaces + queues, it never builds** — the Brain build stays manual, deliberate,
+Opus-only, human-invoked (the §137 boundary, below). It is the Brain analogue of
+`persona-sync-queue.md`. Backlog for its richer (Drive-aware, signal-scored) form:
+[`../BACKLOG.md`](../BACKLOG.md).
+
 ### 3. Define done (the bar each entity must clear)
 
 | Entity type | Definition of Done |

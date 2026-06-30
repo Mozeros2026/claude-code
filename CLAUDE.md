@@ -87,8 +87,13 @@ flywheel). **Definition of Done for a deal-stage company = Brain ≥v1 + evaluat
   mo-commas/, mo-zeros/, lenses, falsifiers, schemas, momega-os).
 - `registry/` — `registry.md` (entity index), `artifact-library.md` (module
   index), `coverage.md` (live audit), `persona-roster.md` (every human + profile +
-  staleness — auto-generated), `vault-manifest.md` (Drive scrape record).
-- `bag/` — cross-entity synergy graph. `tools/momega-audit.sh` — the audit.
+  staleness — auto-generated), `persona-sync-queue.md` (pending persona deepenings),
+  `brain-queue.md` (nodes with materials waiting on a Brain build — auto-generated),
+  `vault-manifest.md` (Drive scrape record).
+- `bag/` — cross-entity synergy graph. `tools/momega-audit.sh` — the audit;
+  `tools/brain-watch.sh` — the Brain-builder watcher (THE KEYSTONE: surfaces
+  build-ready nodes, never builds); `tools/persona-validate.sh` — the persona schema gate.
+- `BACKLOG.md` — greenlit-but-unshipped OS work; "in backlog" ≠ "live".
 
 ## Working norms
 - Operator-to-operator tone; no AI-voice, no flattery.

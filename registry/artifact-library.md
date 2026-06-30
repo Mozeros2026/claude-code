@@ -59,7 +59,7 @@ version inflation resets to v1 Candidate.
 | # | Module | Status |
 |---|--------|--------|
 | X1 | Orchestrator Router | **Deferred / obviated** — routing lives in the skills + `momega-os.md`; resurrect only at 8+ live specialists *and* documented dispatch friction. |
-| X2 | Monitoring / Self-Audit | planned (cost/drift) |
+| X2 | Monitoring / Self-Audit | **partial** — first piece shipped: `tools/brain-watch.sh` (Brain-builder watcher, THE KEYSTONE; SessionStart hook + `registry/brain-queue.md`). Cost/drift tracking still planned. See [`../BACKLOG.md`](../BACKLOG.md). |
 | X3 | Approval Gate | the human checkpoint (`/momega-zeros`, `/momega-proposal`, `/momega-deck`) |
 
 > **Added beyond Mo's roster:** Investment Evaluation (`/momega-evaluate`,
