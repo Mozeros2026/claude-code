@@ -58,9 +58,11 @@ and `frameworks/momega-os.md` (the operating model).
 - **Mo Commas (judgment):** `/momega-commas` · `/momega-asymmetry` (C12) ·
   `/momega-opportunities` (C13) · `/momega-evaluate` (investment score) ·
   `/momega-adversary` (C8 red-team) · `/momega-pmf` (C9 strategy) ·
-  `/momega-query` (C10 cited Q&A).
+  `/momega-query` (C10 cited Q&A) · `/momega-synergy` (C6 cross-bag) ·
+  `/momega-sequence` (C11 trust-building plan).
 - **Mo Zeros (execution):** `/momega-zeros` · `/momega-deck` (Deck OS v2, Z3) ·
-  `/momega-proposal` (C14, client-facing → checkpoint).
+  `/momega-proposal` (C14, client-facing → checkpoint) ·
+  `/momega-deliverable` (Z4 trunk Factory) · `/momega-prep` (Z7 meeting brief).
 - **Persona Forge (map people like we map businesses):** `/momega-persona`
   (engine — build a person's 7-layer `psyche-profile.md`) · `/momega-persona-sync`
   (surgical loop — evolve it from one signal, ~10× cheaper). Schema:
