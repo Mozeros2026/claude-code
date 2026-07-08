@@ -24,7 +24,7 @@ version inflation resets to v1 Candidate.
 
 | # | Module | Status | Spec / skill |
 |---|--------|--------|--------------|
-| C1 | Master Client Brain Builder *(the Library; `[[ INFERENCE ]]` on the C1 label)* | v1 Candidate | [`../frameworks/brain-builder.md`](../frameworks/brain-builder.md) · `/momega-onboard` |
+| C1 | Master Client Brain Builder *(the Library; `[[ INFERENCE ]]` on the C1 label)* | v1 Candidate | [`../frameworks/brain-builder.md`](../frameworks/brain-builder.md) · `/momega-onboard` · `/momega-brain` (build\|update\|ask\|export) |
 | C2 | Shape Listener | v1 Candidate | [`../frameworks/mo-commas/c2-shape-listener.md`](../frameworks/mo-commas/c2-shape-listener.md) · `/momega-commas` |
 | C3 | Pain Hypothesizer | v1 Candidate | [`../frameworks/mo-commas/c3-pain-hypothesizer.md`](../frameworks/mo-commas/c3-pain-hypothesizer.md) |
 | C4 | Adjacent Market Mapper | v1 Candidate | [`../frameworks/mo-commas/c4-adjacent-market-mapper.md`](../frameworks/mo-commas/c4-adjacent-market-mapper.md) |
@@ -59,7 +59,7 @@ version inflation resets to v1 Candidate.
 | # | Module | Status |
 |---|--------|--------|
 | X1 | Orchestrator Router | **Deferred / obviated** — routing lives in the skills + `momega-os.md`; resurrect only at 8+ live specialists *and* documented dispatch friction. |
-| X2 | Monitoring / Self-Audit | **partial** — first piece shipped: `tools/brain-watch.sh` (Brain-builder watcher, THE KEYSTONE; SessionStart hook + `registry/brain-queue.md`). Cost/drift tracking still planned. See [`../BACKLOG.md`](../BACKLOG.md). |
+| X2 | Monitoring / Self-Audit | **partial** — shipped: `tools/momega-audit.sh` (`/momega-audit`, coverage + roster), `tools/persona-validate.sh` (schema gate), `tools/brain-watch.sh` (Brain-builder watcher, THE KEYSTONE; SessionStart hook + `registry/brain-queue.md`). Cost/drift tracking still planned. See [`../BACKLOG.md`](../BACKLOG.md). |
 | X3 | Approval Gate | the human checkpoint (`/momega-zeros`, `/momega-proposal`, `/momega-deck`) |
 
 > **Added beyond Mo's roster:** Investment Evaluation (`/momega-evaluate`,
