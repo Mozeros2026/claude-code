@@ -6,6 +6,10 @@
           {
             "type": "command",
             "command": "bash tools/momega-audit.sh --gaps-only 2>/dev/null || true"
+          },
+          {
+            "type": "command",
+            "command": "bash tools/brain-watch.sh --gaps-only 2>/dev/null || true"
           }
         ]
       }

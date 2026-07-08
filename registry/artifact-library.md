@@ -24,20 +24,21 @@ version inflation resets to v1 Candidate.
 
 | # | Module | Status | Spec / skill |
 |---|--------|--------|--------------|
-| C1 | Master Client Brain Builder *(the Library; `[[ INFERENCE ]]` on the C1 label)* | v1 Candidate | [`../frameworks/brain-builder.md`](../frameworks/brain-builder.md) · `/momega-onboard` |
+| C1 | Master Client Brain Builder *(the Library; `[[ INFERENCE ]]` on the C1 label)* | v1 Candidate | [`../frameworks/brain-builder.md`](../frameworks/brain-builder.md) · `/momega-onboard` · `/momega-brain` (build\|update\|ask\|export) |
 | C2 | Shape Listener | v1 Candidate | [`../frameworks/mo-commas/c2-shape-listener.md`](../frameworks/mo-commas/c2-shape-listener.md) · `/momega-commas` |
 | C3 | Pain Hypothesizer | v1 Candidate | [`../frameworks/mo-commas/c3-pain-hypothesizer.md`](../frameworks/mo-commas/c3-pain-hypothesizer.md) |
 | C4 | Adjacent Market Mapper | v1 Candidate | [`../frameworks/mo-commas/c4-adjacent-market-mapper.md`](../frameworks/mo-commas/c4-adjacent-market-mapper.md) |
 | C5 | Compressor (→ Deck OS) | v1 Candidate | [`../frameworks/deck-os.md`](../frameworks/deck-os.md) |
-| C6 | Cross-Bag Synergy Detector | planned | [`../bag/`](../bag/) |
+| C6 | Cross-Bag Synergy Detector | v1 Candidate | [`../frameworks/mo-commas/c6-cross-bag-synergy.md`](../frameworks/mo-commas/c6-cross-bag-synergy.md) · `/momega-synergy` · wired to [`../bag/synergy-graph.md`](../bag/synergy-graph.md) |
 | C7 | Sales-Maturity Diagnoser *(merged into PMF, per Decision Log Q10)* | merged | [`../frameworks/pmf-assessment.md`](../frameworks/pmf-assessment.md) |
-| C8 | Adversary | v1 Candidate | [`../frameworks/adversary.md`](../frameworks/adversary.md) · `/momega-adversary` |
-| C9 | PMF Assessment | v1 Candidate | [`../frameworks/pmf-assessment.md`](../frameworks/pmf-assessment.md) · `/momega-pmf` |
+| C8 | Adversary | **Tested** (run-verified 3 verticals; awaiting Mo % score) | [`../frameworks/adversary.md`](../frameworks/adversary.md) · `/momega-adversary` · [test-log](test-log.md) |
+| C9 | PMF Assessment | **Tested** (run-verified 3 verticals; awaiting Mo % score) | [`../frameworks/pmf-assessment.md`](../frameworks/pmf-assessment.md) · `/momega-pmf` · [test-log](test-log.md) |
 | C10 | Brain Query | v1 Candidate | [`../frameworks/brain-query.md`](../frameworks/brain-query.md) · `/momega-query` |
-| C11 | Trust-Building Sequencer | planned | — |
+| C11 | Trust-Building Sequencer | v1 Candidate | [`../frameworks/mo-commas/c11-trust-sequencer.md`](../frameworks/mo-commas/c11-trust-sequencer.md) · `/momega-sequence` (internal plan; send is integration-gated on Z5/Z6) |
 | C12 | Asymmetry Detector | v1 Candidate | [`../frameworks/asymmetry-detector.md`](../frameworks/asymmetry-detector.md) · `/momega-asymmetry` |
 | C13 | Opportunities Brainstormer | v1 Candidate | [`../frameworks/opportunities-brainstormer.md`](../frameworks/opportunities-brainstormer.md) · `/momega-opportunities` |
 | C14 | Proposal Generator *(client-facing)* | v1 Candidate | [`../frameworks/proposal-generator.md`](../frameworks/proposal-generator.md) · `/momega-proposal` |
+| — | **Persona Forge** *(horizontal — maps people like the Brain maps businesses; 7-layer `psyche-profile.md`; "the wound beneath the behavior"; THE SOMATIC LENS; surgical loop)* | v1 Candidate | schema [`../frameworks/persona-forge-schema.md`](../frameworks/persona-forge-schema.md) · overview [`../frameworks/persona-forge.md`](../frameworks/persona-forge.md) · engine `/momega-persona` · loop `/momega-persona-sync` |
 
 **Mo Zeros (RIGHT / execution)**
 
@@ -46,10 +47,10 @@ version inflation resets to v1 Candidate.
 | Z1 | Follow-Up Drafter | v1 Candidate | [`../frameworks/mo-zeros/z1-follow-up-drafter.md`](../frameworks/mo-zeros/z1-follow-up-drafter.md) · `/momega-zeros` |
 | Z2 | Internal Strategy Memo | v1 Candidate | [`../frameworks/mo-zeros/z2-strategy-memo.md`](../frameworks/mo-zeros/z2-strategy-memo.md) |
 | Z3 | Deck OS | v1 Candidate | [`../frameworks/deck-os.md`](../frameworks/deck-os.md) · `/momega-deck` |
-| Z4 | Deliverable Generator | planned | — |
+| Z4 | Deliverable Generator | v1 Candidate | [`../frameworks/mo-zeros/z4-deliverable-generator.md`](../frameworks/mo-zeros/z4-deliverable-generator.md) · `/momega-deliverable` (trunk Factory; routes to specialized Factories) |
 | Z5 | ICP List Builder | planned (needs enrichment integration) | — |
 | Z6 | Outbound Sequencer | planned (needs delivery integration) | — |
-| Z7 | Meeting Prep | planned | — |
+| Z7 | Meeting Prep | v1 Candidate | [`../frameworks/mo-zeros/z7-meeting-prep.md`](../frameworks/mo-zeros/z7-meeting-prep.md) · `/momega-prep` |
 | Z8 | Pipeline State Keeper | planned | — |
 | Z9 | Collateral Patcher | planned | — |
 
@@ -58,18 +59,24 @@ version inflation resets to v1 Candidate.
 | # | Module | Status |
 |---|--------|--------|
 | X1 | Orchestrator Router | **Deferred / obviated** — routing lives in the skills + `momega-os.md`; resurrect only at 8+ live specialists *and* documented dispatch friction. |
-| X2 | Monitoring / Self-Audit | planned (cost/drift) |
+| X2 | Monitoring / Self-Audit | **partial** — shipped: `tools/momega-audit.sh` (`/momega-audit`, coverage + roster), `tools/persona-validate.sh` (schema gate), `tools/brain-watch.sh` (Brain-builder watcher, THE KEYSTONE; SessionStart hook + `registry/brain-queue.md`). Cost/drift tracking still planned. See [`../BACKLOG.md`](../BACKLOG.md). |
 | X3 | Approval Gate | the human checkpoint (`/momega-zeros`, `/momega-proposal`, `/momega-deck`) |
 
 > **Added beyond Mo's roster:** Investment Evaluation (`/momega-evaluate`,
-> [`../frameworks/business-evaluation.md`](../frameworks/business-evaluation.md)).
+> [`../frameworks/business-evaluation.md`](../frameworks/business-evaluation.md)) —
+> **Tested** (run-verified across 3 verticals; the one WEAK output, `wisdm/evaluation.md`,
+> was fixed to Brain v1.1; awaiting Mo % score). See [`test-log.md`](test-log.md).
 
 ## Testing protocol
 Promote v1 Candidate → Tested: run on **3 real client packages** from different
 industries; Mo scores % rewrite; pass = all 3 under **<50%** (Commas) / **<30%**
 (Zeros/deliverables); document results + date. Tested → Production: in real daily
 use. *A prompt chat-iterated 5× but never tested on real data is still v1
-Candidate.* **Nothing here is Tested yet** — all v1 Candidate.
+Candidate.* **First verification pass run 2026-06-30** ([`test-log.md`](test-log.md)):
+C8 Adversary, C9 PMF, and Investment Evaluation are **run-verified across 3
+verticals (11 PASS / 1 WEAK-fixed / 0 FAIL)** — promoted to **Tested**, pending Mo's
+% rewrite score for Production. Everything else remains v1 Candidate (not yet
+exercised on 3 real inputs).
 
 ## Meta artifacts (governance — import status)
 - **Master Build Spec v3** — ⛔ have v1 only ([`../frameworks/vision.md`](../frameworks/vision.md) lifted from it); request v3.

@@ -1,8 +1,9 @@
 # CLIENT BRAIN — ClaimArc
 
-**Version:** 2026-06-24 (v1.0) · **Builder:** Master Client Brain Builder
+**Version:** 2026-06-24 (v1.1) · **Builder:** Master Client Brain Builder
 v2.1-momega · **Built from:** "ClaimArc Cold Call & Cold Email" (vault) + Deck OS
-memory. Promoted from v0.3 on real materials.
+memory. Promoted from v0.3 on real materials. v1.1 folds in "Mission community
+hospital.docx" (vault).
 
 ## 0. BRAIN CONFIDENCE MAP
 **PRIMARY ASSET CLASSES:** operating cash flows + a **data/underwriting** edge
@@ -18,8 +19,13 @@ ClaimArc eats it. (3) Sales-led by **Chris Coyne**; Will involved.
 **SINGLE HIGHEST-LEVERAGE OPEN QUESTION:** where does the advance capital come
 from, and what's the loss/underwriting model? (this is a receivables-financing
 business — the cost of capital *is* the business).
-**DELTA:** v0.3→v1.0. **EXPORT READINESS:** Outreach — Ready (cold scripts exist);
-Deck — partial; rest INCOMPLETE.
+**DELTA:** v1.0→v1.1 — added first named hospital prospect, **Mission Community
+Hospital** (source: "Mission community hospital.docx", vault — a near-empty target
+doc holding only the hospital name; no economics/capital/team detail inside).
+Confirmed the ClaimArc vault folder holds no other un-folded docs (the Cold
+Call & Cold Email doc is already reflected). No new capital-source, pricing,
+Xtract, or team facts surfaced. **EXPORT READINESS:** Outreach — Ready (cold
+scripts exist); Deck — partial; rest INCOMPLETE.
 
 ## 1. IDENTITY
 **ONE-LINE:** next-day claims financing for hospitals — get paid tomorrow, not in
@@ -41,7 +47,12 @@ Will Ogorek involved. `[[ FOUNDER: founders, roles, capital partners ]]`
 ## 4. CUSTOMERS & MARKET
 Hospitals + health systems (Medicare/Medicaid/commercial mix). Pain: 60-day claim
 payment cycles strangle cash flow. Trigger noted: hospitals selecting new EHR
-(e.g. Neil Hilton, July 1 fiscal). `[[ FOUNDER: TAM, named pipeline, win rate ]]`
+(e.g. Neil Hilton, July 1 fiscal).
+**NAMED PROSPECT:** **Mission Community Hospital** — first named hospital target
+(source: "Mission community hospital.docx", vault). The doc is essentially a
+placeholder holding only the hospital name; status/contact/stage of the prospect
+not specified. `[[ FOUNDER: confirm Mission Community Hospital contact + stage in
+pipeline; TAM, full named pipeline, win rate ]]`
 
 ## 6. FINANCIAL TRUTH
 `[[ FOUNDER: per-claim fee economics; cost of advance capital; loss rate;
@@ -63,4 +74,8 @@ Cold-call + cold-email scripts (vault); two-product pitch deck (Deck OS memory).
 ⭐ 3. Stage + what Mo's engagement is (deck/GTM vs raise) + named pipeline.
 
 ## 15. METADATA
-v1.0. `/momega-brain update claimarc Clients` once the deck + financial model land.
+v1.1 (2026-06-24). v1.0→v1.1: added named prospect **Mission Community Hospital**
+(§4) from "Mission community hospital.docx" (vault); confirmed no other un-folded
+ClaimArc vault docs. No change to capital/pricing/Xtract/team — those remain the
+open core. `/momega-brain update claimarc Clients` once the deck + financial model
+land.

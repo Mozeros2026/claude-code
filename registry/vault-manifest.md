@@ -23,9 +23,66 @@ material or excluded as noise (per the Lift Filter).
 - **de-liver-ance® / The Liver Clinic** product collateral — feeds Equilibrium Labs (brochures, ingredient studies, product videos, science booklets, pro formas, "Master Global Deck" 124MB).
 - EAR Micro deck variants + StageEARS — feed EAR Micro.
 
-## Flagged for review (possible entities / unclear)
-- `[[ HITL: "The Zoo" / "The Legion Personnel Synthesis" / "Phoenix Data Synthesis" + animal-emblem images (Gorilla M&A, Orca, Wolfpack, Elephant statesman) — looks like a prior AI-agent-team concept of Will's. Is this a Mo Mega precursor to fold in, a separate project, or archive? ]]`
-- `[[ HITL: "TeraCrunch Sales Affiliate Agreement (William Ogorek)" — is TeraCrunch a client/partner to track? ]]`
+## Resolved / archived
+- **"The Zoo" / "The Legion" / "Phoenix" + animal-emblem images** — confirmed by
+  Mo (2026-06-24): a **separate entity, no longer being built. Archived — do not
+  fold in.** Excluded from the OS.
+
+## Reconciliation check (2026-06-30)
+Live Drive query for anything modified since the last sweep
+(`modifiedTime > 2026-06-24`) → **empty**. No new vault material has landed; the
+roster + this manifest are current, and the Brain-builder watcher's manifest-based
+view (`tools/brain-watch.sh`) needs no reconciliation. (Live Drive scanning is a
+model-driven step — the bash watcher can't call the Drive MCP — so this check is run
+from a session, not the hook; see `BACKLOG.md`.)
+
+## Whole-vault completeness pass (2026-06-24)
+Swept the entire Drive (all folders, all-files, persona/skill/company keyword
+searches). **Conclusion: the current-entity roster is complete** — no new active
+Mo Mega client surfaced beyond EQL, EAR Micro, ClaimArc, HealthCues (+ wisdm +
+investors/people). What else is in the vault:
+- **Will's career history (not current entities):** KULE Partners consulting
+  (MSAs/SOWs, producer agreements ~2021), TrackMy / TrackMySolutions, VeriVax
+  vaccination-verification, OnSite Waste, Lightning Fit, FROG client MSA — old
+  ventures/clients of Will's, archived as history (capture in `People/will-ogorek`
+  if ever needed, do not spin up entities).
+- **Conversation/voice-note `.md` exports** (Jan 2026, sales/strategy/personal) —
+  raw founder ramblings; potential Brain feed for *Mo Mega itself*, not new entities.
+- **TeraCrunch** — has an Introduction Deck + Will's affiliate agreement; an
+  AI/ML **partner/vendor**, not a client. `[[ HITL: track TeraCrunch as a partner node? ]]`
+
+## Persona Forge — the REAL system lifted in (2026-06-24)
+Mo pasted the whole original Persona Forge build chat. The real skill is far
+deeper than the dossier format I'd first reconstructed — it **maps people the way
+the Brain Builder maps businesses**. Lifted via the Lift Filter (logic kept;
+build-OS — `~/.claude` paths, `claude-shared` layout, ignition/harvest cron,
+Apollo/Plaud bindings — stripped, re-expressed as git skills + Ignition/Cadence
+rules):
+- **Schema v2.3** → [`../frameworks/persona-forge-schema.md`](../frameworks/persona-forge-schema.md):
+  7 layers (Essence/Architecture/OS/Capability/Crosswalk/Application/Longitudinal)
+  + 3 lenses (Evidence/Temporal/Congruence) + the learning loop + signal→section
+  routing table. **THE SOMATIC LENS** (source-agnostic; never "Jenn") in Layer 02.
+- **Engine** `/momega-persona` — first build / deep pass → `psyche-profile.md`.
+- **Loop** `/momega-persona-sync` — surgical, one-signal, ~10× cheaper (Edit not
+  Write; route → read only affected sections → append L07 ledger → bump version).
+- **Applied live on HITL:** promoted Ben Hilmes + Bob Bailey from dossier lines to
+  full 7-layer `psyche-profile.md` files + a nervous-system-compatibility crosswalk;
+  `actor-dossier.md` reduced to the deal-facing CAST SUMMARY that links to them.
+  `entities/Prospects/hitl/people/`.
+- **Naming discipline carried over:** fix names at the root (slug/source), keep the
+  wrong spelling only as a registered alias (the Neal/Neil rule).
+- Other intriguing artifacts: **"Seraph Standard Output"**, **"Viv HITL Cheat
+  Sheet"** (Viv = our HITL access point?), **Powerhouse Investing Group** (Will's
+  holdco) — `[[ HITL: are Seraph/Viv persona agents/people to lift? ]]`
+
+## Transcripts not yet deep-read (Mo: "how much is missing?")
+The vault holds many unread transcripts/exports that likely contain more persona
+depth + decisions: the Jan-2026 conversation `.md` exports (Limitless/lifelog),
+the HITL raw/edited interview transcripts, the `data-export` zip. **Not yet
+mined.** `[[ HITL: want a transcript-mining pass to harvest personas + decisions
+from these into the relevant Brains/dossiers? ]]`
+
+## Flagged for review (still open)
 - `[[ HITL: "Pitch deck Order_Speaker Frame_BabyBear.pptx" + "EQ pitch deck feedback" — deck-framework artifacts; reconcile with Deck OS? ]]`
 
 ## Excluded as build-OS / noise (per Lift Filter)

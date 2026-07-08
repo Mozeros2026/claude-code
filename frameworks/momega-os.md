@@ -87,6 +87,11 @@ new transcript ─┬─▶ Master Client Brain Builder   "what they are"   → 
 | PMF Assessment | C9 (+C7 merged) | strategy/PMF | ✅ `pmf-assessment.md` (`/momega-pmf`) |
 | Deck OS | Z3 (=C5 Compressor) | pitch + reading deck | ✅ `deck-os.md` (`/momega-deck`) |
 | Investment Evaluation | (added) | score the deal | ✅ `business-evaluation.md` (`/momega-evaluate`) |
+| Cross-Bag Synergy | C6 | cross-entity synergies over the bag graph | ✅ `mo-commas/c6-cross-bag-synergy.md` (`/momega-synergy`) |
+| Trust-Building Sequencer | C11 | ordered touch-plan that earns the ask | ✅ `mo-commas/c11-trust-sequencer.md` (`/momega-sequence`) |
+| Deliverable Generator | Z4 | trunk Brain→deliverable Factory | ✅ `mo-zeros/z4-deliverable-generator.md` (`/momega-deliverable`) |
+| Meeting Prep | Z7 | pre-meeting walk-in brief | ✅ `mo-zeros/z7-meeting-prep.md` (`/momega-prep`) |
+| Persona Forge | horizontal | map people (7-layer psyche-profile) | ✅ `persona-forge-schema.md` (`/momega-persona`, `/momega-persona-sync`) |
 
 > ✅ **Numbering reconciled (2026-06-24)** to **Artifact Library v3** — the
 > authoritative index ([`../registry/artifact-library.md`](../registry/artifact-library.md)).
@@ -102,11 +107,15 @@ new transcript ─┬─▶ Master Client Brain Builder   "what they are"   → 
 
 ### Operator commands (canonical → ours)
 
-`@brain build` → `/momega-onboard` · `@brain query`/`@ask` → `/momega-query` ·
-`@brain adversary`/`@redteam` → `/momega-adversary` · `@brain assess`/`@strategy`
-→ `/momega-pmf` · `@asymmetry` / `@opportunities` / `@proposal` → (stubs;
-`/momega-commas`/`/momega-zeros` until full prompts land) · `@deck` →
-`/momega-deck` · `@status` → read the registry · `@approve` → the human checkpoint.
+`@brain build` → `/momega-onboard` (or `/momega-brain build|update|ask|export`) ·
+`@brain query`/`@ask` → `/momega-query` · `@brain adversary`/`@redteam` →
+`/momega-adversary` · `@brain assess`/`@strategy` → `/momega-pmf` · `@asymmetry` →
+`/momega-asymmetry` · `@opportunities` → `/momega-opportunities` · `@evaluate` →
+`/momega-evaluate` · `@proposal` → `/momega-proposal` (client-facing → checkpoint) ·
+`@synergy` → `/momega-synergy` · `@sequence` → `/momega-sequence` · `@deliverable`
+→ `/momega-deliverable` · `@prep` → `/momega-prep` · `@persona` → `/momega-persona`
+/ `/momega-persona-sync` · `@deck` → `/momega-deck` · `@status` → read the registry
+(or `/momega-audit`) · `@approve` → the human checkpoint.
 
 ## Coverage guarantee — run on everything, always
 
@@ -126,12 +135,23 @@ the top of every session, so open gaps are in front of you before any new work.
 The standard intake (`/momega-onboard`) remains the front door for every new
 entity — the hook catches anything that skipped it.
 
+The same hook runs the **Brain-builder watcher** (`tools/brain-watch.sh
+--gaps-only`) — THE KEYSTONE. The audit checks Brain *presence*; the watcher
+checks Brain *readiness vs materials*: it flags nodes that have **materials
+waiting but no fresh Brain** (🟢 ready-to-build) or a **Brain stale vs new
+materials** (🟡), writing the durable queue to
+[`../registry/brain-queue.md`](../registry/brain-queue.md). Critically the watcher
+**surfaces + queues, it never builds** — the Brain build stays manual, deliberate,
+Opus-only, human-invoked (the §137 boundary, below). It is the Brain analogue of
+`persona-sync-queue.md`. Backlog for its richer (Drive-aware, signal-scored) form:
+[`../BACKLOG.md`](../BACKLOG.md).
+
 ### 3. Define done (the bar each entity must clear)
 
 | Entity type | Definition of Done |
 |-------------|--------------------|
 | **Any node** | canonical `brain.md` exists (stub OK) **+** a registry row. No exceptions — this is the universal guarantee. |
-| **Prospect / Client at deal stage** | Brain ≥ v1 **+** `evaluation.md` **+** `adversary.md`. (Deck / PMF / asymmetry / opportunities on demand.) |
+| **Prospect / Client at deal stage** | Brain ≥ v1 **+** `evaluation.md` **+** `adversary.md` **+** `pmf-assessment.md` (+ asymmetry/opportunities insights). This is the full-ingestion standard `/momega-onboard` runs automatically, and `/momega-audit` flags any deal-stage node missing a piece as "partial onboarding." Deck/proposal on demand. |
 | **Investor / Person** | Brain with thesis/expertise captured (promoted past v0.x stub via `/momega-brain ask`). |
 
 > **Honest boundary:** this is enforced-by-visibility, not a daemon. We
